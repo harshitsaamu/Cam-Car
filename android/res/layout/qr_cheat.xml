@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cheatOk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200.0dip" android:text="@string/ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="Cheats applied" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ScrollView android:id="@id/scrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/cheatOk" android:layout_below="@id/textView" android:layout_alignLeft="@id/textView" android:layout_alignParentRight="true">
+        <TextView android:id="@id/cheatResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Working..." />
+    </ScrollView>
+</RelativeLayout>

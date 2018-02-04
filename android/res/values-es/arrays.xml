@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|Auto</item>
+        <item>off|Off</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|Agua</item>
+        <item>blackboard|Pizarrón</item>
+        <item>emboss|Relieve</item>
+        <item>mono|Blanco y negro</item>
+        <item>negative|Negativo</item>
+        <item>neon|Neón</item>
+        <item>none|Sin efectos</item>
+        <item>posterize|Posterización</item>
+        <item>sepia|Sepia</item>
+        <item>sketch|Boceto</item>
+        <item>solarize|Solarización</item>
+        <item>whiteboard|Pizarrón blanco</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|Flash automático</item>
+        <item>off|Flash desactivado</item>
+        <item>on|Usar flash siempre</item>
+        <item>red-eye|Modo reducción de ojos rojos</item>
+        <item>torch|Modo linterna</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|Manual</item>
+        <item>continuous-picture|Agresivo, para tomar fotos</item>
+        <item>continuous-video|Suave, para grabar video</item>
+        <item>edof| Profundidad de campo extendida, continuo</item>
+        <item>fixed|Fijado</item>
+        <item>infinity|Infinidad</item>
+        <item>macro|Macro, manual</item>
+        <item>normal|Normal</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|Realidad aumentada</item>
+        <item>action|Objetos de movimiento rápido</item>
+        <item>asd| Sentir oscuridad automáticamente</item>
+        <item>auto|Auto</item>
+        <item>backlight|Luz de fondo</item>
+        <item>barcode|Lector de código de barras</item>
+        <item>beach|Playa</item>
+        <item>candlelight|Luz de velas</item>
+        <item>fireworks|Fuegos artificiales</item>
+        <item>flowers|Flor</item>
+        <item>hdr|HDR</item>
+        <item>landscape|Paisaje</item>
+        <item>night|Noche</item>
+        <item>night-portrait|Retrato nocturno</item>
+        <item>party|Fiesta</item>
+        <item>portrait|Retrato</item>
+        <item>snow|Nieve</item>
+        <item>sports|Deportes</item>
+        <item>steadyphoto|Foto en movimiento</item>
+        <item>sunset|Puesta de sol</item>
+        <item>theatre|Teatro</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|Acelerómetro</item>
+        <item>ambient_temp|Temperatura ambiente</item>
+        <item>battery_level|Nivel de la batería</item>
+        <item>battery_temp|Temperatura de la batería</item>
+        <item>battery_voltage|Voltaje de la batería</item>
+        <item>gravity|Sensor de gravedad</item>
+        <item>gyro|Giroscopio</item>
+        <item>humidity|Humedad relativa</item>
+        <item>light|Sensor de luz</item>
+        <item>lin_accel|Aceleración lineal</item>
+        <item>mag|Campo magnético</item>
+        <item>motion|Cantidad de movimiento</item>
+        <item>motion_active|Movimiento activo</item>
+        <item>motion_event|Movimiento reportado</item>
+        <item>pressure|Presión</item>
+        <item>proximity|Sensor de proximidad</item>
+        <item>rot_vector|Vector de rotación</item>
+        <item>sound|Sensor de sonido</item>
+        <item>temp|Temperatura</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lx</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|rad/s</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|Auto</item>
+        <item>cloudy-daylight|Nublado</item>
+        <item>daylight|Día</item>
+        <item>fluorescent|Florescente</item>
+        <item>incandescent|Incandescente</item>
+        <item>shade|Sombra</item>
+        <item>twilight|Crepúsculo</item>
+        <item>warm-fluorescent|Fluorescente cálido</item>
+    </string-array>
+</resources>

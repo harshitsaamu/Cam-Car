@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_bar_home_description_format">%1$s: %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s: %3$s</string>
+    <string name="abc_action_bar_up_description">Nach oben</string>
+    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+    <string name="abc_action_mode_done">Fertig</string>
+    <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+    <string name="abc_activitychooserview_choose_application">App auswählen</string>
+    <string name="abc_capital_off">Aus</string>
+    <string name="abc_capital_on">An</string>
+    <string name="abc_search_hint">Suchen…</string>
+    <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+    <string name="abc_searchview_description_query">Suchanfrage</string>
+    <string name="abc_searchview_description_search">Suchen</string>
+    <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+    <string name="abc_searchview_description_voice">Sprachsuche</string>
+    <string name="abc_shareactionprovider_share_with">Freigeben für</string>
+    <string name="abc_shareactionprovider_share_with_application">Freigeben für %s</string>
+    <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="common_android_wear_notification_needs_update_text">Für %1$s ist eine Aktualisierung der Android Wear App erforderlich.</string>
+    <string name="common_android_wear_update_text">%1$s funktioniert erst nach der Aktualisierung der Android Wear App.</string>
+    <string name="common_android_wear_update_title">Android Wear aktualisieren</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s erfordert einen oder mehrere Google Play-Dienste, die derzeit nicht verfügbar sind. Bitte wenden Sie sich an den Entwickler, um Unterstützung zu erhalten.</string>
+    <string name="common_google_play_services_enable_button">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Angefordert von %1$s</string>
+    <string name="common_google_play_services_install_button">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_install_text_phone">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf Ihrem Smartphone nicht installiert sind.</string>
+    <string name="common_google_play_services_install_text_tablet">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind.</string>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_invalid_account_text">Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus.</string>
+    <string name="common_google_play_services_invalid_account_title">Ungültiges Konto</string>
+    <string name="common_google_play_services_needs_enabling_title">App erfordert die Aktivierung der Google Play-Dienste</string>
+    <string name="common_google_play_services_network_error_text">Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich.</string>
+    <string name="common_google_play_services_network_error_title">Netzwerkfehler</string>
+    <string name="common_google_play_services_notification_needs_update_title">App erfordert ein Update der Google Play-Dienste</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_sign_in_failed_text">Fehler beim Anmelden im angegebenen Konto. Bitte wählen Sie ein anderes Konto aus.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Anmeldung fehlgeschlagen</string>
+    <string name="common_google_play_services_unknown_issue">Unbekanntes Problem mit Google Play-Diensten</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich. Diese werden auf Ihrem Gerät jedoch nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-Dienste</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren.</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_updating_title">Google Play-Dienste werden aktualisiert</string>
+    <string name="common_open_on_phone">Auf Telefon öffnen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="accessing">"Der Zugriff auf das Telefon: 
+ * Drücken Sie den \"Start Server\" Button in der Applikation. 
+ * Richten Sie den Webbrowser auf dem Computer auf das in Einstellungen-Schnittstelle oder Anmeldung angegebene Adresse. Es sollte aussehen wie http://&lt;your_ip>:&lt;port>
+ * \"Wie verbinde ich\" Taste hilft mit den Netzwerk-Setup basierend auf Ihrer IP. 
+ * Geben Sie Ihren Benutzernamen / Passwort, und wählen Sie die gewünschte Art der Anzeige Ihrer Kamera. 
+ * Wenn Sie den Link nicht öffnen, versuchen Sie, die IP-Adresse des Telefons, und wenn es fehlschlägt, überprüfen Sie die Netzwerk-Konfiguration."</string>
+    <string name="accessing_title">Zugriff auf Ihr Telefon</string>
+    <string name="acknowledgements">"IP Webcam benutzt folgende Software:
+ libjpeg, © Independent JPEG Group, http://lij.org
+ ffmpeg, © FFmpeg team, http://ffmpeg.org/
+ libvpx, © WebM project, http://www.webmproject.org/
+ libopus, © Xiph.org Foundation und others, http://opus-codec.org/
+ mongoose (MIT fork), © Sergey Lyubka, https://github.com/cesanta/mongoose
+ 
+ Speziellen Dank an:
+ Hank Quakevauld für die chinesischen Übersetzung
+ Nenad Tomasic für die deutsche Übersetzung
+ Paolo Stavolo für die italienisch Übersetzung
+ Froozeify für die französische Übersetzung
+ Alexey Vasilyev für den Viewer, tinyCam Monitor
+ 
+ Und noch ein Dank an:
+ Robb Larsen, Jason Tarnutzer für Droid X testen.
+ Marcus Pascall, Eugene Jennings, Peter Boeren, Scott B, Eric Batts, Alexei Vidmich für das Testen der Applikation.
+ Berthold Möller für seine Hilfe bezüglich des ärgerlichen Problems."</string>
+    <string name="acknowledgements_title">Danksagung</string>
+    <string name="action">Aktion...</string>
+    <string name="action_increase_decrease">erhöhen oder verringern</string>
+    <string name="action_set">Setze fixen Wert</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_toggle">Wechseln Sie zwischen zwei Werten</string>
+    <string name="actions">Aktionen</string>
+    <string name="actions_">Aktionen…</string>
+    <string name="active_sensors">Aktive Sensoren</string>
+    <string name="active_ui">Aktives Interface</string>
+    <string name="add_control">Hinzufügen</string>
+    <string name="addrf">IPv4 oder IPv6</string>
+    <string name="adet_amount">Audio trigger amount</string>
+    <string name="adet_radio">Sound is detected/timed out</string>
+    <string name="adet_record_video_desc">Startet eine Videoaufnahmen, wenn ein Geräusch erkannt wird</string>
+    <string name="allow_signed_scripts_only">Nur signierte Skripte erlauben</string>
+    <string name="always_show">Immer anzeigen</string>
+    <string name="antibanding">Antibanding</string>
+    <string name="antibanding_mode">Antibanding</string>
+    <string name="are_you_sure_you_want_to_remove_this_script">Wollen Sie das Skript entfernen? Wenn ja werden auch alle Parameter für das Skript gelöscht.</string>
+    <string name="aspect_11">1:1</string>
+    <string name="aspect_12">1:2</string>
+    <string name="aspect_13">1:3</string>
+    <string name="aspect_14">1:4</string>
+    <string name="aspect_21">2:1</string>
+    <string name="aspect_31">3:1</string>
+    <string name="aspect_41">4:1</string>
+    <string name="aspect_ratio">Seitenverhältnis</string>
+    <string name="audio_bitrate_template">$KBITS kbit/s</string>
+    <string name="audio_mode_audio_only">nur Audio</string>
+    <string name="audio_mode_disabled">Deaktiviert</string>
+    <string name="audio_mode_enabled">Aktiviert</string>
+    <string name="audio_only">Nur Audio</string>
+    <string name="audio_sensor">Akustiksensor</string>
+    <string name="audio_tasker_timeout">Akustiksensor Timeout</string>
+    <string name="audiopref">Audio Modus</string>
+    <string name="auto_exposure_lock">Lock exposure</string>
+    <string name="auto_white_balance_lock">Weißabgleich sperren</string>
+    <string name="autostart">Stream beim Boot des Gerätes</string>
+    <string name="autostart_desc">Um ihr Gerät in eine IP Kamera zu verwandeln, aktivieren Sie diese Option und deaktivieren Sie unter Einstellungen->Sicherheit-> die Bildschirmsperre</string>
+    <string name="background">In den Hintergrund</string>
+    <string name="backgroundbtn">"IP Webcam läuft jetzt im Hintergrund.
+ Sie können IP Webcam schnell in den Hintergrundmodus versetzen, indem Sie die \"Home\" Taste drücken."</string>
+    <string name="battery_percent_sensor">Batterie % Sensor</string>
+    <string name="battery_temperature_sensor">Batterie Temperatur Sensor</string>
+    <string name="battery_voltage_sensor">Batteriespannung Sensor</string>
+    <string name="begin_serving_video_stream">Videostreaming starten</string>
+    <string name="bottom">Unten</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="button">Knopf</string>
+    <string name="camera_active_idle">Kamera aktiv/untätig</string>
+    <string name="camera_is_used_by_another_app">Kamera wird durch andere App kontrolliert: Initialisierung nicht möglich!</string>
+    <string name="camera_settings">Kamera Einstellungen</string>
+    <string name="camera_status">Kamera status</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cannot_access_internet">Keine Internetverbindung</string>
+    <string name="cannot_open_configured_camera">Zuvor konfigurierte Kamera kann nicht geöffnet werden! Wollen Sie die Standardkamera verwenden? Dies könnte dazu führen, dass die vorherigen Einstellungen überschrieben werden.</string>
+    <string name="cannot_open_port">Kann Port nicht öffnen. Schließen Sie Programme die sie benutzen oder wählen sie einen anderen.</string>
+    <string name="carrier_grade_nat">(NAT des Betreibers)</string>
+    <string name="cheat_is_not_recognized">der Hinweis wurde nicht erkannt</string>
+    <string name="cheats">Hinweise</string>
+    <string name="chunk_size">Videogröße</string>
+    <string name="chunk_size_desc">Splittet das die Endlosaufnahme in Videoteile zu je $VAL Minuten</string>
+    <string name="chunk_size_edit">Geben Sie die Dauer (in Minuten) der einzelnen Videoteile an.</string>
+    <string name="cisco_codec_required_download_q">Um OpenH264 nutzen zu können, muss ein Codec heruntergeladen und installiert weden. Download und Installation fortsetzen?</string>
+    <string name="cloud_account_already_exists">Diese E-Mail Adresse ist bereits registriert. Bitte melden Sie sich an.</string>
+    <string name="cloud_create_account_eula">" Durch das erstellen eines Benutzerkontos stimmen Sie den folgenden "<a href="https://go.ivideon.com/?target=terms_of_service&amp;lang=en">Ivideon Nutzungsbedingungen</a> zu.</string>
+    <string name="cloud_create_an_account">Account erstellen</string>
+    <string name="cloud_create_an_account_desc">Kostenlos und binnen einer Minute angelegt</string>
+    <string name="cloud_create_an_account_email_hint">Ihre E-Mail (Ivideon Anmeldename)</string>
+    <string name="cloud_create_an_account_password_hint">Passwort erstellen</string>
+    <string name="cloud_creating_account">Account wird erstellt...</string>
+    <string name="cloud_faq">Ivideon FAQ</string>
+    <string name="cloud_faq_desc">Was ist Ivideon, Datenschutzeinstellungen, wie greife ich auf meine Streams zu etc.</string>
+    <string name="cloud_log_in">Anmelden</string>
+    <string name="cloud_log_in_desc">Wenn Sie bereits bei Ivideon registriert sind</string>
+    <string name="cloud_log_in_password_hint">Passwort eingeben</string>
+    <string name="cloud_log_in_password_isnt_saved">Das Passwort wird nicht auf Ihrem Gerät gespeichert</string>
+    <string name="cloud_log_in_q">Anmelden?</string>
+    <string name="cloud_log_out">Abmelden</string>
+    <string name="cloud_log_out_desc">Den aktuellen Account abmelden</string>
+    <string name="cloud_log_out_really">Wollen Sie sich abmelden?</string>
+    <string name="cloud_login_failed">Anmelden nicht möglich: Bitte E-Mail und Passwort prüfen</string>
+    <string name="cloud_login_too_frequent">Zu viele fehlerhafte Anmeldeversuche, bitte warten Sie 30 Sekunden.</string>
+    <string name="cloud_new_user_failed">Failed to create a new user.</string>
+    <string name="cloud_password_cannot_be_empty">Keine leeren Passwörter erlaubt</string>
+    <string name="cloud_roster_failed">Ihr Gerät konnte dem Ivideon Konto nicht hinzugefügt werden: $ERROR</string>
+    <string name="cloud_streaming">Cloud Streaming</string>
+    <string name="cloud_streaming_active">Cloud Streaming aktiviert</string>
+    <string name="cloud_streaming_active_desc">Aktivieren, um das Video über die Ivideon Webseite oder Applikation ansehen zu können</string>
+    <string name="cloud_streaming_desc">Access your video stream from anywhere</string>
+    <string name="cloud_streaming_not_supported">Cloud Streaming nicht unterstützt</string>
+    <string name="cloud_streaming_not_supported_desc">Cloud streaming is not supported on your device. Working h.264 and AAC codecs are required for ivideon support. To globally access your device try using port forwarding in WiFi environment, make the device accessible via SSH or VPN server, or ask your mobile operator for an globally accessible IP address.</string>
+    <string name="cloud_streaming_optimize">Do you want to optimize your streaming experience by setting video resolution to $NEWRES and bitrate to 1200 kbps?</string>
+    <string name="cloud_streaming_supported">Encoder test successful. Cloud streaming should work on your device.</string>
+    <string name="color_effect">Farbeffekt</string>
+    <string name="compressed_audio_bitrate">Audio-Bitrate</string>
+    <string name="conn_template">Verbindungen Video: $VC, Audio: $AC</string>
+    <string name="connect_using_ivideon">Ivideon benutzen</string>
+    <string name="connect_using_ivideon_desc">Benutzen Sie den Ivideon Cloud Dienst um auf Ihre Kamera von überall aus zugreifen zu können</string>
+    <string name="connect_using_ivideon_desc_disabled">DEAKTIVIERT:</string>
+    <string name="connect_using_ivideon_desc_enabled">AKTIVIERT:</string>
+    <string name="connect_using_ivideon_disabled">"To use Ivideon streaming, please enable it in Settings->Cloud Streaming. It's supported by most Android 4.1+ devices.
+ Ivideon service allows the stream to be accessible globally, without additional setup. Streaming for up to 2 cameras is free, with paid options available for additional cameras and cloud storage."</string>
+    <string name="connect_using_ivideon_enabled">" Schauen Sie sich den Videostream direkt mit Ihrem Ivideon Konto, "<b>$ACCOUNT</b>" an indem Sie die Adresse http://ivideon.com/my besuchen oder die Ivideon App, Desktop Software benutzen. "</string>
+    <string name="connect_using_local">Direktverbindung</string>
+    <string name="connect_using_local_desc">When device is directly reachable via the network</string>
+    <string name="connection_error">Verbindungsfehler</string>
+    <string name="connection_error_retry">Verbindungsfehler, neu versuchen?</string>
+    <string name="connection_settings">Verbindungseinstellungen</string>
+    <string name="connections">Verbindungen Anzeige</string>
+    <string name="contacting_ivideon">Verbindungsaufbau zu Ivideon...</string>
+    <string name="control_vertical">Vertikal</string>
+    <string name="copy_ip_to_clipboard">IP-Adresse in die Zwischenablage kopieren</string>
+    <string name="copy_to_clipboard">In die Zwischenablage kopieren</string>
+    <string name="copy_ui_to_clipboard">Bildschirmbild in die Zwischenablage kopieren</string>
+    <string name="create_start_shortcut">Verknüpfung erstellen</string>
+    <string name="custom_action">Benutzerdefinierte Aktionen</string>
+    <string name="customize_ui">Kamerainterface anpassen</string>
+    <string name="date_time_format">Datum / Zeit-Format</string>
+    <string name="deact_display">Deaktiviere Display</string>
+    <string name="deact_display_desc">Display ausschalten wenn Gerät nicht benutzt wird</string>
+    <string name="default_mode_setting">Standard</string>
+    <string name="delete">Löschen</string>
+    <string name="delete_button">Ziehen Sie Steuerelemente auf diese Schaltfläche, um sie von der Oberfläche entfernen.</string>
+    <string name="details">Details...</string>
+    <string name="detected_devices">Gefundene Geräte</string>
+    <string name="disable_notification">Benachrichtigungen abschalten</string>
+    <string name="disabled">Deaktiviert</string>
+    <string name="discard_changes">Änderungen verwerfen</string>
+    <string name="disguise">Verschleiern</string>
+    <string name="disguisebtn">"Der Server wird jetzt in den Hintergrundmodus versetzt und ein voll funktionsfähiger Browser geöffnet.
+ Der \"Zurück\" Knopf, wird den Server stoppen und öffnet den Home Screen, wie ein regulärer Browser.
+ Der \"Home\" Knopf lässt alles im Hintergrund laufen (bitte dekativiere Sie die Benachrichtigungen unter Optionen, falls unerwünscht)."</string>
+    <string name="display_setting_name">Einstellung Anzeigenamen</string>
+    <string name="display_value_only">Anzeige Wert</string>
+    <string name="do_nothing">Tun Sie nichts</string>
+    <string name="do_you_want_to_watch_tutorial">Möchten sie das Video Tutorial anschauen?</string>
+    <string name="don_t_show_app_running_in_background">Zeige keine Apps welche im Hintergrund laufen</string>
+    <string name="downloading_the_codec">Video Codec wird heruntergeladen...</string>
+    <string name="downloading_the_plugin">Plugin wird heruntergeladen...</string>
+    <string name="drawer_direction">Drawer direction</string>
+    <string name="edit_control">Bearbeiten</string>
+    <string name="effects_desc">Verbessere den Nachtmodus, Datum/Zeit im Video anzeigen...</string>
+    <string name="effects_title">Effekte</string>
+    <string name="embed_date_time">Integriere Datum/Zeit</string>
+    <string name="embed_gps_coords">GPS Koordinaten integrieren</string>
+    <string name="enable_motion_detection">Bewegungserkennung aktivieren</string>
+    <string name="enable_motion_detection_desc">Verbraucht Strom auch wenn die Kamera nicht genutzt wird</string>
+    <string name="enable_night_vision">Nachtmodus aktivieren</string>
+    <string name="enable_night_vision_desc">Verbessert die Videoqualität im Dunkeln</string>
+    <string name="enable_sensors">Datenaufzeichnung aktivieren</string>
+    <string name="enable_sound_sensor">Akustiksensor aktivieren</string>
+    <string name="enabled">Aktiviert</string>
+    <string name="enter_a_cheat">Tippe einen Hinweis ein (eine Liste gibts hier http://ip-webcam.appspot.com)</string>
+    <string name="enter_increment_decrement">Erhöhe oder Verringere (negativer Wert)</string>
+    <string name="event_is">Ereignis:</string>
+    <string name="experimental_use_lower_resolutions_when_it_s_on_and_report_issues">"Experimentell! r resolutions when it's on und report issues"</string>
+    <string name="exposure_compensation">Belichtungskorrektur</string>
+    <string name="fade">Ausblenden</string>
+    <string name="fadebtn">"Wir schalten jetzt das Display aus, um die Batterie zu schonen. Beachten Sie, dass Sie den Bildschirm nicht mit dem Hardware Knopf ausschalten können.
+ Bei den meisten Geräten wird ansonsten der Prozessor in den Schlafmodus versetzt was viele IP Webcam Funktionen unbrauchbar macht.
+ Berühren Sie den Bildschirm um das Menü wieder anzuzeigen."</string>
+    <string name="failed_to_send_report_for_reason">Bericht konnte nicht versandt werden. Erneut versuchen? Der Grund war:</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_another">" Für andere Fragen, schreiben Sie ein Email an "<a href="mailto:pas.anddev@gmail.com">pas.anddev@gmail.com</a></string>
+    <string name="faq_another_title">andere Fragen</string>
+    <string name="feature_audio_aac">Audio (Aac)</string>
+    <string name="feature_audio_in">2-Wege Audio</string>
+    <string name="feature_audio_ogg">Audio (Ogg)</string>
+    <string name="feature_audio_wav">Audio (Wav)</string>
+    <string name="feature_focus_ctl">Fokussteuerung</string>
+    <string name="feature_gps">GPS enabled</string>
+    <string name="feature_html">Statische Seiten</string>
+    <string name="feature_immediate_photo">Video frame acquisition</string>
+    <string name="feature_photo">Foto Akquisition</string>
+    <string name="feature_photo_af">Foto Aufnahme (mit autofocus)</string>
+    <string name="feature_ptz">PTZ</string>
+    <string name="feature_sensors">Sensorerfassung</string>
+    <string name="feature_settings">Änderungs Einstellungen</string>
+    <string name="feature_torch_ctl">LED Blitzlicht Kontrolle</string>
+    <string name="feature_video">Video Stream Aufnahme</string>
+    <string name="feature_video_ctl">Videorekorder Steuerung</string>
+    <string name="feature_video_download">Download Video</string>
+    <string name="fetching_the_plugin_index">Plugin Index wird abgerufen</string>
+    <string name="ffc_hotswitch_not_available">Front camera hotswitch not available for this resolution</string>
+    <string name="first_value">erster Wert</string>
+    <string name="flash_mode">Blitz Modus</string>
+    <string name="flip">Seitenwechsel</string>
+    <string name="flip_control">Seitenwechsel</string>
+    <string name="flip_desc">Dreht das Videobild um 180°.</string>
+    <string name="focus">Fokus</string>
+    <string name="focus_control">Fokus Kontrolle</string>
+    <string name="focus_homing">Fokus Zielflug</string>
+    <string name="focus_mode">Fokus Modus</string>
+    <string name="focus_region">Zielregion festlegen</string>
+    <string name="focus_tips">Fokus Tips</string>
+    <string name="focusbtn">"Die Kamera wird nun einmalig fokusiert.
+ Benutzen Sie den \"Such\" Hardware Knopf um neu zu fokusieren oder die Funktion \"Autofocus\" Webinterface."</string>
+    <string name="force_software_audio">forciere Software Audio Enkodierung</string>
+    <string name="force_software_audio_desc">Aktivieren, wenn Probleme mit Audioaufzeichnungen oder AAC Streams auftreten</string>
+    <string name="force_software_audio_only">Hardware-Audiocodierung ist nicht verfügbar für dieses Gerät</string>
+    <string name="force_software_video">Forciere Software Video Enkodierung</string>
+    <string name="force_software_video_desc">Überprüfen Sie dies, wenn Sie Probleme mit manuellen oder bewegungsmeldergesteuerten Videoaufnahmen haben</string>
+    <string name="force_software_video_only">Hardware-Videocodierung ist nicht verfügbar für dieses Gerät</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="fps_description">FPS begrenzen (max. $VAL für ihr Kameramodell)</string>
+    <string name="fps_faq">"Die Applikation benutzt die maximal möglichen FPS auf ihrem Smartphone.
+ Die Videoenkodierung ist ein aufwändiger Prozess und die FPS Rate ist prozessorabhängig.
+ Verkleinern Sie die Videoauflösung um die FPS zu verbessern und ein flüssigeres Video zu erhalten.
+ Oft haben Smartphones ebenfalls eine langsame Netzwerk Verbindung. Durch verringern der Videoqualität, reduziert sich die übertragende Datenmenge und die FPS verbessert sich."</string>
+    <string name="fps_faq_title">Ich will höhere FPS!</string>
+    <string name="fps_limit">FPS Limitierung</string>
+    <string name="fps_no_limit">Keine Limitierung, maximaler Stromverbrauch</string>
+    <string name="front_camera">Front Kamera</string>
+    <string name="get_h264_codec">OpenH264 herunterladen</string>
+    <string name="get_pro">Die Pro Version downloaden</string>
+    <string name="gps_active">GPS aktiviert</string>
+    <string name="gps_coords_format">GPS Koordinaten Format</string>
+    <string name="how_do_i_connect">Wie verbinde ich mich?</string>
+    <string name="how_do_you_want_to_connect">Wie wollen Sie sich verbinden?</string>
+    <string name="how_to_connect_mobile_connection">Ich benutze eine mobile Internetverbindung</string>
+    <string name="how_to_connect_wifi_router">Ich benutze einen WLAN Router</string>
+    <string name="howto_idk">Ihre IP wurde nicht erkannt, so dass Sie wahrscheinlich nicht über eine aktive Netzwerk-Verbindung haben.</string>
+    <string name="howto_inet_inet">"Ihre IP address ist extern. Das ist kein gutes Zeichen.
+ Wahrscheinlich sind Sie im Netz des Netzbetreibers, das schränkt den externen Zugang ein zu den Geräten.
+ 
+ Sie können versuchen, den Video-Stream auf jedem Computer mit Internet-Zugang zu öffnen, indem Sie diese Adresse im Browser eingeben:
+ 
+ http://$IP:$PORT/
+ Es ist immer noch möglich, dass Sie es über das Internet zugreifen können. In diesem Fall haben sie Glück.
+ 
+ 
+ Ansonsten müssen Sie Ihr Telefon über das Internet anpingen,
+ um sicherzustellen, dass eingehende Verbindungen vom Provider blockiert werden.
+ Fragen Sie Ihren Anbieter, um Ihnen eine externe IP (oft eine kostenpflichtige Option),
+ oder benutzen Sie WiFi."</string>
+    <string name="howto_inet_local">"Das funktioniert nicht! Ihre IP, $IP ist eine lokale IP, weil Sie sich im privaten Bereich $LOCALRANGE befinden.
+ Das bedeutet,dass sie sich nur mit Computern verbinden können.welche im gleichen Netzwerk sind oder zu einem anderem Gerät, sofern sie denselben provider haben,
+ und nur, wenn es der Provider erlaubt.
+ 
+ Die URL, dass sie nicht wissen,was sie tun:
+ http://$IP:$PORT/"</string>
+    <string name="howto_lan_inet">Sind Sie sicher, dass Sie im lokalen Netzwerk sind? Ihre IP, $IP ist eine Internet IP. Wenn Sie diese Nachricht erhalten, senden Sie eine E-Mail an mich pas.anddev@gmail.com und beschreiben sie mir ihr Netzwerk Setup, es ist nicht der häufigste Fall.</string>
+    <string name="howto_lan_local">"Sie können die Video-Streams auf jedem Computer in Ihrem Netzwerk ansehen, indem Sie diese Adresse im Browser öffnen:
+ http://$IP:$PORT/
+ 
+ Ihre IP ist $ IP eine lokale IP, weil sie im Bereich $ LOCALRANGE sich befindet.
+ Das heißt, Sie können sich nur mit Computern im gleichen Netzwerk verbinden.
+ Wenn Sie Ihr Telefon im Internet verfügbar machen möchten, und ihr Router eine externe IP hat, lesen Sie in der Dokumentation Ihres Routers bzgl. Port-Weiterleitung."</string>
+    <string name="hue">Farbton</string>
+    <string name="idle">Idle</string>
+    <string name="inactivity">Inaktivität Verhalten</string>
+    <string name="inactivity_timeout">Zeit der Inaktivität</string>
+    <string name="inactivity_timeout_enter">Tippen Sie inaktive Zeitdauer ein, in Sekunden</string>
+    <string name="including_one_for_impatient_skype_users">Incl. eines für ungeduldige Skype Benutzer</string>
+    <string name="incorrectly_used_uk_dod_address_range">(inkorrekt benutzte UK DoD Addressenbereich)</string>
+    <string name="install_manage_scripts">Skripte installieren und verwalten</string>
+    <string name="ip_address">IP Addresse</string>
+    <string name="ip_webcam_s_url">Die URL’s der IP Webcams</string>
+    <string name="ip_webcam_settings">IP Webcam Einstellungen</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv6 Addresse</string>
+    <string name="ipw_cheat">IP Webcam Hinweise</string>
+    <string name="ipwebcam_actions">IP Webcam Aktionen</string>
+    <string name="ipwebcam_crashed_send_report">IP Webcam konnte nicht sauber geschlossen werden. Wollen Sie einen Fehlerbericht an den Entwickler schicken? Die Fehlerberichts ID lautet:</string>
+    <string name="ipwebcam_events">IP Webcam Ereignis</string>
+    <string name="ivideon_account">Ivideon Account</string>
+    <string name="ivideon_active">Ivideon aktiviert</string>
+    <string name="ivideon_faq_1">Was ist Ivideon?</string>
+    <string name="ivideon_faq_1_desc">"Ivideon is a cloud online video surveillance service. It allows you to access your cameras from anywhere using PC, smartphone or a tablet. It can notify you when your cameras get off the grid or register motion.
+ Ivideon lets you connect any camera to the service - in addition to your smartphone, wired PC webcams, IP cameras and Ivideon-powered cloud cameras are supported."</string>
+    <string name="ivideon_faq_2">Wpo sehe ich meine Streams an?</string>
+    <string name="ivideon_faq_2_desc">" You can either watch it in your personal account at "<a>http://ivideon.com/my</a>" , using Ivideon mobile app or Ivideon Client for Mac and PC. "</string>
+    <string name="ivideon_faq_3">Wer kann meine Strems sehen?</string>
+    <string name="ivideon_faq_3_desc">"Your video streams are private and are only available via your account. You can also share your camera with friends and family, or open it for public viewing. Sharing options are available at http://ivideon.com/my.
+ 
+ All communications, including the video stream are transmitted using industry-standard strong encryption.
+"</string>
+    <string name="ivideon_faq_4">Videoaufzeichnungen mit Ivideon</string>
+    <string name="ivideon_faq_4_desc">"Ivideon kann nicht auf die lokalen IP Webcam Video zugreifen.
+ Sie könenn trotzem folgendes machen wenn Sie die IP Webcam Bewegungs- und Akkustikerkennung aktivieren/einrichten:
+ • Empfang von Push Benachrichtigungen durch die Ivideon App
+ • Cloud Speicherung von Videos die durch die Bewegungs- und Akkustikerkennung aufgezeichnet wurden. Diese können mit der Ivideon App oder im Webinterface angesehen werden (kostenpflichtiger Zusatzdienst, Preise unter http://www.ivideon.com)"</string>
+    <string name="ivideon_faq_5">Ivideon Funktionen</string>
+    <string name="ivideon_faq_5_desc">"• Video live ansehen und Videos mit Sound aufnehmen
+ • Binden Sie Ihren live Stream in eine Webseit oder Blog ein
+ • Teilen Sie Ihre Kameras mit Familienmitgliedern oder publizieren Sie Ihren Stream via URL auf z.B. sozialen Netzwerken
+ • Erhalten Sie E-Mail Benachrichtigungen zu diversen Ereignissen (Kamera aus, Bewegungs erkannt, uva. )
+ • Platzieren Sie Ihre Kamera auf der Startseite für eine einfachere Handhabung
+"</string>
+    <string name="ivideon_faq_6">Kostenlos oder Premium Version?</string>
+    <string name="ivideon_faq_6_desc">"Ivideon erlaubt Ihnen das kostenlose Live streamen von zwei Kameras.
+ Weitere Kameras und erweiterte Optionen wie das Speichern von Videoaufzeichnungen in der Cloud, erfordern ein Konto mit kostenpflichtigen Zusatzdiensten.
+"</string>
+    <string name="ivideon_faq_7">Ivideon Support</string>
+    <string name="ivideon_faq_7_desc">" Fragen und Rückmeldungen zu Ivideon Diensten, können Sie direkt an "<a>support@ivideon.com</a> richten. Andere Kontaktmethoden finden Sie auf <a>ivideon.com</a>". "</string>
+    <string name="ivideon_is_not_supported_on_device">Ivideon wird auf diesem Gerät nicht unterstützt</string>
+    <string name="ivideon_logged_in">" Erfolgreiche Anmeldung bei Ivideon. Ihr Gerät wurde mit dem Konto "<b>$ACCOUNT</b>" angemeldet.
+ 
+ Um Ihre Live streams anzusehen, starten Sie die Übertragung und besuchen Sie http://ivideon.com/my oder benutzen Sie die Ivideon Apps oder Programme. "</string>
+    <string name="ivideon_login_email">Ivideon Konto</string>
+    <string name="ivideon_login_email_desc">Bitte geben Sie Ihre E-Mail Adresse ein.</string>
+    <string name="ivideon_ready_to_stream">Bereit fürs streamen</string>
+    <string name="ivideon_test_compatibility">Kompatibilität testen</string>
+    <string name="ivideon_test_compatibility_desc">Prüfen Sie ob ihr Endgerät mit dem Ivideon Internet Streaming kompatibel ist</string>
+    <string name="keep_active">Bildschirm aktiv halten</string>
+    <string name="keep_active_desc">Während eines Videostreemings, verhindert diese Option den Bildschirm Timeout. Dies wird für Geräte unter Android 3.0+ benötigt.</string>
+    <string name="keep_free_space">Aufräumen</string>
+    <string name="keep_free_space_desc">Entferne alte Videos bei weniger als $VAL MB freien Speicher</string>
+    <string name="keep_free_space_edit">Wie viel Speicherplatz soll freigehalten werden? Freier Speicherplatz verbessert die Leistung und OS Stabilität.</string>
+    <string name="known_issues">"Bekannte Probleme:
+ * Front Kamera stellt Kamera Infos falsch dar (benutzen sie Bildschirmauflösung zwischen 176x144 und 640x480)
+ * Falls Sie eine 3G oder 2G Verbindung benutzen, beachten Sie bitte, dass ihr Provider evtl. NAT einsetzt, was den Zugriff auf die Applikation verhindert. Fragen Sie Ihren Provider nach der Zuteilung einer externen IP-Adresse oder benutzen Sie statt dessen die WLAN Verbindung oder die Hotspot Funktionalität Ihres Smartphones.
+ * Einige Versionen von ESET NOD32 schneiden den MJPEG Stream ab. Deaktivieren Sie die \"Web protection\" als Zwischenlösung oder richten Sie eine Ausnahmeregel in NOD32 ein."</string>
+    <string name="known_issues_title">Bekannte Probleme</string>
+    <string name="landscape">ungedreht (wie Vorschau)</string>
+    <string name="latitude">Geographische Breite</string>
+    <string name="leave_blank_if_you_don_t_need_security">Lassen Sie diese Angaben leer, wenn keine Sicherheitsrisiken bestehen</string>
+    <string name="ledbtn">Sie können die LED auch über das Webinterface ein-/ausschalten.</string>
+    <string name="left">Links</string>
+    <string name="license_error">Lizenz Fehler</string>
+    <string name="local_broadcasting">LAN/WLAN Streaming</string>
+    <string name="local_broadcasting_desc">Port $PORT, Benutzer/Passwort: $LPW</string>
+    <string name="login">Benutzer:</string>
+    <string name="login_password">Benutzer/Passwort</string>
+    <string name="longitude">Geographische Länge</string>
+    <string name="lpw_notset">nicht aktiviert</string>
+    <string name="lpw_set">aktiviert</string>
+    <string name="macropixel_size">Textskalierung</string>
+    <string name="macropixel_size_desc">Skalieren Sie den Text für eine bessere Darstellung</string>
+    <string name="main_camera">Hauptkamera</string>
+    <string name="manual_caption">Manuelle Beschriftung</string>
+    <string name="mirror">Spiegeln</string>
+    <string name="mirror_flip">Spiegeln und Seitenwechsel</string>
+    <string name="misc">Verschiedenes</string>
+    <string name="modet_amount">Auslösewert für die Bewegungserkennung</string>
+    <string name="modet_radio">Bewegung erkannt/Timeout</string>
+    <string name="more_actions">Mehr...</string>
+    <string name="more_actions_ad">"In der Pro-Version, können Sie IP Webcam zur Erzeugung von Events für eine erweiterte Ereignisbehandlung verwenden.
+ Nutzen Sie hierfür die Tasker App. Das hinzufügen von Events in Tasker ist sehr einfach:: Profiles ⇨ + ⇨ State ⇨ Plugin ⇨ IP Webcam."</string>
+    <string name="most_phones_put_processor_to_sleep_mode_when_screen_is_off">Viele Smartphones versetzen den Prozessor in den Schlafmodus wenn der Bildschirm ausgeschaltet ist</string>
+    <string name="motion_detect">Bewegungserkennung</string>
+    <string name="motion_detected">Bewegung erkannt</string>
+    <string name="motion_detected_tasker_desc">Welche Bedingung sollte die IP Webcam melden?</string>
+    <string name="motion_detection">Bewegungserkennung</string>
+    <string name="motion_detection_actions">Aktionen bei Bewegungserkennung</string>
+    <string name="motion_detection_desc">Legen sie Empfindlichkeit sowie Aktionen fest</string>
+    <string name="motion_detection_event_active">Timeout für Bewegungserkennung</string>
+    <string name="motion_detection_event_sensor">Bewegungserkennungssensor</string>
+    <string name="motion_detection_sensivity">Empfindlichkeit der Bewegungserkennung</string>
+    <string name="motion_detection_sensivity_desc">Empfindlichkeit der Bewegungserkennung: $VAL. Prüfen Sie diesen Wert nun im Webinterface oder konfigurieren Sie ihn um.</string>
+    <string name="motion_detection_sensivity_input">"Stellen Sie hier die Empfindlichkeit ein. Höhere Werte bedeuten eine höhere Empfindlichkeit. Die Empfindlichkeit kann im Web Interface getestet und konfiguriert werden.
+ Aktivieren Sie die den Bewegungsensor im Sensordialog und gehen Sie die die Data Acquisition im Web-Interface.
+ Standardwert: 250"</string>
+    <string name="motion_detection_sensor">Bewegung erkannt</string>
+    <string name="motion_detection_sensor_desc">Bewegungserkennung muss aktiviert sein</string>
+    <string name="motion_detection_settings">Einstellungen Bewegungserkennung</string>
+    <string name="motion_inactivity">Video stoppen wenn inaktiv für</string>
+    <string name="motion_inactivity_edit">Wie lange soll das Video weiter aufgezeichnet werden, nachdem keine Bewegung mehr erkannt wird (Wert in Sekunden).</string>
+    <string name="motion_record_video">Videoaufnahme</string>
+    <string name="motion_record_video_desc">Startet eine Videoaufnahme, wenn eine Bewegung erkannt wird</string>
+    <string name="motion_recording">Aufzeichnung von Bewegungen</string>
+    <string name="motion_sound_detection">Bewegungs- und Akustikerkennung</string>
+    <string name="motion_tasker_timeout">Bewegungserkennung Timeout</string>
+    <string name="motion_timeout_edit">Wie lange ist die Wartezeit (in Sekunden) für eine erneute Bewegungserkennung, bis IP Webcam das Fehlen einer Bewegung an das Webinterface und/oder Tasker meldet.</string>
+    <string name="mp4_locked">MP4 (genutzt für das Cloud Streaming)</string>
+    <string name="mp4_not_supported">Hardware beschleunigtes MP4 wird auf diesem Gerät nicht unterstützt</string>
+    <string name="night_vision">Nachtmodus</string>
+    <string name="night_vision_average">Nachtmodus Belichtung</string>
+    <string name="night_vision_average_edit">"Wieviel Frames möchten Sie durschnittlich verbessern?
+ Ein steigender Wert erhöht proportional die Unschärfe und reduziert das Bildrauschen."</string>
+    <string name="night_vision_average_value">$VAL Frames</string>
+    <string name="night_vision_gain">Nachtmodus verstärken</string>
+    <string name="night_vision_gain_edit">"Bild intensivieren/schärfen?
+ Beachten Sie, dass das Bildrauschen mit diesem Wert multipliziert wird, wobei Sie Dezimalzahlen verwenden können."</string>
+    <string name="night_vision_gain_value">$VALX mehr Intensität</string>
+    <string name="night_vision_toggle">Nachtmodus aktiv/inaktiv</string>
+    <string name="no">Nein</string>
+    <string name="no_address_detected">(keine Adresse erkannt)</string>
+    <string name="no_caption">No caption</string>
+    <string name="no_color">Keine Farbe</string>
+    <string name="no_direction">Nichts</string>
+    <string name="no_password">Kein Passwort</string>
+    <string name="no_sound">Keine Audioausgabe</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="ok">OK</string>
+    <string name="ok_i_get_it">OK, habs verstanden</string>
+    <string name="only_available_in_pro">Dieses Feature ist in der IP Webcam Pro Version erhältlich, möchten sie diese erwerben?</string>
+    <string name="openh264_by_cisco">OpenH264 Video Codec bereitgestellt von Cisco Systems, Inc.</string>
+    <string name="orientation">Ausrichtung</string>
+    <string name="other_actions">Other actions...</string>
+    <string name="overlay">Overlay toggle</string>
+    <string name="overlay_desc">Zeigt Datum/Zeit und Batterieinfos im Video an</string>
+    <string name="overlay_title">Einblendungen</string>
+    <string name="password">Passwort:</string>
+    <string name="password_set">Passwort gesetzt</string>
+    <string name="photo_res">Fotoauflösung</string>
+    <string name="play_sound_on_motion">Audiodatei abspielen</string>
+    <string name="plugins">Plugins</string>
+    <string name="port">Port</string>
+    <string name="port_number_in_range_1024_65536">Port Nummer, im Bereich 1024–65536</string>
+    <string name="portrait">90° gedreht</string>
+    <string name="power_mgmt">Strom Management</string>
+    <string name="power_mgmt_desc">Kamera, Bildschirm deaktivieren wenn nicht benötigt</string>
+    <string name="prevent_going_to_sleep">Verhindert, das Wechseln des Geräts in den Schlafmodus</string>
+    <string name="primary_camera">Erste Kamera</string>
+    <string name="pro_desc">" IP Webcam Pro enthält folgende Funktionen:
+ - "<b>Tasker integration</b>" . Automatisieren Sie Abläufe bei Bewegungserkennung oder wenn sie im Webinterface agieren.
+ - "<b>Anpassbare Benutzeroberfläche</b>" . Kreieren Sie ihre eigene IP Webcam. Zeigen oder ändern Sie ihre Kamera Einstellungen lokal, machen Sie Fotos.
+ - "<b>Server Verknüpfung</b>" . Starten Sie die IP Webcam im Server Modus rechts von ihrem Home Screen.
+ - "<b>keine Wasserzeichen</b> auf Videoaufnahmen und <b>keine Werbung</b>" .
+ "</string>
+    <string name="processing_request">Anforderung wird verarbeitet...</string>
+    <string name="quality">Qualität</string>
+    <string name="rear_camera">Rück Kamera</string>
+    <string name="record_video">Videoaufnahme starten</string>
+    <string name="record_video_button">Videoaufnahme Knopf</string>
+    <string name="record_video_circular">Video aufzeichnen (zyklisch)</string>
+    <string name="refresh">Auffrischen</string>
+    <string name="res_warn">Bildschirmauflösungen ab 1280x720 sind teilweise defekt auf Android 2.x Geräten. Falls ihre Videos \"grün\" aussehen, dann nehmen Sie eine kleinere Bildschirmauflösung.</string>
+    <string name="resolution">Bildschirmauflösung</string>
+    <string name="result">Resultat</string>
+    <string name="right">Rechts</string>
+    <string name="run_in_background">Läuft im Hintergrund</string>
+    <string name="run_ipwebcam">Starte IP Webcam</string>
+    <string name="saturation">Sättigung</string>
+    <string name="save_changes">Änderungen speichern</string>
+    <string name="save_ui">Speichern</string>
+    <string name="saved">Speichern</string>
+    <string name="saved_ui_to_clipboard">Gespeichert Schnittstelle in die Zwischenablage kopieren</string>
+    <string name="saved_video_location">Videos speichern unter</string>
+    <string name="scene_mode">Szene Modus</string>
+    <string name="script_configure">Konfigurieren</string>
+    <string name="scripts_desc">IP Webcam Erweiterung installieren und konfigurieren</string>
+    <string name="second_value">zweiter Wert</string>
+    <string name="secondary_camera">Zweite Kamera</string>
+    <string name="seconds">$VAL Sekunden</string>
+    <string name="seeker">Sucher</string>
+    <string name="select_action">Selektiere Aktion</string>
+    <string name="select_caption">Bildüberschrift auswählen</string>
+    <string name="select_enabled_features">Select enabled features</string>
+    <string name="select_features_that_require_password">Selektiere Features welche ein Passwort brauchen</string>
+    <string name="send_ip_via">Sende IP via …</string>
+    <string name="sensor_retention">Sensor Vorratsdatenspeicherung</string>
+    <string name="sensor_retention_edit">"Kontroliert, wie lange Sensordaten im Speicher behalten und abgerufen werden können.
+ Standardwert: 5 Sekunden."</string>
+    <string name="sensors">Sensoren</string>
+    <string name="sensors_desc">Sammle Sensordaten und zeige diese im Web Interface an</string>
+    <string name="service_control">Servicekontrolle</string>
+    <string name="shallow_sleep">Seichter Schlafmodus</string>
+    <string name="shallow_sleep_desc">Ein ausgeschalteter Bildschirm verbessert die Webserver Performance, allerdings wird etwas mehr Strom verbraucht.</string>
+    <string name="share_ip">IP-Adresse publizieren</string>
+    <string name="signed_scripts_only_for_lite">Nur signierte Skripts werden durch IP Webcam Lite unterstützt</string>
+    <string name="skype_faq">"Für Skype benötigen Sie ein Mikrofon, einen Computer und eine Videochat Software. Eine Video-Emulation wird nur unter Windows unterstützt.
+ Wie der Name schon sagt, emuliert das Programm eine IP-Kamera, es gibt keine Videochat Funktionalität, aber Sie können sie mit einer benutzen.
+ Zuerst sollten Sie das Webinterface vin IP Webcam wie gewohnt öffnen. Dort finden Sie weitere Hinweise zur Nutzung unter \"Videochat Treiber\"."</string>
+    <string name="skype_faq_title">Ich will Skypen!</string>
+    <string name="sleep_behavior">Schlafverhalten</string>
+    <string name="sound_detection_sensor_desc">Akustiksensor muss aktiviert sein</string>
+    <string name="sound_event_sensor">Akustik Ereignis</string>
+    <string name="sound_timeout_sensor">Akustiksensor Timeout</string>
+    <string name="start_from_homescreen">Starte IP Webcam über den Startbildschirm</string>
+    <string name="start_server">Server starten</string>
+    <string name="stop">Stop</string>
+    <string name="stop_camera">Stop Kamera</string>
+    <string name="stop_camera_desc">Excklusiven Kamerazugriff deaktivieren. Die Bewegungungserkennung ist nicht möglich, wenn diese Funktion aktiviert wird.</string>
+    <string name="stopbtn">"Der Server wird jetzt beendet.
+ Sie können den Servermodus beenden, wenn Sie den \"Back\" Button während der Überwachung drücken."</string>
+    <string name="stream_boot_warn">Fall ihr Mobiltelefon rebootet während dem IP Webcam Gebrauch, dann ist der Grund wahrschweinlich eine CPU Überhitzung. Entfernen Sie Rückseite oder kühlen sie das Smartphone.</string>
+    <string name="take_photo">Foto aufnehmen</string>
+    <string name="take_photo_af">Aufnahme von fokussiertem Foto</string>
+    <string name="take_photo_button">Foto aufnehmen</string>
+    <string name="tasker">Tasker Ereignis</string>
+    <string name="tasker_identifier">Tasker Ereignis</string>
+    <string name="tasker_label_ipwebcam_camera_activated">Kamera activiert</string>
+    <string name="tasker_label_ipwebcam_camera_deactivated">Kamera deaktiviert</string>
+    <string name="tasker_label_ipwebcam_custom_event">Custom event</string>
+    <string name="tasker_label_ipwebcam_motion_detection">Bewegung erkannt</string>
+    <string name="text">Text</string>
+    <string name="text_bg_color">Text Hintergrundfarbe</string>
+    <string name="text_color">Textfarbe</string>
+    <string name="text_format">Einblendungssformat</string>
+    <string name="text_format_desc">Wie soll das Datum angezeigt werden</string>
+    <string name="text_format_help">"Folgende Platzhalter können verwendet werden (weitere unter: http://goo.gl/MCc6BR):
+ %%x = Datum
+ %%X = Zeit
+ %%q = Batteriesymbol
+ %%Q = Batterieladung in Prozent
+ %%o = \"Batterie-Laden\" Symbol"</string>
+    <string name="text_overlay">Aktiviere Texteinblendung</string>
+    <string name="text_position">Position der Texteinblendung</string>
+    <string name="the_url_has_been_copied_to_clipboard">Die URL $ URL $ wurde in die Zwischenablage kopiert</string>
+    <string name="toggle_led">Schalte LED ein</string>
+    <string name="toggle_preview">Vorschau anzeigen</string>
+    <string name="top">Oben</string>
+    <string name="torch_disabled">Licht deaktiviert</string>
+    <string name="torch_enabled">Licht aktiviert</string>
+    <string name="try_out_mkv_q">"Wollen Sie das neue MKV Videoformat verwenden? Es bietet eine bessere QWualität als WebM, ist wesentlich kleiner als MOV Videos und ist wesentlich stabieler als MP4.
+
+ Sie können jederzeit zwischen den Videoformaten wechseln unter: Video Einstellungen->Video Aufzeichnung->Video Format.
+
+ Eine aktive Internetverbindung wird für den Codec (400 kB) benötigt. Wollen Sie diesen jetzt herunterladen?"</string>
+    <string name="ui_settings">Einstellungen</string>
+    <string name="unknown_error">Unbekannter Fehler</string>
+    <string name="unsigned_scripts_disabled">Unsignierte Skripte werden in den Konfiguration deaktiviert</string>
+    <string name="upside_down">180° gedreht</string>
+    <string name="upside_down_portrait">270° gedreht</string>
+    <string name="usb_camera_by">$VENDOR (PID: $PID) UVC Kamera</string>
+    <string name="usb_cameras">USB Kamera</string>
+    <string name="usb_refresh_desc">Verbundenes USB Gerät updaten</string>
+    <string name="use_customized_ui">Benutze das angepasste Interface</string>
+    <string name="use_default_ui">Benutze das Standard Interface</string>
+    <string name="use_front_facing_camera">Frontkamera benutzen</string>
+    <string name="user_interface">Benutzeroberfläche</string>
+    <string name="vertical_orientation">Vertikale Ausrichtung</string>
+    <string name="video_bitrate">Video Bitrate</string>
+    <string name="video_bitrate_template">$KBITS kbit/s, $MBM MB/Minute</string>
+    <string name="video_chunk_len">Teilvideogröße</string>
+    <string name="video_format">Videoformat</string>
+    <string name="video_format_cisco">MKV (Software H.264 + Opus)</string>
+    <string name="video_format_mov">MOV (HQ, Größe hängt von der Streamqualität ab)</string>
+    <string name="video_format_mp4">MP4, instabil auf einigen Geräten (h.264 + AAC)</string>
+    <string name="video_format_mp4_nosupport">(Vom Gerät nicht unterstützt) MP4 (h.264 + AAC)</string>
+    <string name="video_format_webm">WebM (VP8 + Opus)</string>
+    <string name="video_orientation">Videodrehung</string>
+    <string name="video_preferences">Video-Einstellungen</string>
+    <string name="video_preview">Video-Vorschau</string>
+    <string name="video_preview_desc">Diese Option zeigt das Bild mit Überlagerungen und Effekten und verbraucht sehr viel Strom. Bitte nutzen Sie sie nur wenn unbedingt notwendig.</string>
+    <string name="video_quality">Videoqualität (0-100)</string>
+    <string name="video_recording">Videoaufzeichnung</string>
+    <string name="video_recording_desc">Wo und wie man Filmmaterial aufzeichnen</string>
+    <string name="video_resolution">Videoauflösung</string>
+    <string name="video_settings_desc">Bildschirmauflösung, Fokus und andere Videoeinstellungen</string>
+    <string name="warn">Warnung!</string>
+    <string name="watch_tutorial">Tutorial ansehen</string>
+    <string name="what_should_i_do">Was soll IP-Webcam tun?</string>
+    <string name="white_balance">Weissabgleich</string>
+    <string name="whitebalance">Weißabgleich</string>
+    <string name="wrong_email">Falsche E-Mail</string>
+    <string name="yes">Ja</string>
+    <string name="zoom">Zoom</string>
+</resources>

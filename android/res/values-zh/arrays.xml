@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|自动</item>
+        <item>off|关</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|水印</item>
+        <item>blackboard|黑板</item>
+        <item>emboss|浮雕</item>
+        <item>mono|黑白</item>
+        <item>negative|负片</item>
+        <item>neon|氖灯</item>
+        <item>none|无特效</item>
+        <item>posterize|色调分离</item>
+        <item>sepia|怀旧</item>
+        <item>sketch|素描</item>
+        <item>solarize|过曝</item>
+        <item>whiteboard|白板</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|自动</item>
+        <item>off|禁用闪光灯</item>
+        <item>on|开启闪光灯</item>
+        <item>red-eye|防红眼模式</item>
+        <item>torch|手电筒模式</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|手动</item>
+        <item>continuous-picture|激进，用于捕获相片</item>
+        <item>continuous-video|平滑，用于录制视频</item>
+        <item>edof|扩增景深，持续</item>
+        <item>fixed|固定</item>
+        <item>infinity|无限远</item>
+        <item>macro|宏观，手动</item>
+        <item>normal|标准</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|增强现实</item>
+        <item>action|快速运动物体</item>
+        <item>asd|暗景自动感知</item>
+        <item>auto|自动</item>
+        <item>backlight|逆光</item>
+        <item>barcode|读取二维码</item>
+        <item>beach|沙滩</item>
+        <item>candlelight|烛光</item>
+        <item>fireworks|焰火</item>
+        <item>flowers|花朵</item>
+        <item>hdr|HDR</item>
+        <item>landscape|自然</item>
+        <item>night|夜景</item>
+        <item>night-portrait|夜景人像</item>
+        <item>party|聚会</item>
+        <item>portrait|人像</item>
+        <item>snow|雪景</item>
+        <item>sports|运动</item>
+        <item>steadyphoto|防抖</item>
+        <item>sunset|日落</item>
+        <item>theatre|剧场</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|加速度传感器</item>
+        <item>ambient_temp|环境温度</item>
+        <item>battery_level|电池电量</item>
+        <item>battery_temp|电池温度</item>
+        <item>battery_voltage|电池电压</item>
+        <item>gravity|重力传感器</item>
+        <item>gyro|陀螺仪</item>
+        <item>humidity|相对湿度</item>
+        <item>light|光线传感器</item>
+        <item>lin_accel|线性加速度</item>
+        <item>mag|磁场传感器</item>
+        <item>motion|动量</item>
+        <item>motion_active|动作活跃</item>
+        <item>motion_event|已报告动作</item>
+        <item>pressure|压力</item>
+        <item>proximity|距离传感器</item>
+        <item>rot_vector|旋转矢量</item>
+        <item>sound|声音传感器</item>
+        <item>temp|温度</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lux</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|转/秒</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|自动</item>
+        <item>cloudy-daylight|多云</item>
+        <item>daylight|晴天</item>
+        <item>fluorescent|荧光灯</item>
+        <item>incandescent|白炽灯</item>
+        <item>shade|阴天</item>
+        <item>twilight|暮光</item>
+        <item>warm-fluorescent|暖色荧光灯</item>
+    </string-array>
+</resources>

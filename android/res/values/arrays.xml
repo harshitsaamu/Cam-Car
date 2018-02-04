@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|Auto</item>
+        <item>off|Off</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|Aqua</item>
+        <item>blackboard|Blackboard</item>
+        <item>emboss|Embossing</item>
+        <item>mono|Black and white</item>
+        <item>negative|Negative</item>
+        <item>neon|Neon</item>
+        <item>none|No effects</item>
+        <item>posterize|Posterization</item>
+        <item>sepia|Sepia</item>
+        <item>sketch|Sketch</item>
+        <item>solarize|Solarization</item>
+        <item>whiteboard|Whiteboard</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|Auto flash</item>
+        <item>off|Flash disabled</item>
+        <item>on|Always use flash</item>
+        <item>red-eye|Red-eye reduction mode</item>
+        <item>torch|Flashlight mode</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|Manual</item>
+        <item>continuous-picture|Aggressive, for taking photos</item>
+        <item>continuous-video|Smooth, for recording video</item>
+        <item>edof| Extended depth of field, continuous</item>
+        <item>fixed|Fixed</item>
+        <item>infinity|Infinity</item>
+        <item>macro|Macro, manual</item>
+        <item>normal|Normal</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|Augmented reality</item>
+        <item>action|Fast-moving objects</item>
+        <item>asd|Autosense darkness</item>
+        <item>auto|Auto</item>
+        <item>backlight|Backlight</item>
+        <item>barcode|Barcode reading</item>
+        <item>beach|Beach</item>
+        <item>candlelight|Candle light</item>
+        <item>fireworks|Fireworks</item>
+        <item>flowers|Flower</item>
+        <item>hdr|HDR</item>
+        <item>landscape|Landscape</item>
+        <item>night|Night</item>
+        <item>night-portrait|Night portrait</item>
+        <item>party|Party</item>
+        <item>portrait|Portrait</item>
+        <item>snow|Snow</item>
+        <item>sports|Sports</item>
+        <item>steadyphoto|Avoid blurry pictures</item>
+        <item>sunset|Sunset</item>
+        <item>theatre|Theatre</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|Accelerometer</item>
+        <item>ambient_temp|Ambient temperature</item>
+        <item>battery_level|Battery level</item>
+        <item>battery_temp|Battery temperature</item>
+        <item>battery_voltage|Battery voltage</item>
+        <item>gravity|Gravity sensor</item>
+        <item>gyro|Gyroscope</item>
+        <item>humidity|Relative humidity</item>
+        <item>light|Light sensor</item>
+        <item>lin_accel|Linear acceleration</item>
+        <item>mag|Magnetic field</item>
+        <item>motion|Motion amount</item>
+        <item>motion_active|Motion active</item>
+        <item>motion_event|Motion reported</item>
+        <item>pressure|Pressure</item>
+        <item>proximity|Proximity sensor</item>
+        <item>rot_vector|Rotation vector</item>
+        <item>sound|Sound sensor</item>
+        <item>temp|Temperature</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lx</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|rad/s</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|Auto</item>
+        <item>cloudy-daylight|Cloudy daylight</item>
+        <item>daylight|Daylight</item>
+        <item>fluorescent|Fluorescent</item>
+        <item>incandescent|Incandescent</item>
+        <item>shade|Shade</item>
+        <item>twilight|Twilight</item>
+        <item>warm-fluorescent|Warm fluorescent</item>
+    </string-array>
+</resources>

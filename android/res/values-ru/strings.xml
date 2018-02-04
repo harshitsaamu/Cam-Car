@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_capital_off">ОТКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_search_hint">Поиск</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="common_android_wear_notification_needs_update_text">Чтобы продолжить работу с приложением \"%1$s\", обновите Android Wear</string>
+    <string name="common_android_wear_update_text">Чтобы запустить приложение \"%1$s\", обновите Android Wear.</string>
+    <string name="common_android_wear_update_title">Обновить Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", недоступны. Свяжитесь с его разработчиком.</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Чтобы запустить приложение \"%1$s\", включите сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите Сервисы Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Источник запроса: %1$s</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text_phone">Для работы с приложением \"%1$s\" требуются сервисы Google Play, не установленные на вашем телефоне.</string>
+    <string name="common_google_play_services_install_text_tablet">Для работы с приложением \"%1$s\" требуются сервисы Google Play, не установленные на вашем планшете.</string>
+    <string name="common_google_play_services_install_title">Установите Сервисы Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Этого аккаунта нет на устройстве. Выберите другой.</string>
+    <string name="common_google_play_services_invalid_account_title">Недействительный аккаунт</string>
+    <string name="common_google_play_services_needs_enabling_title">Для работы приложения требуется включить сервисы Google Play</string>
+    <string name="common_google_play_services_network_error_text">Для работы с Google Play требуется подключение к сети.</string>
+    <string name="common_google_play_services_network_error_title">Ошибка сети</string>
+    <string name="common_google_play_services_notification_needs_update_title">Для работы приложения требуется обновить сервисы Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_sign_in_failed_text">При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Ошибка входа</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестная ошибка с Сервисами Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", не поддерживаются на вашем устройстве. Обратитесь к его производителю.</string>
+    <string name="common_google_play_services_unsupported_title">Сервисы Google Play</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите Сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_updating_title">Обновление сервисов Google Play…</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="accessing">"Соединение с телефоном по локальной сети:
+ • Нажмите кнопку \"Запустить\".
+ • В веб-браузере откройте ссылку, которая будет на экране или в оповещениях. Она выглядит так: http://&lt;ip_телефона>:&lt;порт>
+ • Кнопка \\Как мне подключиться?\\ помогает определить тип подключения и на основе этого даёт информацию.
+ • Введите логин/пароль (если указаны в настройках) и выберите желаемый способ для просмотра видео.
+ • Если ссылка не открывается, попробуйте проверить доступ к ip телефона утилитой ping, и проверьте соединение, если телефон не \\пингуется\\.
+ Доступ через Интернет с Ivideon:
+ • Привяжите телефон к аккаунту Ivideon - см. \"Вещание через Интернет\" в настройках IP Webcam.
+ • Нажмите кнопку \"Запустить\" в IP Webcam.
+ • Войдите в ваш Ivideon-аккаунт на http://ivideon.com/my или в приложении Ivideon."</string>
+    <string name="accessing_title">Подключение к телефону</string>
+    <string name="acknowledgements">"IP Webcam использует следующее ПО:
+ libjpeg, © Independent JPEG Group, http://ijg.org
+ ffmpeg, © FFmpeg team, http://ffmpeg.org/
+ libvpx, © WebM project, http://www.webmproject.org/
+ libopus, © Xiph.org Foundation and others, http://opus-codec.org/
+ mongoose (MIT fork), © Sergey Lyubka, https://github.com/cesanta/mongoose
+ 
+ Особая благодарность:
+ Hank Quakevauld за китайский перевод
+ Nenad Tomasic за немецкий перевод
+ Paolo Stavolo за итальянский перевод
+ Froozeify за французский перевод
+ Sangyong, Byun за корейский перевод
+ Francisco Rosúa за испанский перевод
+ Alexey Vasilyev за прекрасный просмотрщик, tinyCam Monitor
+ 
+ Благодарю:
+ Robb Larsen, Jason Tarnutzer for Droid X testing
+ Marcus Pascall, Eugene Jennings, Peter Boeren, Scott B, Eric Batts, Alexei Vidmich for application testing.
+ Berthold Möller for his help with pinpointing the nasty issue."</string>
+    <string name="acknowledgements_title">Благодарности</string>
+    <string name="action">Действия...</string>
+    <string name="action_increase_decrease">Увеличить/уменьшить</string>
+    <string name="action_set">Установить конкретное значение</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_toggle">Переключать два значения</string>
+    <string name="actions">Действия</string>
+    <string name="actions_">Действия…</string>
+    <string name="active_sensors">Активные источники данных для записи</string>
+    <string name="active_ui">Активный интерфейс</string>
+    <string name="add_control">Добавить</string>
+    <string name="addrf">Предпочитаемое семейство адресов</string>
+    <string name="adet_amount">Предельное количество звука</string>
+    <string name="adet_radio">Обнаружен звук/таймаут звука</string>
+    <string name="adet_record_video_desc">Запись видео в память телефона, когда сработал датчик звука</string>
+    <string name="allow_signed_scripts_only">Разрешать запуск только подписанных скриптов</string>
+    <string name="always_show">Всегда показывать</string>
+    <string name="antibanding">Борьба с полосами</string>
+    <string name="antibanding_mode">Борьба с полосами</string>
+    <string name="are_you_sure_you_want_to_remove_this_script">Вы точно хотите удалить это расширение? Все настройки для данного расширения будут удалены.</string>
+    <string name="aspect_11">1:1</string>
+    <string name="aspect_12">1:2</string>
+    <string name="aspect_13">1:3</string>
+    <string name="aspect_14">1:4</string>
+    <string name="aspect_21">2:1</string>
+    <string name="aspect_31">3:1</string>
+    <string name="aspect_41">4:1</string>
+    <string name="aspect_ratio">Соотношение сторон</string>
+    <string name="audio_bitrate_template">$KBITS кбит/с</string>
+    <string name="audio_mode_audio_only">Только звук</string>
+    <string name="audio_mode_disabled">Выключить звук</string>
+    <string name="audio_mode_enabled">Включить звук</string>
+    <string name="audio_only">Только звук</string>
+    <string name="audio_sensor">Датчик звука</string>
+    <string name="audio_tasker_timeout">Таймаут звука</string>
+    <string name="audiopref">Режим звука</string>
+    <string name="auto_exposure_lock">Заблокировать автовыдержку</string>
+    <string name="auto_white_balance_lock">Заблокировать автобаланс белого</string>
+    <string name="autostart">Запуск при загрузке</string>
+    <string name="autostart_desc">Включите эту опцию и отключите блокировку экрана в настройках безопасности устройства для его превращения в IP-камеру</string>
+    <string name="background">Работать в фоне</string>
+    <string name="backgroundbtn">"Теперь приложение будет работать в фоновом режиме.
+
+ Для удобства это можно делать аппаратной кнопкой \\Домой\\."</string>
+    <string name="battery_percent_sensor">Уровень заряда батареи</string>
+    <string name="battery_temperature_sensor">Сенсор температуры батареи</string>
+    <string name="battery_voltage_sensor">Вольтметр батареи</string>
+    <string name="begin_serving_video_stream">Начать трансляцию</string>
+    <string name="bottom">Вниз</string>
+    <string name="brightness">Светлота</string>
+    <string name="button">Кнопка</string>
+    <string name="camera_active_idle">Камера активная/простаивает</string>
+    <string name="camera_is_used_by_another_app">Камера используется другой программой: невозможно запуститься!</string>
+    <string name="camera_settings">Настройки камеры</string>
+    <string name="camera_status">Состояние камеры</string>
+    <string name="cancel">Отмена</string>
+    <string name="cannot_access_internet">Нет доступа к интернету</string>
+    <string name="cannot_open_configured_camera">Невозможно открыть ранее настроенную камеру. Сбросить настройки на камеру по умолчанию?</string>
+    <string name="cannot_open_port">Невозможно открыть порт. Закройте программы, использующие его, или выберите другой.</string>
+    <string name="carrier_grade_nat">(NAT уровня провайдера)</string>
+    <string name="cheat_is_not_recognized">Код не распознан</string>
+    <string name="cheats">Коды</string>
+    <string name="chunk_size">Размер видеофрагмента</string>
+    <string name="chunk_size_desc">Запись видео по кругу кусочками по $VAL минут</string>
+    <string name="chunk_size_edit">Введите длину (в минутах) фрагмента записываемого видео</string>
+    <string name="cisco_codec_required_download_q">Чтобы активировать OpenH264, требуется скачать его бинарную сборку из интернета. Скачать кодек?</string>
+    <string name="cloud_account_already_exists">Этот email уже зарегистрирован в Ivideon. Если это ваш аккаунт, войдите.</string>
+    <string name="cloud_create_account_eula">" Создавая аккаунт, вы принимаете "<a href="https://go.ivideon.com/?target=terms_of_service&amp;lang=ru">условия обслуживания Ivideon</a>.</string>
+    <string name="cloud_create_an_account">Создать учётную запись</string>
+    <string name="cloud_create_an_account_desc">Это бесплатно и займет не более минуты</string>
+    <string name="cloud_create_an_account_email_hint">Ваш email (логин в Ivideon)</string>
+    <string name="cloud_create_an_account_password_hint">Придумайте пароль</string>
+    <string name="cloud_creating_account">Создаем аккаунт...</string>
+    <string name="cloud_faq">Вопросы и ответы</string>
+    <string name="cloud_faq_desc">Что такое Ivideon, где смотреть видео, приватность и прочее.</string>
+    <string name="cloud_log_in">Войти</string>
+    <string name="cloud_log_in_desc">Если вы уже зарегистрированы в Ivideon</string>
+    <string name="cloud_log_in_password_hint">Введите пароль</string>
+    <string name="cloud_log_in_password_isnt_saved">IP Webcam не хранит ваш пароль на телефоне</string>
+    <string name="cloud_log_in_q">Войти?</string>
+    <string name="cloud_log_out">Выйти</string>
+    <string name="cloud_log_out_desc">Выйти из учётной записи</string>
+    <string name="cloud_log_out_really">Вы точно хотите выйти?</string>
+    <string name="cloud_login_failed">Не удалось войти: проверьте email и пароль</string>
+    <string name="cloud_login_too_frequent">Вы слишком часто пытаетесь войти в аккаунт. Пожалуйста, повторите попытку через 30 секунд.</string>
+    <string name="cloud_new_user_failed">Не получилось создать нового пользователя: $ERROR</string>
+    <string name="cloud_password_cannot_be_empty">Введите пароль</string>
+    <string name="cloud_roster_failed">Не удалось привязать телефон к аккаунту Ivideon: $ERROR</string>
+    <string name="cloud_streaming">Вещание через Интернет</string>
+    <string name="cloud_streaming_active">Включить Интернет-вещание</string>
+    <string name="cloud_streaming_active_desc">Включите, чтобы смотреть видео через сайт или приложения Ivideon</string>
+    <string name="cloud_streaming_desc">Доступ к видео из любой точки мира</string>
+    <string name="cloud_streaming_not_supported">Вещание через Интернет не поддерживается</string>
+    <string name="cloud_streaming_not_supported_desc">Вещание через Интернет не поддерживается вашим устройством, либо IP Webcam не смог найти необходимые кодеки. Для работы с Ivideon необходим Android 4.1+. Чтобы получить доступ через Интернет к этому устройству, пожалуйста, попробуйте проброс портов на вашем Wi-Fi роутере, используйте SSH или VPN туннели или попросите у вашего мобильного оператора IP-адрес, доступный через интернет.</string>
+    <string name="cloud_streaming_optimize">Хотите оптимизировать качество видео для просмотра через Интернет, установив разрешение $NEWRES и битрейт 1200 кбит/c?</string>
+    <string name="cloud_streaming_supported">Тест энкодера пройден. Вещание через интернет должно работать на вашем устройстве. Чтобы подключить ваш телефон к сервису видеонаблюдения через Интернет, войдите в учётную запись Ivideon.</string>
+    <string name="color_effect">Цветовой эффект</string>
+    <string name="compressed_audio_bitrate">Битрейт сжатого аудио</string>
+    <string name="conn_template">Соединения видео: $VC, звук: $AC</string>
+    <string name="connect_using_ivideon">Через Ivideon</string>
+    <string name="connect_using_ivideon_desc">Использовать облачный сервис Ivideon для доступа к камере из любой точки мира</string>
+    <string name="connect_using_ivideon_desc_disabled">ВЫКЛЮЧЕНО:</string>
+    <string name="connect_using_ivideon_desc_enabled">АКТИВНО:</string>
+    <string name="connect_using_ivideon_disabled">"Для использования Ivideon включите его в Настройках->Вещание через Интернет. Это поддерживается на большинстве устройств с Android 4.1+.
+ 
+ Ivideon позволяет смотреть видео откуда угодно через Интернет без дополнительных настроек. 2 камеры можно подключить бесплатно, для следующих камер или записи облачного видеоархива нужно выбрать платный тариф."</string>
+    <string name="connect_using_ivideon_enabled">" Смотрите видео с этого устройства в вашем аккаунте "<b>$ACCOUNT</b>" , используя http://ivideon.com/my или приложения Ivideon для Android, iPhone, Windows, Mac OS X или Linux "</string>
+    <string name="connect_using_local">Подключение напрямую</string>
+    <string name="connect_using_local_desc">Если устройство доступно по сети напрямую</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="connection_error_retry">Ошибка соединения. Повторить попытку?</string>
+    <string name="connection_settings">Настройки соединения</string>
+    <string name="connections">Монитор соединений</string>
+    <string name="contacting_ivideon">Соединение с Ivideon...</string>
+    <string name="control_vertical">Вертикальный</string>
+    <string name="copy_ip_to_clipboard">Скопировать IP</string>
+    <string name="copy_to_clipboard">Скопировать в буфер</string>
+    <string name="copy_ui_to_clipboard">Скопировать интерфейс в буфер</string>
+    <string name="create_start_shortcut">Создать ярлык</string>
+    <string name="custom_action">Настроенное действие</string>
+    <string name="customize_ui">Редактировать интерфейс камеры</string>
+    <string name="date_time_format">Формат даты/времени</string>
+    <string name="deact_display">Выключить дисплей</string>
+    <string name="deact_display_desc">Позволить дисплею выключаться при простое</string>
+    <string name="default_mode_setting">По умолчанию</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_button">Перетащите элементы на эту кнопку чтобы удалить их из интерфейса.</string>
+    <string name="details">Подробнее...</string>
+    <string name="detected_devices">Обнаруженные устройства</string>
+    <string name="disable_notification">Выключить оповещение</string>
+    <string name="disabled">Выключено</string>
+    <string name="discard_changes">Отменить изменения</string>
+    <string name="disguise">Замаскироваться</string>
+    <string name="disguisebtn">"Сервер будет замаскирован.
+ Сейчас откроется полностью функциональный браузер.
+ Кнопка \"Назад\" остановит сервер и откроет рабочий стол.
+ Кнопка \"Домой\" отправляет IP Webcam в фон (рекомендуется выключить оповещение)."</string>
+    <string name="display_setting_name">Показывать заголовок настройки</string>
+    <string name="display_value_only">Показывать только значение</string>
+    <string name="do_nothing">Ничего не делать</string>
+    <string name="do_you_want_to_watch_tutorial">Посмотреть обучающее видео?</string>
+    <string name="don_t_show_app_running_in_background">Не показывать приложение, работающее в фоновом режиме</string>
+    <string name="downloading_the_codec">Видеокодек скачивается...</string>
+    <string name="downloading_the_plugin">Расширение скачивается...</string>
+    <string name="drawer_direction">Направление для выдвигания</string>
+    <string name="edit_control">Редактировать</string>
+    <string name="effects_desc">Улучшить ночное видение, наложить дату/время</string>
+    <string name="effects_title">Эффекты</string>
+    <string name="embed_date_time">Наложить дату/время</string>
+    <string name="embed_gps_coords">Встраивать координаты GPS</string>
+    <string name="enable_motion_detection">Включить датчик движения</string>
+    <string name="enable_motion_detection_desc">Использует батарею даже если камера не используется</string>
+    <string name="enable_night_vision">Включить ночное видение</string>
+    <string name="enable_night_vision_desc">Улучшить видео, снятое в темноте</string>
+    <string name="enable_sensors">Включить запись данных</string>
+    <string name="enable_sound_sensor">Включить датчик звука</string>
+    <string name="enabled">Включено</string>
+    <string name="enter_a_cheat">Введите код (список доступен здесь: http://ip-webcam.appspot.com)</string>
+    <string name="enter_increment_decrement">Введите инкремент (или отрицательный декремент)</string>
+    <string name="event_is">Событие:</string>
+    <string name="experimental_use_lower_resolutions_when_it_s_on_and_report_issues">Экспериментальный функционал! Используйте более низкие разрешения.</string>
+    <string name="exposure_compensation">Компенсация выдержки</string>
+    <string name="fade">Отключение дисплея</string>
+    <string name="fadebtn">"Сейчас дисплей выключится для сохранения батареи.
+ Не выключайте экран аппаратной кнопкой \\Блокировка\\, т.к. это приведёт к помещению процессора в режим ожидания на большинстве смартфонов.
+ Нажмите на дисплей чтобы включить дисплей обратно."</string>
+    <string name="failed_to_send_report_for_reason">Не удалось отправить отчёт. Попробовать ещё раз? Причина:</string>
+    <string name="faq">ЧАВО</string>
+    <string name="faq_another">" Если появились другие вопросы, направляйте их по адресу "<a href="mailto:pas.anddev@gmail.com">pas.anddev@gmail.com</a> (можно по-русски)</string>
+    <string name="faq_another_title">Другой вопрос</string>
+    <string name="feature_audio_aac">Звук (Aac)</string>
+    <string name="feature_audio_in">Приём аудио</string>
+    <string name="feature_audio_ogg">Звук (Ogg)</string>
+    <string name="feature_audio_wav">Звук (Wav)</string>
+    <string name="feature_focus_ctl">Управление фокусом</string>
+    <string name="feature_gps">GPS включен</string>
+    <string name="feature_html">Веб-страницы</string>
+    <string name="feature_immediate_photo">Получение отдельных кадров</string>
+    <string name="feature_photo">Съёмка фото</string>
+    <string name="feature_photo_af">Съёмка фото (с фокусом)</string>
+    <string name="feature_ptz">Зум и поворот</string>
+    <string name="feature_sensors">Наблюдение за записью данных</string>
+    <string name="feature_settings">Изменения настроек</string>
+    <string name="feature_torch_ctl">Управление вспышкой</string>
+    <string name="feature_video">Получение потокового видео</string>
+    <string name="feature_video_ctl">Управление записью видео</string>
+    <string name="feature_video_download">Скачивание видео</string>
+    <string name="fetching_the_plugin_index">Получение базы расширений...</string>
+    <string name="ffc_hotswitch_not_available">Переключение на фронтальную камеру недоступно</string>
+    <string name="first_value">Первое значение</string>
+    <string name="flash_mode">Режим вспышки</string>
+    <string name="flip">Отразить по вертикали</string>
+    <string name="flip_control">Отразить</string>
+    <string name="flip_desc">Чтобы зеркально отобразить, нужно отразить и изменить ориентацию</string>
+    <string name="focus">Фокус</string>
+    <string name="focus_control">Управление фокусом</string>
+    <string name="focus_homing">Focus homing</string>
+    <string name="focus_mode">Режим фокуса</string>
+    <string name="focus_region">Зона фокуса</string>
+    <string name="focus_tips">Рекоментации по фокусировке</string>
+    <string name="focusbtn">"Сейчас камера сфокусируется.
+
+ Для удобства используйте аппаратную кнопку \\Поиск\\ или используйте кнопку \\Автофокус\\ в веб-интерфейсе."</string>
+    <string name="force_software_audio">Кодировать аудио программно</string>
+    <string name="force_software_audio_desc">Выберите, если есть проблемы с записью аудио в формате AAC</string>
+    <string name="force_software_audio_only">Аппаратное кодирование аудио недоступно на этом устройстве</string>
+    <string name="force_software_video">Кодировать видео программно</string>
+    <string name="force_software_video_desc">Отметьте, если есть проблемы с записью видео</string>
+    <string name="force_software_video_only">Аппаратное кодирование не поддерживается устройством</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="fps_description">Ограничить число кадров в секунду этим значением. (Ваша камера поддерживает максимум $VAL)</string>
+    <string name="fps_faq">"Приложение использует максимально доступную частоту кадров в секунду (FPS), доступную на вашем телефоне.
+ Сжатие видео - очень трудоёмкий процесс, и FPS будет низким, если на телефоне слабый процессор. Если так и есть, попробуйте уменьшить разрешение.
+ Медленное сетевое соединение тоже не редкость на телефоне, поэтому снижение качества тоже может помочь снизить задержку при передаче и увеличить FPS."</string>
+    <string name="fps_faq_title">Хочу частоту кадров повыше!</string>
+    <string name="fps_limit">Ограничение кадров в секунду</string>
+    <string name="fps_no_limit">Нет ограничений, использовать сеть/процессор полностью</string>
+    <string name="front_camera">Передняя камера</string>
+    <string name="get_h264_codec">Скачать OpenH264</string>
+    <string name="get_pro">Скачать IP Webcam Pro</string>
+    <string name="gps_active">GPS активен</string>
+    <string name="gps_coords_format">Формат GPS-координат.</string>
+    <string name="how_do_i_connect">Как мне соединиться?</string>
+    <string name="how_do_you_want_to_connect">Как вы хотите подключиться?</string>
+    <string name="how_to_connect_mobile_connection">Я использую мобильное соединение</string>
+    <string name="how_to_connect_wifi_router">Я использую Wi-Fi</string>
+    <string name="howto_idk">Ваш IP не был определён, скорей всего, у вас нет активных сетевых подключений.</string>
+    <string name="howto_inet_inet">"Ваш адрес — внешний. Это плохой знак. Скорее всего, вы находитесь в сети мобильного оператора, которые часто блокируют входящие соединения на телефон.
+ Попробуйте открыть этот адрес в любом веб-браузере:
+ http://$IP:$PORT/
+ 
+ Если адрес открывается, вам повезло и дополнительных настроек не требуется.
+ В обратном случае, проверьте действительно ли с телефоном нет связи с помощью утилиты ping, и свяжитесь с оператором мобильной связи для предоставления внешнего IP (это часто платная услуга), либо используйте сеть Wi-Fi."</string>
+    <string name="howto_inet_local">"Так не получится. Ваш IP, $IP — локальный, т.к. он расположен в диапазоне $LOCALRANGE. Это означает, что соединения могут быть только от устройств в той же сети, и то если провайдер позволяет это делать.
+
+
+ Вот ссылка, если вы знаете, что делаете: http://$IP:$PORT/"</string>
+    <string name="howto_lan_inet">Вы действительно уверены, что подключены по Wi-Fi? Ваш IP, $IP - внешний. Поэтому у вас может быть некорректно настроенный роутер или ещё что-то. Если вы получили это сообщение, напишите мне письмо на pas.anddev@gmail.com (можно по-русски) с описанием конфигурации сети.</string>
+    <string name="howto_lan_local">"В этой сети на любом компьютере откройте этот адрес в браузере:
+
+ http://$IP:$PORT/
+
+ Ваш IP, $IP — локальный, т.к. находится в частном диапазоне $LOCALRANGE. Это означает, что телефон доступен только в этой сети.
+
+ Если нужен доступ через интернет и у роутера есть внешний (интернетовский) IP, пробросьте порт с телефона на него. Как это сделать - читайте в инструкции по роутеру."</string>
+    <string name="hue">Тон</string>
+    <string name="idle">Режим ожидания</string>
+    <string name="inactivity">Поведение при неактивности</string>
+    <string name="inactivity_timeout">Период неактивности</string>
+    <string name="inactivity_timeout_enter">Введите период неактивности, в секундах</string>
+    <string name="including_one_for_impatient_skype_users">В том числе \\как использовать это со Skype?\\</string>
+    <string name="incorrectly_used_uk_dod_address_range">(неверно используемый диапазон британской военки)</string>
+    <string name="install_manage_scripts">Установка и управление скриптами</string>
+    <string name="ip_address">IP адрес</string>
+    <string name="ip_webcam_s_url">Ссылка на IP Webcam</string>
+    <string name="ip_webcam_settings">Настройки IP Webcam</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">Адрес IPv6</string>
+    <string name="ipw_cheat">Коды IP Webcam</string>
+    <string name="ipwebcam_actions">Действия IP Webcam</string>
+    <string name="ipwebcam_crashed_send_report">Работа IP Webcam не была корректно завершена. Хотите отправить отчёт разработчику? Номер отчёта:</string>
+    <string name="ipwebcam_events">События IP Webcam</string>
+    <string name="ivideon_account">Учётная запись Ivideon</string>
+    <string name="ivideon_active">Ivideon активен</string>
+    <string name="ivideon_faq_1">Что такое Ivideon?</string>
+    <string name="ivideon_faq_1_desc">"Ivideon — это облачный сервис видеонаблюдения через Интернет. Ivideon позволит вам получить доступ к вашим камерам, где бы вы ни были, с помощью компьютера, смартфона или планшета. Он оперативно сообщит вам об отключении камер, о движении там, где его не должно быть, и позволит вам сохранить видео в любой ситуации.
+ К Ivideon можно подключить любую камеру. Помимо камеры Android-устройства вы можете подключить встроенную веб-камеру ноутбука, проводную веб-камеру, обычную IP-камеру или IP-камеру с прошивкой Ivideon."</string>
+    <string name="ivideon_faq_2">Где смотреть видео?</string>
+    <string name="ivideon_faq_2_desc">" Видео можно смотреть в личном кабинете по адресу "<a>http://ivideon.com/my</a>" , через мобильные приложения Ivideon или десктопное приложение Ivideon Client. "</string>
+    <string name="ivideon_faq_3">Кто увидит мое видео?</string>
+    <string name="ivideon_faq_3_desc">"По умолчанию ваше видео доступно только вам через вашу учетную запись. Все данные, включая видео, передаются в зашифрованном виде.
+ Вы также можете передать доступ к камере своим родственникам, друзьям или коллегам, либо открыть вашу камеру для публичного доступа. Все эти настройки доступны в вашем личном кабинете Ivideon."</string>
+    <string name="ivideon_faq_4">Видеоархив в Ivideon</string>
+    <string name="ivideon_faq_4_desc">"Ivideon не поддерживает просмотр архива видеозаписей, записанного через IP Webcam на флеш-карту телефона. Но, настроив датчики движения и звука в IP Webcam, вы сможете:
+ • получать пуш-уведомления о движении и звуке в мобильном приложении Ivideon;
+ • хранить видеозаписи событий в облаке Ivideon и смотреть их через личный кабинет и приложения Ivideon (доступно на платных тарифах; описание тарифов см. на www.ivideon.com).
+ Включить датчики и настроить их чувствительность можно в настройках IP Webcam."</string>
+    <string name="ivideon_faq_5">Возможности Ivideon</string>
+    <string name="ivideon_faq_5_desc">"C Ivideon вы сможете:
+ • смотреть живое видео со звуком и архив;
+ • передать доступ к камерам в другой личный кабинет;
+ • встроить камеру на ваш сайт или в ваш блог;
+ • получить ссылку на камеру, которую можно отправить друзьям или опубликовать в Facebook или ВКонтакте;
+ • получать пуш- и email-уведомления о событиях (движение, звук, отключение камеры);
+ • разместить ваши камеры на карте."</string>
+    <string name="ivideon_faq_6">Бесплатно или платно?</string>
+    <string name="ivideon_faq_6_desc">К Ivideon можно бесплатно подключить две камеры. Есть также опции, которые доступны только на платных тарифах (например, облачный видеоархив).</string>
+    <string name="ivideon_faq_7">Техподдержка Ivideon</string>
+    <string name="ivideon_faq_7_desc">Если у вас возникли вопросы по сервису Ivideon, пишите в техподдержку на support@ivideon.ru. Другие контакты Ivideon указаны на сайте www.ivideon.com.</string>
+    <string name="ivideon_is_not_supported_on_device">Ivideon не поддерживается этим устройством</string>
+    <string name="ivideon_logged_in">" Ваше Android-устройство привязано к аккаунту "<b>$ACCOUNT</b>" .
+ 
+ Чтобы смотреть видео, запустите вещание и зайдите под своим аккаунтом на ivideon.com/my или в приложение Ivideon. "</string>
+    <string name="ivideon_login_email">Учётная запись Ivideon</string>
+    <string name="ivideon_login_email_desc">Введите ваш адрес электронной почты.</string>
+    <string name="ivideon_ready_to_stream">Готов к трансляции!</string>
+    <string name="ivideon_test_compatibility">Проверить совместимость</string>
+    <string name="ivideon_test_compatibility_desc">Проверьте, поддерживает ли ваше устройство вещание через Ivideon</string>
+    <string name="keep_active">Не выключать экран</string>
+    <string name="keep_active_desc">Во время вещания предотвращать автоматическое выключение экрана. Необходимо для работы на Android 3.0+.</string>
+    <string name="keep_free_space">Держать свободным</string>
+    <string name="keep_free_space_desc">Удалять старые видео, если места осталось меньше $VAL Мб</string>
+    <string name="keep_free_space_edit">Как много места оставить свободным в хранилище? Свободное место увеличивает производительность и стабильность операционной системы.</string>
+    <string name="known_issues">"Известные проблемы:
+ * Передняя камера иногда сообщает некорректное разрешение. Используйте разрешения из диапазона 176x144 - 640x480
+ * На мобильном интернете к телефону может не быть доступа, т.к. провайдер обычно использует систему NAT, которая не позволяет подсоединиться к телефону через интернет. Воспользуйтесь Wi-Fi, переведите телефон в режим модема, или попросите у провайдера внешний IP.
+ * На некоторых версиях NOD32 возникают проблемы с просмотром MJPG-потоков. Для обхода проблемы выключите Защиту Web в NOD32."</string>
+    <string name="known_issues_title">Известные проблемы</string>
+    <string name="landscape">Ландшафтная</string>
+    <string name="latitude">Широта</string>
+    <string name="leave_blank_if_you_don_t_need_security">Оставьте пустым, если пароль не нужен</string>
+    <string name="ledbtn">Также можно управлять вспышкой из веб-интерфейса.</string>
+    <string name="left">Налево</string>
+    <string name="license_error">Ошибка лицензирования</string>
+    <string name="local_broadcasting">Вещание в локальной сети</string>
+    <string name="local_broadcasting_desc">Порт $PORT, логин/пароль: $LPW</string>
+    <string name="login">Логин:</string>
+    <string name="login_password">Логин/пароль</string>
+    <string name="longitude">Долгота</string>
+    <string name="lpw_notset">не установлены</string>
+    <string name="lpw_set">установлены</string>
+    <string name="macropixel_size">Размер пикселей</string>
+    <string name="macropixel_size_desc">Выбрать размер текста</string>
+    <string name="main_camera">Основная камера</string>
+    <string name="manual_caption">Ручная надпись</string>
+    <string name="mirror">Отражение</string>
+    <string name="mirror_flip">Отражение и переворот</string>
+    <string name="misc">Прочее</string>
+    <string name="modet_amount">Предельное количество движения</string>
+    <string name="modet_radio">Обнаружено движение/таймаут движения</string>
+    <string name="more_actions">Больше действий...</string>
+    <string name="more_actions_ad">"В платной версии можно использовать IP Webcam для генерации событий Tasker для автоматизации.
+ Добавить обработчик в Tasker просто: выберите Profiles ⇨ + ⇨ State ⇨ Plugin ⇨ IP Webcam"</string>
+    <string name="most_phones_put_processor_to_sleep_mode_when_screen_is_off">Т.к. часто смартфоны переводят процессор в спящий режим при выключенном дисплее</string>
+    <string name="motion_detect">Датчик движения</string>
+    <string name="motion_detected">Движение обнаружено</string>
+    <string name="motion_detected_tasker_desc">Какое событие нужно сообщить?</string>
+    <string name="motion_detection">Датчик движения</string>
+    <string name="motion_detection_actions">Действия для датчика движения</string>
+    <string name="motion_detection_desc">Настройки чувствительности и действий</string>
+    <string name="motion_detection_event_active">Датчик таймаута движения</string>
+    <string name="motion_detection_event_sensor">Датчик регистрации движения</string>
+    <string name="motion_detection_sensivity">Чувствительность</string>
+    <string name="motion_detection_sensivity_desc">Чувствительность: $VAL. Может быть изменена в веб-интерфейсе.</string>
+    <string name="motion_detection_sensivity_input">"Введите чувствительность. Большее значение означает, что для обнаружения требуется больше движения. Чувствительность может быть изменена и проверена из веб-интерфейса. Просто включите датчик движения в диалоге \"Запись данных\".
+ Значение по умолчанию: 250"</string>
+    <string name="motion_detection_sensor">Датчик движения</string>
+    <string name="motion_detection_sensor_desc">Требует включенного датчика движения</string>
+    <string name="motion_detection_settings">Настройки датчика движения</string>
+    <string name="motion_inactivity">Остановить запись, если неактивно более</string>
+    <string name="motion_inactivity_edit">Когда движение больше не фиксируется, сколько ожидать его появления перед остановкой записи? Значение в секундах.</string>
+    <string name="motion_record_video">Запись видео</string>
+    <string name="motion_record_video_desc">Запись видео в память телефона, когда обнаружено движение</string>
+    <string name="motion_recording">Запись движения</string>
+    <string name="motion_sound_detection">Датчики движения и звука</string>
+    <string name="motion_tasker_timeout">Таймаут движения</string>
+    <string name="motion_timeout_edit">Когда движение не обнаружено, как долго ожидать его перед сообщением его отсутствия в Tasker? Значение в секундах.</string>
+    <string name="mp4_locked">MP4 (используется для интернет-вещания)</string>
+    <string name="mp4_not_supported">Аппаратное ускорение MP4 не поддерживается этим устройством</string>
+    <string name="night_vision">Ночное видение</string>
+    <string name="night_vision_average">Выдержка ночного видения</string>
+    <string name="night_vision_average_edit">"Сколько кадров усреднять?
+ Увеличение значения пропорционально увеличивает размытие и уменьшает шум."</string>
+    <string name="night_vision_average_value">$VAL кадра</string>
+    <string name="night_vision_gain">Усиление ночного видения</string>
+    <string name="night_vision_gain_edit">"Интенсивность изображения будет умножена на это значение.
+ Учтите, что шум также умножается на это значение.
+ Можно вводить дробные значения."</string>
+    <string name="night_vision_gain_value">$VALX больше интенсивности</string>
+    <string name="night_vision_toggle">Переключение ночного видения</string>
+    <string name="no">Нет</string>
+    <string name="no_address_detected">(адрес не определён)</string>
+    <string name="no_caption">Нет заголовка</string>
+    <string name="no_color">Нет цвета</string>
+    <string name="no_direction">Нет</string>
+    <string name="no_password">Нет пароля</string>
+    <string name="no_sound">Нет звука</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="ok">OK</string>
+    <string name="ok_i_get_it">ОК</string>
+    <string name="only_available_in_pro">Это доступно только в IP Webcam Pro. Купить сейчас?</string>
+    <string name="openh264_by_cisco">Видеокодек OpenH264 предоставлен Cisco Systems, Inc.</string>
+    <string name="orientation">Ориентация</string>
+    <string name="other_actions">Другие действия...</string>
+    <string name="overlay">Переключение наложения даты/времени</string>
+    <string name="overlay_desc">Накладывать дату/время/заряд на видео</string>
+    <string name="overlay_title">Дата/время</string>
+    <string name="password">Пароль:</string>
+    <string name="password_set">Пароль установлен</string>
+    <string name="photo_res">Разрешение фото</string>
+    <string name="play_sound_on_motion">Проиграть звук</string>
+    <string name="plugins">Расширения</string>
+    <string name="port">Порт</string>
+    <string name="port_number_in_range_1024_65536">Номер порта, в диапазоне 1024–65536</string>
+    <string name="portrait">Портретная</string>
+    <string name="power_mgmt">Управление питанием</string>
+    <string name="power_mgmt_desc">Выключать экран или камеру когда не используется</string>
+    <string name="prevent_going_to_sleep">Предотвращать переход в режим ожидания</string>
+    <string name="primary_camera">Основная камера</string>
+    <string name="pro_desc">" В IP Webcam Pro есть:
+ - "<b>Интеграция с Tasker</b>" . Автоматизируйте телефон, когда обнаружено движение или когда нажаты кнопки в редактируемом и веб-интерфейсе.
+ - "<b>Редактируемый интерфейс</b>" . Создайте свою IP Webcam! Показывайте интересующие настройки или изменяйте их с экрана вещания, записывайте видео и снимайте фото.
+ - "<b>Ярлык для запуска</b>" . Запускайте IP Webcam прямо с рабочего стола.
+ - "<b>Отсутствие баннера</b>" на записанном видео.
+ - "<b>Отсутствие рекламы</b>" .
+ "</string>
+    <string name="processing_request">Запрос обрабатывается...</string>
+    <string name="quality">Качество</string>
+    <string name="rear_camera">Задняя камера</string>
+    <string name="record_video">Запись видео</string>
+    <string name="record_video_button">Кнопка записи видео</string>
+    <string name="record_video_circular">Запись видео (циклическая)</string>
+    <string name="refresh">Обновить</string>
+    <string name="res_warn">Высокие разрешения видео 1280x720 иногда плохо работают на Android 2.x. Если видео кажется \"зелёным\", попробуйте уменьшить разрешение.</string>
+    <string name="resolution">Разрешение</string>
+    <string name="result">Результат</string>
+    <string name="right">Направо</string>
+    <string name="run_in_background">Работать в фоновом режиме</string>
+    <string name="run_ipwebcam">Запуск IP Webcam</string>
+    <string name="saturation">Насыщенность</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="save_ui">Сохранить</string>
+    <string name="saved">Сохранено</string>
+    <string name="saved_ui_to_clipboard">Сохранено в буфер обмена</string>
+    <string name="saved_video_location">Сохранять видеофайлы в</string>
+    <string name="scene_mode">Режим сцены</string>
+    <string name="script_configure">Настройки</string>
+    <string name="scripts_desc">Установить и настроить расширения IP Webcam</string>
+    <string name="second_value">Второе значение</string>
+    <string name="secondary_camera">Вторичная камера</string>
+    <string name="seconds">$VAL секунд</string>
+    <string name="seeker">Ползунок</string>
+    <string name="select_action">Выбрать действие</string>
+    <string name="select_caption">Выбрать надпись</string>
+    <string name="select_enabled_features">Выберите активные возможности</string>
+    <string name="select_features_that_require_password">Выбрать функции, требующие пароля</string>
+    <string name="send_ip_via">Отправить IP через …</string>
+    <string name="sensor_retention">Хранить данные сенсоров</string>
+    <string name="sensor_retention_edit">"Как долго данные с сенсора остаются в памяти и доступны для скачивания?
+ По умолчанию: 5 секунд."</string>
+    <string name="sensors">Запись данных</string>
+    <string name="sensors_desc">Собирать данные с сенсоров и отображать их на веб-странице</string>
+    <string name="service_control">Управление службой</string>
+    <string name="shallow_sleep">Чуткий сон</string>
+    <string name="shallow_sleep_desc">Когда экран выключен, улучшает производительность веб-сервера, использует чуть больше процессора.</string>
+    <string name="share_ip">Отправить IP</string>
+    <string name="signed_scripts_only_for_lite">IP Webcam Lite поддерживает только подписанные скрипты</string>
+    <string name="skype_faq">"Чтобы использовать IP Webcam с Skype, нужен компьютер и софт для видеообщения.
+
+ Если вы не обратили внимание на описание в Маркете, для видеочатов программа может передавать только видео и работает под Windows.
+
+ Сама программа функционал видеочата не предоставляет, а имитирует IP-камеру. Поэтому, первым делом подсоединитесь к телефону с помощью веб-браузера. Вы найдёте ссылки на драйвера и инструкции по их настройке там, под ссылкой \\Использование с видеочатами\\."</string>
+    <string name="skype_faq_title">Хочу использовать Skype!</string>
+    <string name="sleep_behavior">Режим сна</string>
+    <string name="sound_detection_sensor_desc">Требуется включенный датчик звука</string>
+    <string name="sound_event_sensor">Датчик регистрации звука</string>
+    <string name="sound_timeout_sensor">Датчик таймаута звука</string>
+    <string name="start_from_homescreen">Запускать IP Webcam с домашней страницы</string>
+    <string name="start_server">Запустить</string>
+    <string name="stop">Остановить</string>
+    <string name="stop_camera">Остановить камеру</string>
+    <string name="stop_camera_desc">Отпускать камеру, когда она не используется. Движение не будет обнаруживаться, когда камера неактивна.</string>
+    <string name="stopbtn">"Сейчас сервер будет остановлен.
+ Для удобства останавливайте сервер аппаратной кнопкой \\Назад\\."</string>
+    <string name="stream_boot_warn">Если устройство перезагружается во время использования IP Webcam, то это происходит, скорее всего, из-за перегрева процессора. Пожалуйста, снимите с устройства крышку или поместите его в прохладное место вместо использования автозапуска.</string>
+    <string name="take_photo">Снять фото</string>
+    <string name="take_photo_af">Снять фото с фокусом</string>
+    <string name="take_photo_button">Кнопка съёмки фото</string>
+    <string name="tasker">Событие Tasker</string>
+    <string name="tasker_identifier">Событие Tasker</string>
+    <string name="tasker_label_ipwebcam_camera_activated">Камера активирована</string>
+    <string name="tasker_label_ipwebcam_camera_deactivated">Камера деактивирована</string>
+    <string name="tasker_label_ipwebcam_custom_event">Своё событие</string>
+    <string name="tasker_label_ipwebcam_motion_detection">Обнаружено движение</string>
+    <string name="text">Текст</string>
+    <string name="text_bg_color">Цвет фона текста</string>
+    <string name="text_color">Цвет текста</string>
+    <string name="text_format">Формат даты/времени</string>
+    <string name="text_format_desc">Формат отображения даты</string>
+    <string name="text_format_help">"Введите формат текста:
+ %%x замещается датой
+ %%X замещается временем
+ %%q замещается иконкой батареи
+ %%Q замещается зарядом батареи
+ %%o замещается индикатором подключения зарядного устройства
+ 
+ Дополнительная информация о форматах даты и времени можно найти здесь: http://goo.gl/MCc6BR"</string>
+    <string name="text_overlay">Включить наложение</string>
+    <string name="text_position">Положение даты/времени</string>
+    <string name="the_url_has_been_copied_to_clipboard">Адрес $URL$ был помещён в буфер</string>
+    <string name="toggle_led">Переключить вспышку</string>
+    <string name="toggle_preview">Переключить предварительный просмотр</string>
+    <string name="top">Наверх</string>
+    <string name="torch_disabled">Вспышка выключена</string>
+    <string name="torch_enabled">Вспышка включена</string>
+    <string name="try_out_mkv_q">"В IP Webcam доступен новый формат видеозаписи, предоставляющий качество выше WebM, намного меньший размер, чем MOV, и большую стабильность, чем MP4
+
+ Переключение формата всегда доступно в меню \"Настройки видео->Запись видео\"
+
+ Для скачивания требуется активное подключение к интернету. Будет скачано 400 килобайт. Скачать поддержку формата MKV сейчас?"</string>
+    <string name="ui_settings">Настройки</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="unsigned_scripts_disabled">Неподписанные скрипты отключены в настройках</string>
+    <string name="upside_down">Перевернутая</string>
+    <string name="upside_down_portrait">Перевёрнутая портретная</string>
+    <string name="usb_camera_by">$VENDOR (PID: $PID) Камера UVC</string>
+    <string name="usb_cameras">USB-камера</string>
+    <string name="usb_refresh_desc">Обновить подсоединенные устройства USB</string>
+    <string name="use_customized_ui">Использовать свой интерфейс</string>
+    <string name="use_default_ui">Использовать интерфейс по умолчанию</string>
+    <string name="use_front_facing_camera">Использовать переднюю камеру</string>
+    <string name="user_interface">Интерфейс</string>
+    <string name="vertical_orientation">Повернуть по вертикали</string>
+    <string name="video_bitrate">Битрейт видео</string>
+    <string name="video_bitrate_template">$KBITS кбит/с, $MBM Мбит/мин</string>
+    <string name="video_chunk_len">Размер фрагмента видео</string>
+    <string name="video_format">Формат видео</string>
+    <string name="video_format_cisco">MKV (программный h.264 + Opus)</string>
+    <string name="video_format_mov">MOV (размер файла зависит от качества потока)</string>
+    <string name="video_format_mp4">MP4, нестабилен на некоторых устройствах (h.264 + AAC)</string>
+    <string name="video_format_mp4_nosupport">(Не поддерживается устройством) MP4 (h.264 + AAC)</string>
+    <string name="video_format_webm">WebM (VP8 + Opus)</string>
+    <string name="video_orientation">Ориентация видео</string>
+    <string name="video_preferences">Настройки видео</string>
+    <string name="video_preview">Предпросмотр видео</string>
+    <string name="video_preview_desc">Эта опция отображает на экране изображение с применёнными эффектами. Пожалуйста, не используйте эту функцию, когда не держите телефон в руках — она использует очень много процессора и батареи.</string>
+    <string name="video_quality">Качество видео</string>
+    <string name="video_recording">Запись видео</string>
+    <string name="video_recording_desc">Где и как записывать видео</string>
+    <string name="video_resolution">Разрешение видео</string>
+    <string name="video_settings_desc">Разрешение, фокус, другие настройки видео</string>
+    <string name="warn">Внимание!</string>
+    <string name="watch_tutorial">Посмотреть видео</string>
+    <string name="what_should_i_do">Что требуется сделать?</string>
+    <string name="white_balance">Баланс белого</string>
+    <string name="whitebalance">Баланс белого</string>
+    <string name="wrong_email">Неверный адрес электронной почты</string>
+    <string name="yes">Да</string>
+    <string name="zoom">Увеличение</string>
+</resources>

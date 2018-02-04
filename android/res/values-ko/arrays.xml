@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|자동</item>
+        <item>off|꺼짐</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|아쿠아</item>
+        <item>blackboard|검게 처리</item>
+        <item>emboss|엠보싱</item>
+        <item>mono|흑백모드</item>
+        <item>negative|반전</item>
+        <item>neon|네온</item>
+        <item>none|효과 없음</item>
+        <item>posterize|포스터처럼</item>
+        <item>sepia|세피아</item>
+        <item>sketch|스케치</item>
+        <item>solarize|태양처럼 강하게</item>
+        <item>whiteboard|화이트보드</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|자동 플래쉬</item>
+        <item>off|플래쉬 금지</item>
+        <item>on|항상 플래쉬 사용</item>
+        <item>red-eye|적목감소 모드</item>
+        <item>torch|플래쉬 라이트 모드</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|자동</item>
+        <item>continuous-picture|거칠게, 사진 찍기 위한</item>
+        <item>continuous-video|부드럽게, 녹화를 위한</item>
+        <item>edof|또렷하게, 연속장면을 위한</item>
+        <item>fixed|고정</item>
+        <item>infinity|무한대</item>
+        <item>macro|매크로, 수동</item>
+        <item>normal|일반</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|Augmented reality</item>
+        <item>action|움직이는 물체</item>
+        <item>asd|어둠 자동감지</item>
+        <item>auto|자동</item>
+        <item>backlight|배경</item>
+        <item>barcode|바코드 읽기</item>
+        <item>beach|해변</item>
+        <item>candlelight|양초 불빛</item>
+        <item>fireworks|불꽃놀이</item>
+        <item>flowers|꽃</item>
+        <item>hdr|HDR</item>
+        <item>landscape|풍경</item>
+        <item>night|야간</item>
+        <item>night-portrait|야간 인물화</item>
+        <item>party|파티</item>
+        <item>portrait|인물화</item>
+        <item>snow|눈</item>
+        <item>sports|스포츠</item>
+        <item>steadyphoto|흐릿함 방지</item>
+        <item>sunset|일몰</item>
+        <item>theatre|극장</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|가속계</item>
+        <item>ambient_temp|주변 온도</item>
+        <item>battery_level|배터리 레벨</item>
+        <item>battery_temp|배터리 온도</item>
+        <item>battery_voltage|배터리 전압</item>
+        <item>gravity|중력 센서</item>
+        <item>gyro|자이로 스코프</item>
+        <item>humidity|상대 습도</item>
+        <item>light|명암 센서</item>
+        <item>lin_accel|리니어 액셀</item>
+        <item>mag|자장계</item>
+        <item>motion|모션량</item>
+        <item>motion_active|모션 동작함</item>
+        <item>motion_event|모션 보고됨</item>
+        <item>pressure|압력</item>
+        <item>proximity|근접 센서</item>
+        <item>rot_vector|로테이션 벡터</item>
+        <item>sound|오디오 센서</item>
+        <item>temp|온도</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lx</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|rad/s</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|자동</item>
+        <item>cloudy-daylight|구름낀 낮</item>
+        <item>daylight|낮</item>
+        <item>fluorescent|형광등</item>
+        <item>incandescent|전구색</item>
+        <item>shade|그늘</item>
+        <item>twilight|해질 녘</item>
+        <item>warm-fluorescent|주광색</item>
+    </string-array>
+</resources>

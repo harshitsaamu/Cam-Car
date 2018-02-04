@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.pas.webcam" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="Car Cam" android:name="com.pas.webcam.App" android:theme="@style/AppBaseTheme">
+        <service android:name="com.pas.webcam.WebServer" android:permission="android.permission.CAMERA">
+            <intent-filter>
+                <action android:name="android.intent.webcam.MAIN"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:label="car cam" android:launchMode="singleTop" android:name="com.pas.webcam.Configuration">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="com.pas.webcam.Rolling" android:screenOrientation="landscape" android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pas.webcam.configpages.LocalConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.CameraConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.OverlayConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.PowerConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.MotionDetection"/>
+        <activity android:name="com.pas.webcam.configpages.SensorConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.NightVisionConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.RecorderConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.CloudStreamingConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.ScriptListConfiguration"/>
+        <activity android:name="com.pas.webcam.configpages.ScriptInstaller"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.pas.webcam.configpages.ScriptConfiguration"/>
+        <activity android:name="com.pas.uied.editors.ControlEditor" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.pas.uied.editors.UiSettings" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.pas.uied.editors.ToggleControlEditor" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="orientation" android:label="car cam" android:launchMode="singleTask" android:name="com.pas.uied.UiEditor" android:screenOrientation="landscape" android:theme="@style/FullScreen"/>
+        <activity android:label="@string/ipw_cheat" android:name="com.pas.webcam.QRCheatActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ipwcheat"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:name="com.pas.webcam.BootUpReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.ads.conversiontracking.InstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+    </application>
+</manifest>

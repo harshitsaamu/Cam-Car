@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_capital_off">사용 안함</string>
+    <string name="abc_capital_on">사용</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s에서 Android Wear 앱을 업데이트해야 합니다.</string>
+    <string name="common_android_wear_update_text">%1$s은(는) Android Wear 앱을 업데이트하지 않으면 실행되지 않습니다.</string>
+    <string name="common_android_wear_update_title">Android Wear 업데이트</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s에 필요한 하나 이상의 Google Play 서비스를 현재 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다.</string>
+    <string name="common_google_play_services_enable_button">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s에서 요청</string>
+    <string name="common_google_play_services_install_button">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_install_text_phone">휴대전화에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_text_tablet">태블릿에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_invalid_account_text">지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요.</string>
+    <string name="common_google_play_services_invalid_account_title">올바르지 않은 계정</string>
+    <string name="common_google_play_services_needs_enabling_title">Google Play 서비스를 사용 설정해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_network_error_text">Google Play 서비스에 연결하려면 데이터 연결이 필요합니다.</string>
+    <string name="common_google_play_services_network_error_title">네트워크 오류</string>
+    <string name="common_google_play_services_notification_needs_update_title">Google Play 서비스를 업데이트해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
+    <string name="common_google_play_services_sign_in_failed_text">지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요.</string>
+    <string name="common_google_play_services_sign_in_failed_title">로그인 실패</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 서비스에 알 수 없는 문제가 발생했습니다.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 서비스</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_updating_title">Google Play 서비스 업데이트 중</string>
+    <string name="common_open_on_phone">휴대전화에서 열기</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="accessing">"내부네트워크에서 화면 보기:
+ * 앱의 \"서버 시작\" 버튼을 누르세요.
+ * 컴퓨터 웹브라우저에 폰 화면하단에 보이는 http://&lt;your_ip>:&lt;port> IP 를 입력하세요.
+ * \"연결방법\" 버튼은 카메라 화면을 보기 위한 네트워크 설정을 도와줄 것입니다.
+ * 사용자이름과 패스워드를 입력한 후 보기 방식을 선택하세요.
+ * 링크에 연결이 안된다면 폰의 IP 주소로 ping 을 실행시켜보고, 그래도 안되면 네트워크 설정을 점검하세요.
+ Ivideon 을 통한 화면 보기:
+ * \"클라우드 스트리밍\" 설정에서 Ivideon 계정으로 연결
+ * 앱의 \"서버 시작\" 버튼을 누르세요.
+ * http://ivideon.com/my 혹은 Ivideon 앱에서 계정으로 로그인하세요."</string>
+    <string name="accessing_title">내 폰에 연결하기</string>
+    <string name="acknowledgements">"IP Webcam 은 아래의 소프트웨어를 사용함:
+ libjpeg, © Independent JPEG Group, http://lij.org
+ ffmpeg, © FFmpeg team, http://ffmpeg.org/
+ libvpx, © WebM project, http://www.webmproject.org/
+ libopus, © Xiph.org Foundation and others, http://opus-codec.org/
+ mongoose (MIT fork), © Sergey Lyubka, https://github.com/cesanta/mongoose
+ 
+ Special thanks to:
+ Hank Quakevauld for Chinese translation
+ Nenad Tomasic for German translation
+ Paolo Stavolo for Italian translation
+ Froozeify for French translation
+ Francisco Rosúa for Spanish translation
+ Sangyong, Byun for Korean translation
+ Rafał Płatek http://www.getpoland.com for Polish translation
+ Alexey Vasilyev for amazing viewer, tinyCam Monitor
+ 
+ Thanks to:
+ Robb Larsen, Jason Tarnutzer for Droid X testing
+ Marcus Pascall, Eugene Jennings, Peter Boeren, Scott B, Eric Batts, Alexei Vidmich for application testing.
+ Berthold Möller for his help with pinpointing the nasty issue."</string>
+    <string name="acknowledgements_title">알림</string>
+    <string name="action">동작...</string>
+    <string name="action_increase_decrease">증가/감소</string>
+    <string name="action_set">정해진 값 설정</string>
+    <string name="action_settings">설정</string>
+    <string name="action_toggle">두 값 사이에서 토글</string>
+    <string name="actions">동작</string>
+    <string name="actions_">동작...</string>
+    <string name="active_sensors">동작하는 센서</string>
+    <string name="active_ui">액티브 인터페이스</string>
+    <string name="add_control">추가</string>
+    <string name="addrf">IPv4/IPv6 선택</string>
+    <string name="adet_amount">오디오 감지 레벨</string>
+    <string name="adet_radio">소리가 감지되었음/시간 초과</string>
+    <string name="adet_record_video_desc">소리가 감지되었을때 내부저장소에 영상 녹화</string>
+    <string name="allow_signed_scripts_only">서명된 스크립트만 허용</string>
+    <string name="always_show">항상 보여줌</string>
+    <string name="antibanding">Antibanding</string>
+    <string name="antibanding_mode">안티밴딩</string>
+    <string name="are_you_sure_you_want_to_remove_this_script">이 스크립트를 삭제하시겠습니까? 이 스크립트에서 저장된 모든 세팅값이 삭제됩니다.</string>
+    <string name="aspect_11">1:1</string>
+    <string name="aspect_12">1:2</string>
+    <string name="aspect_13">1:3</string>
+    <string name="aspect_14">1:4</string>
+    <string name="aspect_21">2:1</string>
+    <string name="aspect_31">3:1</string>
+    <string name="aspect_41">4:1</string>
+    <string name="aspect_ratio">가로세로 비율</string>
+    <string name="audio_bitrate_template">$KBITS kbit/s</string>
+    <string name="audio_mode_audio_only">음성만 듣기(영상 안 보임)</string>
+    <string name="audio_mode_disabled">음성 듣기 금지</string>
+    <string name="audio_mode_enabled">음성 듣기 허용</string>
+    <string name="audio_only">음성만</string>
+    <string name="audio_sensor">사운드 센서</string>
+    <string name="audio_tasker_timeout">사운드 이벤트 타임아웃</string>
+    <string name="audiopref">오디오 모드</string>
+    <string name="auto_exposure_lock">노출 잠금</string>
+    <string name="auto_white_balance_lock">화이트밸런스 잠금</string>
+    <string name="autostart">폰이 부팅될 때 스트리밍 시작</string>
+    <string name="autostart_desc">부팅시 IP 카메라를 동작시키려면, 이 옵션을 체크하고 세팅-보안-화면잠금을 해제하세요</string>
+    <string name="background">백그라운드에서 동작</string>
+    <string name="backgroundbtn">"앱은 이제부터 백그라운드에서 동작할 것입니다.
+ \"홈\" 키를 누름으로써 빨리 IP Webcam 을 백그라운드 동작시킬수가 있습니다."</string>
+    <string name="battery_percent_sensor">배터리 잔량 센서</string>
+    <string name="battery_temperature_sensor">배터리 온도센서</string>
+    <string name="battery_voltage_sensor">배터리 전압 센서</string>
+    <string name="begin_serving_video_stream">영상스트림 서버 시작</string>
+    <string name="bottom">아래</string>
+    <string name="brightness">밝기</string>
+    <string name="button">버튼</string>
+    <string name="camera_active_idle">카메라 동작/정지</string>
+    <string name="camera_is_used_by_another_app">카메라가 다른 앱에서 사용중이라서 초기화할 수 없음!</string>
+    <string name="camera_settings">카메라 설정</string>
+    <string name="camera_status">카메라 상태</string>
+    <string name="cancel">취소</string>
+    <string name="cannot_access_internet">인터넷 액세스 불가능</string>
+    <string name="cannot_open_configured_camera">전의 카메라 설정을 열 수 없습니다. 디폴트값을 사용하시겠습니까? 그전 설정값은 지워지게 됩니다.</string>
+    <string name="cannot_open_port">포트를 열 수 없습니다. 포트를 사용중인 프로그램을 종료하거나 다른 포트를 선택하세요.</string>
+    <string name="carrier_grade_nat">(carrier-grade NAT)</string>
+    <string name="cheat_is_not_recognized">치트키를 인식할 수 없음</string>
+    <string name="cheats">치트키</string>
+    <string name="chunk_size">녹화 용량 분할</string>
+    <string name="chunk_size_desc">연속된 녹화영상 $VAL 분 단위로 나누기</string>
+    <string name="chunk_size_edit">연속 녹화 시간 입력(분단위)</string>
+    <string name="cisco_codec_required_download_q">OpenH264 를 활성화 시키기 위해서는 장치에 코덱을 다운받아야 합니다. 다운로드를 진행하시겠습니까?</string>
+    <string name="cloud_account_already_exists">이 이메일은 이미 등록되어 있습니다. 이 계정을 가지고 있다면 로그인하세요.</string>
+    <string name="cloud_create_account_eula">계정을 생성하면 <a href="https://go.ivideon.com/?target=terms_of_service&amp;lang=en">Ivideon terms of service</a> Ivideon 서비스사용에 동의하게 됩니다.</string>
+    <string name="cloud_create_an_account">계정 생성</string>
+    <string name="cloud_create_an_account_desc">무료이고 몇 분이면 됩니다</string>
+    <string name="cloud_create_an_account_email_hint">이메일 (Ivideon 로그인)</string>
+    <string name="cloud_create_an_account_password_hint">패스워드 생성</string>
+    <string name="cloud_creating_account">계정 생성...</string>
+    <string name="cloud_faq">Ivideon FAQ</string>
+    <string name="cloud_faq_desc">Ivideon은 무엇인지, 여러가지 옵션과 당신의 영상에 어떻게 접속하는지 등에 대한</string>
+    <string name="cloud_log_in">로그인</string>
+    <string name="cloud_log_in_desc">이미 Ivideon 에 등록되어 있습니다</string>
+    <string name="cloud_log_in_password_hint">패스워드를 입력하세요</string>
+    <string name="cloud_log_in_password_isnt_saved">암호는 당신의 폰에 저장되지 않았습니다.</string>
+    <string name="cloud_log_in_q">로그인 하시겠습니까?</string>
+    <string name="cloud_log_out">로그아웃</string>
+    <string name="cloud_log_out_desc">현재 활성화된 계정에서 로그아웃</string>
+    <string name="cloud_log_out_really">로그아웃 하시겠습니까?</string>
+    <string name="cloud_login_failed">로그인 실패: 이메일과 패스워드를 확인하세요</string>
+    <string name="cloud_login_too_frequent">로그인 시도가 너무 잦습니다. 30초뒤에 다시 시도하세요.</string>
+    <string name="cloud_new_user_failed">새로운 사용자 만들기에 실패했습니다.</string>
+    <string name="cloud_password_cannot_be_empty">패스워드는 반드시 입력해야 함</string>
+    <string name="cloud_roster_failed">당신의 폰에서는 Ivideon 계정에 연결할 수 없음: $ERROR</string>
+    <string name="cloud_streaming">클라우드 스트리밍</string>
+    <string name="cloud_streaming_active">클라우드 스트리밍 동작중</string>
+    <string name="cloud_streaming_active_desc">Ivideon 웹사이트나 응용프로그램을 통해 영상을 볼 수 있음</string>
+    <string name="cloud_streaming_desc">어디에서든 Ivideon을 통해서 영상에 접속하세요.</string>
+    <string name="cloud_streaming_not_supported">클라우드 스트리밍이 지원되지 않음</string>
+    <string name="cloud_streaming_not_supported_desc">이 장치에서는 클라우드 스트리밍을 지원하지 않거나 필요한 인코더를 찾을 수 없습니다. ivideon 을 지원하려면 안드로이드 4.1이상의 버젼이 필요합니다. 외부에서 폰에 접속하려면 와이파이 환경의 포트포워딩을 사용하여 폰이 SSH 나 VPN 서버에 접근할 수 있도록 해 주세요. 아니면 당신의 통신사업자에게 접근가능한 IP 주소를 문의하세요.</string>
+    <string name="cloud_streaming_optimize">화면해상도를 $NEWRES 에 맞추고 1200 kbps 비트레이트로 설정해서 최적화 하시겠습니까?</string>
+    <string name="cloud_streaming_supported">인코더 테스트가 성공적으로 완료되었습니다. 이 장치에서 클라우드 스트리밍을 사용할 수 있습니다. 이 장치를 실시간 스트리밍 서비스에 연결하려면 로그인하세요.</string>
+    <string name="color_effect">컬러 효과</string>
+    <string name="compressed_audio_bitrate">음성압축 비트레이트</string>
+    <string name="conn_template">Video connections: $VC, audio: $AC</string>
+    <string name="connect_using_ivideon">Ivideon 사용</string>
+    <string name="connect_using_ivideon_desc">어디에서나 카메라에 접속하기 위해서 Ivideon 클라우드 서비스를 사용</string>
+    <string name="connect_using_ivideon_desc_disabled">비활성:</string>
+    <string name="connect_using_ivideon_desc_enabled">활성:</string>
+    <string name="connect_using_ivideon_disabled">"Ivideon 스트리밍을 사용하려면 설정 ->클라우드 스트리밍을 활성화 해 주세요. Android 4.1 이상의 대부분의 장치에서 지원됩니다.
+ Ivideon 서비스는 추가설정없이 어디에서든 카메라에 접속할 수 있게 해 줍니다. 2대의 카메라까지는 무료이고 그 이상의 카메라나 클라우드 저장 등은 유료로 사용할 수 있습니다."</string>
+    <string name="connect_using_ivideon_enabled">당신의 Ivideon 계정인 <b>$ACCOUNT</b>" 로 http://ivideon.com/my 싸이트나 안드로이드, 아이폰, 맥 또는 PC 상의 Ivideon 응용프로그램에서 영상을 볼 수 있습니다 "</string>
+    <string name="connect_using_local">직접 연결</string>
+    <string name="connect_using_local_desc">네트워크에 직접 접속할 수 있을 때</string>
+    <string name="connection_error">연결 오류</string>
+    <string name="connection_error_retry">연결 오류. 재시도하겠습니까?</string>
+    <string name="connection_settings">연결 설정</string>
+    <string name="connections">화면 연결</string>
+    <string name="contacting_ivideon">ivideon 에 접속 중...</string>
+    <string name="control_vertical">수직</string>
+    <string name="copy_ip_to_clipboard">클립보드로 IP 복사</string>
+    <string name="copy_to_clipboard">클립보드로 복사</string>
+    <string name="copy_ui_to_clipboard">클립보드로 인터페이스 복사</string>
+    <string name="create_start_shortcut">바로가기 만들기</string>
+    <string name="custom_action">일반적인 동작</string>
+    <string name="customize_ui">카메라 화면 사용자 설정</string>
+    <string name="date_time_format">날짜/시간 형식</string>
+    <string name="deact_display">화면 비활성화</string>
+    <string name="deact_display_desc">동작하지 않을 때는 화면을 끔</string>
+    <string name="default_mode_setting">기본값</string>
+    <string name="delete">삭제</string>
+    <string name="delete_button">인터페이스의 콘트롤을 지우려면 이 버튼 위로 드래그 하세요.</string>
+    <string name="details">자세히...</string>
+    <string name="detected_devices">장치 디텍트됨</string>
+    <string name="disable_notification">알림 금지</string>
+    <string name="disabled">금지</string>
+    <string name="discard_changes">변경 무시</string>
+    <string name="disguise">감춤</string>
+    <string name="disguisebtn">"이제 서버가 감춰질 것입니다.
+ 모든 기능을 사용할 수 있는 브라우저 창이 열릴 것입니다.
+ \"뒤로\" 버튼은 서버를 정지하고 보통의 브라우저와 같은 홈화면을 띄울 것입니다
+ \"홈\" 버튼은 백그라운드로 보냅니다(팝업을 원하지 않으면 옵션에서 알림을 금지시키세요)."</string>
+    <string name="display_setting_name">화면 설정 이름</string>
+    <string name="display_value_only">값만 표시</string>
+    <string name="do_nothing">아무것도 안 함</string>
+    <string name="do_you_want_to_watch_tutorial">강좌 영상을 보시겠습니까?</string>
+    <string name="don_t_show_app_running_in_background">백그라운드 동작시 앱을 보이지 않음</string>
+    <string name="downloading_the_codec">비디오코덱 다운로드 중...</string>
+    <string name="downloading_the_plugin">플러그인 다운로딩 중...</string>
+    <string name="drawer_direction">방향 설정</string>
+    <string name="edit_control">편집</string>
+    <string name="effects_desc">야간촬영 향상, 날짜/시간 포함</string>
+    <string name="effects_title">효과</string>
+    <string name="embed_date_time">날짜와 시간 포함</string>
+    <string name="embed_gps_coords">내장된 GPS 좌표</string>
+    <string name="enable_motion_detection">동작 감지 허용</string>
+    <string name="enable_motion_detection_desc">카메라를 사용하지 않을 때도 배터리는 소모됩니다</string>
+    <string name="enable_night_vision">야간촬영 허용</string>
+    <string name="enable_night_vision_desc">어두운 곳에서 좀더 향상된 영상</string>
+    <string name="enable_sensors">센서 동작 허용</string>
+    <string name="enable_sound_sensor">사운드 센서 활성</string>
+    <string name="enabled">활성</string>
+    <string name="enter_a_cheat">치트키를 입력하세요 (다음에서 치트키 리스트를 얻을 수 있음 http://ip-webcam.appspot.com)</string>
+    <string name="enter_increment_decrement">증가나 감소 시키세요 (마이너스 값으로)</string>
+    <string name="event_is">이벤트:</string>
+    <string name="experimental_use_lower_resolutions_when_it_s_on_and_report_issues">검증전 임! 문제점이 보고되면 저해상도를 선택하세요</string>
+    <string name="exposure_compensation">노출 보상</string>
+    <string name="fade">페이드</string>
+    <string name="fadebtn">"배터리를 절약하기 위해서 화면이 페이드 됩니다.
+ 폰의 \"잠금\" 버튼으로 화면을 끌 수 없을 것입니다. 대부분의 CPU 가 슬립모드로 들어가서 잠금해제를 무시하게 됩니다.
+ 화면을 터치하면 UI를 다시 보여줍니다."</string>
+    <string name="failed_to_send_report_for_reason">보고서 보내기 실패. 다시 시도하겠습니까? 원인은:</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_another">다른 문의사항이 있으면 <a href="mailto:pas.anddev@gmail.com">pas.anddev@gmail.com</a> 로 언제든지 메일주세요~</string>
+    <string name="faq_another_title">그외의 질문</string>
+    <string name="feature_audio_aac">Audio (Aac)</string>
+    <string name="feature_audio_in">양방향 음성</string>
+    <string name="feature_audio_ogg">Audio (Ogg)</string>
+    <string name="feature_audio_wav">Audio (Wav)</string>
+    <string name="feature_focus_ctl">포커스 제어</string>
+    <string name="feature_gps">위치 취득</string>
+    <string name="feature_html">현재 페이지</string>
+    <string name="feature_immediate_photo">영상 프레임 취득</string>
+    <string name="feature_photo">사진 찍기</string>
+    <string name="feature_photo_af">사진찍기(오토포커스 포함)</string>
+    <string name="feature_ptz">상하좌우 이동과 줌</string>
+    <string name="feature_sensors">센서 정보취득</string>
+    <string name="feature_settings">설정 변경</string>
+    <string name="feature_torch_ctl">LED 플래쉬 제어</string>
+    <string name="feature_video">영상 스트리밍 취득</string>
+    <string name="feature_video_ctl">영상 녹화 제어</string>
+    <string name="feature_video_download">영상 다운로드</string>
+    <string name="fetching_the_plugin_index">플러그인 인덱스 가져오는 중</string>
+    <string name="ffc_hotswitch_not_available">이 해상도에서는 전면카메라 핫스위치를 사용할 수 없음</string>
+    <string name="first_value">첫번째 값</string>
+    <string name="flash_mode">플래쉬 모드</string>
+    <string name="flip">뒤집기</string>
+    <string name="flip_control">뒤집기</string>
+    <string name="flip_desc">영상 뒤집기. 거울처럼 보기 위해 돌리거나 뒤집기</string>
+    <string name="focus">포커스</string>
+    <string name="focus_control">포커스 제어</string>
+    <string name="focus_homing">기준 포커스</string>
+    <string name="focus_mode">포커스 모드</string>
+    <string name="focus_region">포커스 영역</string>
+    <string name="focus_tips">포커스 팁</string>
+    <string name="focusbtn">"카메라가 지금 한번 포커싱을 할 것입니다.
+ 메인창으로부터 포커스를 잡기 위해 \"검색\" 버튼을 누르거나, 웹인터페이스의 \"오토포커스\" 버튼을 누르세요."</string>
+    <string name="force_software_audio">강제적인 소프트웨어 오디오 인코딩</string>
+    <string name="force_software_audio_desc">음성녹음이나 AAC 스트림에 문제가 있었다면 체크하세요</string>
+    <string name="force_software_audio_only">이 장치에서는 H/W 오디오 인코딩이 불가능합니다</string>
+    <string name="force_software_video">강제적인 소프트웨어 비디오 인코딩</string>
+    <string name="force_software_video_desc">수동이나 동작감지 영상녹화에 문제가 있으면 이것을 체크하세요</string>
+    <string name="force_software_video_only">이 기기에서는 H/W 비디오 인코딩을 사용할 수 없음</string>
+    <string name="forgot_password">패스워드를 잊었나요?</string>
+    <string name="fps_description">이 값으로 초당 프레임을 제한(이 폰은 최대 $VAL 를 지원함)</string>
+    <string name="fps_faq">"이 앱은 폰의 최대 프레임을 사용합니다.
+ 느린 CPU 일 경우 비디오 인코딩하는데 처리속도가 저하되고 느린 프레임을 갖습니다. 이럴 때는 해상도를 낮춰서 다시 시도해 보세요.
+ 때때로 폰은 느린 네트워크 상에 있을 수 있습니다. 영상 품질을 낮추면 데이타양이 적어져서 좀더 나은 프레임이 나올 수 있습니다."</string>
+    <string name="fps_faq_title">좀더 높은 프레임을 원해요!</string>
+    <string name="fps_limit">프레임 제한</string>
+    <string name="fps_no_limit">제한없음(CPU/배터리/네트워크 풀가동)</string>
+    <string name="front_camera">전면카메라</string>
+    <string name="get_h264_codec">OpenH264 다운로드</string>
+    <string name="get_pro">Pro 버젼 구입</string>
+    <string name="gps_active">GPS 동작함</string>
+    <string name="gps_coords_format">GPS 좌표형식</string>
+    <string name="how_do_i_connect">어떻게 연결하나요?</string>
+    <string name="how_do_you_want_to_connect">어떻게 연결되기를 원하나요?</string>
+    <string name="how_to_connect_mobile_connection">스마트폰의 인터넷을 이용해서 접속</string>
+    <string name="how_to_connect_wifi_router">와이파이 공유기를 사용</string>
+    <string name="howto_idk">당신의 IP가 디텍트 되지 않았습니다. 이런 경우 대부분, 정상적인 네트워크에 연결되어 있지 않은 경우입니다.</string>
+    <string name="howto_inet_inet">"당신의 IP 주소는 외부주소입니다. 이것은 접근이 쉽지 않습니다. 아마도 디바이스로의 외부접근이 어려운, 통신사의 네트워크상에 있을 것입니다.
+ 
+ 아래 IP 주소로 PC의 웹브라우저상에서 영상을 확인해 보세요.
+ http://$IP:$PORT/
+ 
+ 인터넷을 통한 접근이 가능하다면 운이 좋은 것입니다.
+ 그렇지 않으면 통신사에 문의하여 접속주소를 문의하거나 와이파이 공유기를 사용하세요."</string>
+    <string name="howto_inet_local">"당신의 IP $IP 는 $LOCALRANGE 영역의 사설 IP이므로 같은 내부네트워크에서만 접속할 수가 있습니다.
+ 당신이 뭘 해야 하는지를 안다면 URL 은 아래와 같습니다.
+ http://$IP:$PORT/"</string>
+    <string name="howto_lan_inet">당신은 내부네트워크에 접속해 있나요? 당신의 IP, $IP 는 인터넷 IP 입니다. 이 메세지를 받는다면 특이한 경우이니 자세한 네트워크 설정 정보와 함께 pas.anddev@gmail.com 로 메일을 주세요.</string>
+    <string name="howto_lan_local">"같은 네트워크상에 있는 컴퓨터의 웹브라우저에서 아래 주소로 접속하면 영상을 볼 수 있습니다.
+ http://$IP:$PORT/
+ 
+ 당신의 IP, $IP 는 $LOCALRANGE 의 사설IP 이므로 같은 내부네트워크에서만 접속할 수가 있습니다.
+ 외부에서 영상을 보고자 한다면 DDNS 설정과 포트포워딩 설정이 필요합니다.
+ 자세한 것은 공유기의 설명서를 참조하십시오."</string>
+    <string name="hue">색조</string>
+    <string name="idle">Idle</string>
+    <string name="inactivity">비활성화 처리</string>
+    <string name="inactivity_timeout">비활성화까지의 시간</string>
+    <string name="inactivity_timeout_enter">비활성화까지의 시간 입력(초단위)</string>
+    <string name="including_one_for_impatient_skype_users">조급한 스카이프 유저를 포함하는 묻고 답하기</string>
+    <string name="incorrectly_used_uk_dod_address_range">(잘못된 UK Dod 주소 범위)</string>
+    <string name="install_manage_scripts">설치와 스크립트 관리</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ip_webcam_s_url">"IP Webcam's URL"</string>
+    <string name="ip_webcam_settings">IP Webcam 설정</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv6 address</string>
+    <string name="ipw_cheat">IP Webcam 치트키</string>
+    <string name="ipwebcam_actions">IP Webcam 동작</string>
+    <string name="ipwebcam_crashed_send_report">IP Webcam 이 성공적으로 종료되지 않았습니다. 개발자에게 보고서를 보내시겠습니까? 보고서 ID는:</string>
+    <string name="ipwebcam_events">IP Webcam 이벤트</string>
+    <string name="ivideon_account">Ivideon 계정</string>
+    <string name="ivideon_active">Ivideon 작동</string>
+    <string name="ivideon_faq_1">Ivideon이 무엇인가요?</string>
+    <string name="ivideon_faq_1_desc">"Ivideon은 클라우드 기반의 영상감시 서비스입니다. 어디에서나 당신의 스마트폰, 타블렛, PC 를 통해 영상을 볼 수 있습니다. 당신의 카메라에 움직임이 감지되거나 오프라인이 되면 알려줍니다.
+ Ivideon은 당신의 스마트폰은 물론, PC의 웹카메라, IP카메라, Ivideon 지원이 내장된 어떤 카메라에도 연결할 수 있습니다."</string>
+    <string name="ivideon_faq_2">영상을 어디에서 보나요?</string>
+    <string name="ivideon_faq_2_desc"><a>http://ivideon.com/my</a>" 에 있는 당신의 개인계정이나 Ivideon 모바일앱, 맥이나 PC 상의 Ivideon 클라이언트에서 볼 수 있습니다. "</string>
+    <string name="ivideon_faq_3">내 영상을 누가 볼 수 있나요?</string>
+    <string name="ivideon_faq_3_desc">"당신의 영상은 프라이버시가 보호되며 당신의 계정을 통해서만 가능합니다. 또 친구나 가족 또는 전체 공유를 할 수 있습니다. http://ivideon.com/my 에서 공유설정을 할 수 있습니다.
+ 
+ 영상스트림을 포함한 모든 통신은 업계표준의 강력한 암호화를 통해 전송됩니다."</string>
+    <string name="ivideon_faq_4">Ivideon 에서 영상 녹화</string>
+    <string name="ivideon_faq_4_desc">"Ivideon에서 IP Webcam 내부 녹화영상에 접근할 수 없습니다.
+ 그러나, IP Webcam의 모션이나 소리감지를 설정함으로써 아래롸 같이 Ivideon을 사용할 수 있습니다.
+ • Ivideon 모바일앱을 통한 알림 수신
+ • 모션감지된 영상의 클라우드에 녹화저장과 Ivideon앱과 웹인터페이스를 통한 보기(유료 옵션, http://www.ivideon.com 에서 확인 가능)
+ 
+ IP Webcam의 메뉴설정을 통해 움직임과 소리감지 설정을 할 수 있다."</string>
+    <string name="ivideon_faq_5">Ivideon 기능</string>
+    <string name="ivideon_faq_5_desc">"• 실시간보기와 소리와 함께 저장된 영상보기
+ • 실시간영상을 웹싸이트나 블로그에 올리기
+ • 가족이나 친구들과 사적으로 공유할 수 있고 SNS를 통해 URL 을 생성할 수 있음
+ • 여러가지 이벤트의 메일알림 수신(카메라 꺼짐, 움직임 감지 등)
+ • 지도상에 보다 쉽게 당신의 카메라를 배치할 수 있음
+"</string>
+    <string name="ivideon_faq_6">무료와 프리미엄의 차이</string>
+    <string name="ivideon_faq_6_desc">"무료로 2대의 카메라 영상을 볼 수 있음.
+ 2대 이상의 카메라 추가와 클라우드에 영상녹화하기 같은 고급옵션은 유료로 지원됨."</string>
+    <string name="ivideon_faq_7">Ivideon 지원</string>
+    <string name="ivideon_faq_7_desc">Ivideon 서비스에 대한 문의는 <a>support@ivideon.com</a> 으로 하면 됩니다. 다른 문의방법은 <a>ivideon.com</a> 에 나와 있습니다.</string>
+    <string name="ivideon_is_not_supported_on_device">이 장치에서는 Ivideon을 지원하지 않습니다</string>
+    <string name="ivideon_logged_in">" Ivideon에 성공적으로 로그인 되었습니다. 당신의 장치는 "<b>$ACCOUNT</b>" 에 등록되었습니다.
+ 
+ 실시간보기를 하시려면 방송보기를 시작하거나 http://ivideon.com/my 을 열거나 혹은 Ivideon 모바일앱을 이용하세요. "</string>
+    <string name="ivideon_login_email">ivideon 로그인 이메일</string>
+    <string name="ivideon_login_email_desc">이메일을 입력하세요.</string>
+    <string name="ivideon_ready_to_stream">스트림 준비됨!</string>
+    <string name="ivideon_test_compatibility">호환성 테스트</string>
+    <string name="ivideon_test_compatibility_desc">Ivideon 스트리밍이 가능한지 장치를 테스트</string>
+    <string name="keep_active">화면상태 유지</string>
+    <string name="keep_active_desc">안드로이드 버젼 3.0 이상에서 카메라 스트리밍을 할 경우 영상스트리밍 중에는 화면이 꺼지지 않도록 하세요.</string>
+    <string name="keep_free_space">비우기</string>
+    <string name="keep_free_space_desc">여유저장공간이 $VAL Mb 보다 작으면 오래된 영상을 지움</string>
+    <string name="keep_free_space_edit">이 장치에 얼마 만큼의 여유 저장공간이 있나요? 여유공간은 저장능력 향상과 OS 안정성을 증가시킵니다.</string>
+    <string name="known_issues">"알려진 문제:
+ * 전면카메라는 잘못된 카메라 정보를 줄 수 있습니다.(176x144 이나 640x480 해상도를 선택하세요)
+ * 폰이 2G나 3G용이라면 앱에서의 접근을 막기 위해 통신사는 NAT 를 사용할 것입니다. 통신사에 내 폰의 외부 IP를 문의하거나 와이파이 네트워크를 사용하거나 휴대용 핫스팟을 사용하세요.
+ * ESET NOD32의 몇몇 버젼은 폰의 MJPEG 스트림을 잘라냅니다. 이 문제를 해결하기 위해서는 \"웹 보호\"를 금지시키세요."</string>
+    <string name="known_issues_title">알려진 문제</string>
+    <string name="landscape">가로 보기</string>
+    <string name="latitude">폭</string>
+    <string name="leave_blank_if_you_don_t_need_security">보안이 필요없으면 공란으로 놔두세요</string>
+    <string name="ledbtn">메인페이지의 제어판과 또 웹인터페이스를 통해 LED 를 토글할 수 있습니다.</string>
+    <string name="left">왼쪽</string>
+    <string name="license_error">라이센스 에러</string>
+    <string name="local_broadcasting">로컬 브로드캐스팅</string>
+    <string name="local_broadcasting_desc">포트 $PORT, 로그인/패스워드: $LPW</string>
+    <string name="login">Login:</string>
+    <string name="login_password">로그인/암호</string>
+    <string name="longitude">길이</string>
+    <string name="lpw_notset">설정 안됨</string>
+    <string name="lpw_set">설정됨</string>
+    <string name="macropixel_size">매크로픽셀 크기</string>
+    <string name="macropixel_size_desc">글자크기 옵션</string>
+    <string name="main_camera">메인 카메라</string>
+    <string name="manual_caption">수동 자막</string>
+    <string name="mirror">미러효과</string>
+    <string name="mirror_flip">미러와 뒤집기</string>
+    <string name="misc">기타</string>
+    <string name="modet_amount">움직임 감지 횟수</string>
+    <string name="modet_radio">움직임 감지/시간 초과</string>
+    <string name="more_actions">더 많은 기능...</string>
+    <string name="more_actions_ad">"Pro버젼에서는 좀더 향상된 이벤트 제어와 태스커 생성이 가능합니다.
+ 태스커에 이벤트 추가는 프로파일 클릭 ⇨ + ⇨ 상태 ⇨ 플러그인 ⇨ IP Webcam 으로 쉽게 할 수 있습니다."</string>
+    <string name="most_phones_put_processor_to_sleep_mode_when_screen_is_off">대부분의 폰이 화면이 꺼지면 CPU가 슬립상태로 갑니다.</string>
+    <string name="motion_detect">움직임 감지</string>
+    <string name="motion_detected">움직임 감지됨</string>
+    <string name="motion_detected_tasker_desc">어떤 상황에서 IP Webcam 이 리포트 되나요?</string>
+    <string name="motion_detection">움직임 감지</string>
+    <string name="motion_detection_actions">감지시 동작</string>
+    <string name="motion_detection_desc">감지 감도와 동작 설정</string>
+    <string name="motion_detection_event_active">움직임 타임아웃 센서</string>
+    <string name="motion_detection_event_sensor">움직임 이벤트 센서</string>
+    <string name="motion_detection_sensivity">감지 감도</string>
+    <string name="motion_detection_sensivity_desc">감도: $VAL. 웹인터페이스를 통해서 설정하고 테스트 할 수 있음.</string>
+    <string name="motion_detection_sensivity_input">"감도를 입력하세요. 값이 클수록 큰 동작에 감지됩니다.
+ 감도는 웹상에서 쉽게 테스트하고 설정할 수 있습니다. 센서창의 동작센서를 허용한 후 웹상의 데이타 취득 값을 입력하세요.
+ 기본값: 250"</string>
+    <string name="motion_detection_sensor">움직임 감지</string>
+    <string name="motion_detection_sensor_desc">움직임 감지 허용이 필요함</string>
+    <string name="motion_detection_settings">움직임 감지 설정</string>
+    <string name="motion_inactivity">감지가 없을 때 녹화정지</string>
+    <string name="motion_inactivity_edit">더이상 움직임이 감지되지 않았을 때 얼마나 더 녹화를 진행하고 다른 움직임을 기다릴까요? (초단위로 입력)</string>
+    <string name="motion_record_video">영상 녹화</string>
+    <string name="motion_record_video_desc">움직임이 감지되었을때 내부저장소에 영상 녹화</string>
+    <string name="motion_recording">동작 녹화</string>
+    <string name="motion_sound_detection">움직임과 소리 감지</string>
+    <string name="motion_tasker_timeout">움직임 타임아웃</string>
+    <string name="motion_timeout_edit">더 이상 움직임이 감지되지 않았을 때 다시 움직임이 있기전까지 얼마나 기다릴까요? (초단위로 입력)</string>
+    <string name="mp4_locked">MP4 (클라우드 스트리밍에 사용됨)</string>
+    <string name="mp4_not_supported">이 장치에서는 HW가속 MP4를 지원하지 않습니다</string>
+    <string name="night_vision">야간 촬영</string>
+    <string name="night_vision_average">야간 촬영 노출</string>
+    <string name="night_vision_average_edit">"평균적으로 얼마 만큼의 프레임을 원하시나요?
+ 이 값을 증가시키면 비례하여 흐릿함이 증가하며 노이즈는 감소합니다."</string>
+    <string name="night_vision_average_value">$VAL 프레임</string>
+    <string name="night_vision_gain">야간 촬영 게인</string>
+    <string name="night_vision_gain_edit">"얼마 만큼의 외부 빛이 필요한가요?
+ 이 값에 따라 노이즈가 증가되는 것에 주의하세요.
+ 10진수 비율이 사용됨."</string>
+    <string name="night_vision_gain_value">$VALX 만큼의 좀 더 밝은 값</string>
+    <string name="night_vision_toggle">야간모드 토글</string>
+    <string name="no">No</string>
+    <string name="no_address_detected">(IP주소 없음)</string>
+    <string name="no_caption">자막 없음</string>
+    <string name="no_color">색 없음</string>
+    <string name="no_direction">없음</string>
+    <string name="no_password">암호 없음</string>
+    <string name="no_sound">음성없음</string>
+    <string name="not_now">다음에</string>
+    <string name="ok">OK</string>
+    <string name="ok_i_get_it">네. 확인했습니다!</string>
+    <string name="only_available_in_pro">이 기능은 IP Webcam Pro 버젼에서만 가능합니다. Pro 버젼을 지금 구입하시겠습니까?</string>
+    <string name="openh264_by_cisco">OpenH264 코덱은 시스코 시스템이 제공합니다.</string>
+    <string name="orientation">기준</string>
+    <string name="other_actions">다른 동작...</string>
+    <string name="overlay">오버레이 토글</string>
+    <string name="overlay_desc">날짜와 시간, 배터리 상태를 영상에 포함</string>
+    <string name="overlay_title">오버레이</string>
+    <string name="password">Password:</string>
+    <string name="password_set">암호 저장</string>
+    <string name="photo_res">사진 해상도</string>
+    <string name="play_sound_on_motion">감지시 소리</string>
+    <string name="plugins">플러그인</string>
+    <string name="port">포트</string>
+    <string name="port_number_in_range_1024_65536">포트번호(1024~65536)</string>
+    <string name="portrait">세로 보기</string>
+    <string name="power_mgmt">전원관리</string>
+    <string name="power_mgmt_desc">사용 안 할때 카메라나 화면 중지</string>
+    <string name="prevent_going_to_sleep">슬립모드 금지</string>
+    <string name="primary_camera">기본 카메라</string>
+    <string name="pro_desc">" 아래와 같은 기능이 추가된 IP Webcam Pro 를 써 보세요
+ - "<b>태스커 통합</b>" . 움직임이 감지되었을때나 웹인터페이스상의 버튼을 눌렀을때 자동 스터프
+ - "<b>사용자 정의 UI</b>" . 당신만의 IP Webcam을 만들어 보세요. 화면이나 카메라 설정 등을 사진을 추가해서 마음대로 꾸밀 수 있습니다.
+ - "<b>서버 바로가기</b>" . 폰의 홈화면에 IP Webcam 서버시작의 바로가기를 생성할 수 있습니다.
+ - "<b>워터마크 없음</b>" 녹화영상에 워터마크와 광고가 없습니다.
+ "</string>
+    <string name="processing_request">프로세싱 대기...</string>
+    <string name="quality">품질</string>
+    <string name="rear_camera">후방카메라</string>
+    <string name="record_video">영상 녹화</string>
+    <string name="record_video_button">영상녹화 버튼</string>
+    <string name="record_video_circular">영상녹화 (순환)</string>
+    <string name="refresh">새로 고침</string>
+    <string name="res_warn">1280x720 해상도는 안드로이드 버젼 2.x 에서는 가끔 깨져 보일수 있습니다. 영상이 \"green\" 으로 보인다면 좀더 낮은 해상도를 선택하세요.</string>
+    <string name="resolution">해상도</string>
+    <string name="result">결과</string>
+    <string name="right">오른쪽</string>
+    <string name="run_in_background">백그라운드에서 동작</string>
+    <string name="run_ipwebcam">IP Webcam 시작</string>
+    <string name="saturation">채도</string>
+    <string name="save_changes">변경사항 저장</string>
+    <string name="save_ui">저장</string>
+    <string name="saved">저장됨</string>
+    <string name="saved_ui_to_clipboard">UI를 클립보드에 저장</string>
+    <string name="saved_video_location">영상을 저장</string>
+    <string name="scene_mode">장면모드</string>
+    <string name="script_configure">설정</string>
+    <string name="scripts_desc">설치와 IP Webcam 설정</string>
+    <string name="second_value">두번째 값</string>
+    <string name="secondary_camera">두번째 카메라</string>
+    <string name="seconds">$VAL 초</string>
+    <string name="seeker">찾기</string>
+    <string name="select_action">동작 선택</string>
+    <string name="select_caption">자막 선택</string>
+    <string name="select_enabled_features">허용된 기능 선택</string>
+    <string name="select_features_that_require_password">암호기능을 선택하세요</string>
+    <string name="send_ip_via">IP 내보내기...</string>
+    <string name="sensor_retention">센서데이타 보존</string>
+    <string name="sensor_retention_edit">"얼마나 오랜 기간 센서데이타를 취득하고 저장하는지 설정함.
+ Default value: 5초"</string>
+    <string name="sensors">센서</string>
+    <string name="sensors_desc">웹상에서 센서데이타 수집 및 보기</string>
+    <string name="service_control">서비스 제어</string>
+    <string name="shallow_sleep">가벼운 슬립</string>
+    <string name="shallow_sleep_desc">화면이 꺼지면 웹서버의 성능이 향상되고 CPU 점유률이 낮아짐.</string>
+    <string name="share_ip">IP 공유</string>
+    <string name="signed_scripts_only_for_lite">IP Webcam Lite버젼에서는 서명된 스크립트만 지원합니다</string>
+    <string name="skype_faq">"스카이프에서는 마이크와 비디오채팅 소프트웨어가 설치된 PC가 필요합니다.
+ 사용설명서대로 하지 않으면 윈도우에서는 영상만 볼 수 있습니다.
+ IP 카메라 에뮬레이션 프로그램은 자체적으로 비디오채팅 기능을 제공하지는 않지만 이를 이용해서 볼 수가 있습니다.
+ 보통 처음하는 것은 응용프로그램의 웹인터페이스에 접근하는 것입니다. 보다 자세한 것은 웹인터페이스의 \"Videochat drivers\" 에서 찾을 수가 있습니다."</string>
+    <string name="skype_faq_title">스카이프에서 사용하고 싶어요!</string>
+    <string name="sleep_behavior">슬립시 처리</string>
+    <string name="sound_detection_sensor_desc">사운드 센서 활성화가 필요함</string>
+    <string name="sound_event_sensor">사운드 이벤트 센서</string>
+    <string name="sound_timeout_sensor">사운드 타임아웃 센서</string>
+    <string name="start_from_homescreen">홈화면에서 IP Webcam 시작하기</string>
+    <string name="start_server">서버 시작</string>
+    <string name="stop">정지</string>
+    <string name="stop_camera">카메라 정지</string>
+    <string name="stop_camera_desc">사용 안할 때 카메라를 끔. 카메라를 껐을 때는 움직임 감지가 안됨.</string>
+    <string name="stopbtn">"서버는 이제 정지할 것입니다.
+ 영상이 보일때 \"뒤로\"키를 누르면 빨리 IP Webcam 을 정지할 수 있습니다."</string>
+    <string name="stream_boot_warn">IP Webcam 을 사용하는 동안 폰이 리부팅된다면 CPU 과열일 수 있습니다. 뒷 커버를 열거나 시원한 곳에 폰을 두세요.</string>
+    <string name="take_photo">사진 찍기</string>
+    <string name="take_photo_af">포커스된 사진 찍기</string>
+    <string name="take_photo_button">사진 찍기 버튼</string>
+    <string name="tasker">태스커 이벤트</string>
+    <string name="tasker_identifier">태스커 이벤트</string>
+    <string name="tasker_label_ipwebcam_camera_activated">카메라 활성화됨</string>
+    <string name="tasker_label_ipwebcam_camera_deactivated">카메라 비활성화됨</string>
+    <string name="tasker_label_ipwebcam_custom_event">사용자 이벤트</string>
+    <string name="tasker_label_ipwebcam_motion_detection">움직임 감지됨</string>
+    <string name="text">글자</string>
+    <string name="text_bg_color">글자 배경색</string>
+    <string name="text_color">글자색</string>
+    <string name="text_format">오버레이 형식</string>
+    <string name="text_format_desc">어떻게 표시되어 지는지 명시함</string>
+    <string name="text_format_help">"텍스트 포맷을 기술하세요:
+ %%x 는 날짜로 대치됩니다
+ %%X 는 시간으로 대치됩니다
+ %%q 는 배터리 아이콘으로 대치됩니다
+ %%Q 는 배터리 잔량으로 대치됩니다
+ %%o 는 충전표시로 대치됩니다
+ 
+ 날짜/시간 형식에 대해서는 다음을 참조하세요: http://goo.gl/MCc6BR"</string>
+    <string name="text_overlay">텍스트 오버레이 활성</string>
+    <string name="text_position">오버레이 위치</string>
+    <string name="the_url_has_been_copied_to_clipboard">URL $URL$ 이 클립보드로 복사됨</string>
+    <string name="toggle_led">LED 토글</string>
+    <string name="toggle_preview">토글 미리보기</string>
+    <string name="top">맨 위</string>
+    <string name="torch_disabled">토치 금지</string>
+    <string name="torch_enabled">토치 허용</string>
+    <string name="try_out_mkv_q">"새로운 MKV 녹화포맷을 사용하시겠습니까? WebM 보다 나은 품질과, MOV 대비 적은 파일용량, 그리고 MP4보다 향상된 안정성을 제공합니다.
+
+ 영상 관련->영상 녹화->비디오포맷 메뉴에서 아무때나 원하는 포맷으로 설정할 수 있습니다.
+
+ 인터넷에 연결이 되어 있어야 하며 400kb 가 다운로드 됩니다. 다운로드 하시겠습니까?"</string>
+    <string name="ui_settings">설정</string>
+    <string name="unknown_error">알려지지 않은 에러</string>
+    <string name="unsigned_scripts_disabled">서명되지 않은 스크립트는 설정에서 사용불가할 수 있습니다</string>
+    <string name="upside_down">상하반전</string>
+    <string name="upside_down_portrait">상하반전 세로 보기</string>
+    <string name="usb_camera_by">$VENDOR (PID: $PID) UVC Camera</string>
+    <string name="usb_cameras">USB 카메라</string>
+    <string name="usb_refresh_desc">연결된 USB 장치 새로고침</string>
+    <string name="use_customized_ui">사용자 인터페이스 사용</string>
+    <string name="use_default_ui">기본 인터페이스 사용</string>
+    <string name="use_front_facing_camera">전면 카메라 사용</string>
+    <string name="user_interface">인터페이스</string>
+    <string name="vertical_orientation">수직 기준</string>
+    <string name="video_bitrate">영상 비트레이트</string>
+    <string name="video_bitrate_template">$KBITS kbit/s, $MBM MB/분</string>
+    <string name="video_chunk_len">녹화영상 크기</string>
+    <string name="video_format">비디오 포맷</string>
+    <string name="video_format_cisco">MKV (software h.264 + Opus)</string>
+    <string name="video_format_mov">MOV (HQ, size depends on stream quality)</string>
+    <string name="video_format_mp4">MP4는 어떤 장치에서는 불안정할 수도 있음 (h.264 + AAC)</string>
+    <string name="video_format_mp4_nosupport">(Not support on this device) MP4 (h.264 + AAC)</string>
+    <string name="video_format_webm">WebM (VP8 + Opus)</string>
+    <string name="video_orientation">영상 보는 방식</string>
+    <string name="video_preferences">영상 관련</string>
+    <string name="video_preview">영상 미리보기</string>
+    <string name="video_preview_desc">이 옵션은 화면상의 오버레이, 각종 효과를 보여줍니다. 전화를 보고 있지 않을 때는 사용하지 마세요. 배터리소모가 많을 수 있습니다.</string>
+    <string name="video_quality">영상품질</string>
+    <string name="video_recording">영상 녹화</string>
+    <string name="video_recording_desc">영상 저장을 어디에 어떻게</string>
+    <string name="video_resolution">화면 해상도</string>
+    <string name="video_settings_desc">해상도, 포커스 등 영상 관련 세팅</string>
+    <string name="warn">경고!</string>
+    <string name="watch_tutorial">강좌 보기</string>
+    <string name="what_should_i_do">IP Webcam 이 무엇을 해야 하나요?</string>
+    <string name="white_balance">화이트 발란스</string>
+    <string name="whitebalance">화이트 발란스</string>
+    <string name="wrong_email">잘못된 이메일</string>
+    <string name="yes">Yes</string>
+    <string name="zoom">확대</string>
+</resources>

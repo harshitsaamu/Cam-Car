@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/cheats_menu" android:title="@string/cheats" />
+    <item android:id="@id/start_server_menu" android:title="@string/start_server" />
+</menu>

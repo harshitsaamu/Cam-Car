@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ホームへ移動</string>
+    <string name="abc_action_bar_home_description_format">%1$s、%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s、%2$s、%3$s</string>
+    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$sにはAndroid Wearアプリの更新が必要です。</string>
+    <string name="common_android_wear_update_text">%1$sの実行にはAndroid Wearアプリの更新が必要です。</string>
+    <string name="common_android_wear_update_title">Android Wearの更新</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
+    <string name="common_google_play_services_enable_button">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_title">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$sによるリクエスト</string>
+    <string name="common_google_play_services_install_button">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_install_text_phone">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのスマートフォンにはインストールされていません。</string>
+    <string name="common_google_play_services_install_text_tablet">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。</string>
+    <string name="common_google_play_services_install_title">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_invalid_account_text">指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。</string>
+    <string name="common_google_play_services_invalid_account_title">無効なアカウント</string>
+    <string name="common_google_play_services_needs_enabling_title">アプリではGoogle Play開発者サービスを有効にする必要があります</string>
+    <string name="common_google_play_services_network_error_text">Google Play開発者サービスに接続するには、データ接続が必要です。</string>
+    <string name="common_google_play_services_network_error_title">ネットワークエラー</string>
+    <string name="common_google_play_services_notification_needs_update_title">アプリではGoogle Play開発者サービスを更新する必要があります</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_sign_in_failed_text">指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。</string>
+    <string name="common_google_play_services_sign_in_failed_title">ログインできませんでした</string>
+    <string name="common_google_play_services_unknown_issue">Google Play開発者サービスで原因不明の問題が発生しました。</string>
+    <string name="common_google_play_services_unsupported_text">%1$sに必要なGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは端末メーカーにお問い合わせください。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play開発者サービス</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string name="common_google_play_services_update_title">Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_updating_title">Google Play開発者サービスの更新中</string>
+    <string name="common_open_on_phone">端末で開く</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="accessing">"ローカルネットワークを介して端末にアクセスする：
+ • アプリ内の「配信開始」ボタンをタップする
+ • コンピューターのブラウザでアプリ画面上に表示されたIPアドレスや通知されたIPアドレスにアクセスします。IPアドレスは以下のように表示されます。　http://&lt;IPアドレス>:&lt;ポート番号>
+ • 「接続方法」ボタンをタップすると、IPアドレスを元にネットワーク設定の方法を確認できます。
+ • ユーザー名とパスワードを入力し、カメラの視聴方法を選択します。
+ • リンクが開けない場合、電話のIPアドレスにPingを送ってください。失敗した場合、ネットワーク設定を確認して下さい。
+ Ivideonを利用してインターネット経由でアクセスする：
+ • 「クラウドストリーミング」設定でIvideonのアカウントでログインしてください。
+ • アプリ内の「配信開始」をタップする。
+ • http://ivideon.com/myまたはIvideonアプリでアカウントを入力してログインしてください。
+ 
+"</string>
+    <string name="accessing_title">Android端末へのアクセス</string>
+    <string name="acknowledgements">"IP Webcamは以下のソフトを使用しています::
+ libjpeg、 © Independent JPEG Group、 http://lij.org
+ ffmpeg、 © FFmpeg team、 http://ffmpeg.org/
+ libvpx、 © WebM project、 http://www.webmproject.org/
+ libopus、 © Xiph.org Foundation and others、 http://opus-codec.org/
+ mongoose (MIT fork)、 © Sergey Lyubka、 https://github.com/cesanta/mongoose
+ 
+ Special thanks to:
+ Hank Quakevauld for Chinese translation
+ Nenad Tomasic for German translation
+ Paolo Stavolo for Italian translation
+ Froozeify for French translation
+ Rafał Płatek http://www.getpoland.com for Polish translation
+ Francisco Rosúa for Spanish translation
+ Shunya Nishimura for Japanese Translation
+ Sangyong、 Byun for Korean translation
+ Alexey Vasilyev for amazing viewer、 tinyCam Monitor
+ 
+ Thanks to:
+ Robb Larsen、 Jason Tarnutzer for Droid X testing
+ Marcus Pascall、 Eugene Jennings、 Peter Boeren、 Scott B、 Eric Batts、 Alexei Vidmich for application testing.
+ Berthold Möller for his help with pinpointing the nasty issue."</string>
+    <string name="acknowledgements_title">謝辞</string>
+    <string name="action">動作中...</string>
+    <string name="action_increase_decrease">増減</string>
+    <string name="action_set">数値を指定する</string>
+    <string name="action_settings">設定</string>
+    <string name="action_toggle">値を切替える</string>
+    <string name="actions">動作</string>
+    <string name="actions_">動作…</string>
+    <string name="active_sensors">起動中のセンサーデータ元</string>
+    <string name="active_ui">アクティブインターフェイス</string>
+    <string name="add_control">追加</string>
+    <string name="addrf">主なアドレスファミリー</string>
+    <string name="adet_amount">音声トリガー量</string>
+    <string name="adet_radio">音声が検出/タイムアウトされました</string>
+    <string name="adet_record_video_desc">音声が検出された場合、録画ファイルを内部ストレージに保存します。</string>
+    <string name="allow_signed_scripts_only">署名されたスクリプトのみ使用を許可する</string>
+    <string name="always_show">常に表示する</string>
+    <string name="antibanding">周波数を設定</string>
+    <string name="antibanding_mode">周波数を設定</string>
+    <string name="are_you_sure_you_want_to_remove_this_script">このプラグインを本当に削除しますか？プラグインを削除すると設定情報もすべて削除されます。</string>
+    <string name="aspect_11">1:1</string>
+    <string name="aspect_12">1:2</string>
+    <string name="aspect_13">1:3</string>
+    <string name="aspect_14">1:4</string>
+    <string name="aspect_21">2:1</string>
+    <string name="aspect_31">3:1</string>
+    <string name="aspect_41">4:1</string>
+    <string name="aspect_ratio">アスペクト比</string>
+    <string name="audio_bitrate_template">$KBITS kbit/s</string>
+    <string name="audio_mode_audio_only">オーディオのみ</string>
+    <string name="audio_mode_disabled">オフ</string>
+    <string name="audio_mode_enabled">オン</string>
+    <string name="audio_only">オーディオのみ</string>
+    <string name="audio_sensor">音声検出</string>
+    <string name="audio_tasker_timeout">サウンドイベントがタイムアウト</string>
+    <string name="audiopref">オーディオモード</string>
+    <string name="auto_exposure_lock">露出固定</string>
+    <string name="auto_white_balance_lock">ホワイトバランス固定</string>
+    <string name="autostart">端末起動時にアプリを起動</string>
+    <string name="autostart_desc">端末設定でスクリーンロックを無効にしてください。</string>
+    <string name="background">バックグラウンドで起動</string>
+    <string name="backgroundbtn">"アプリケーションはバックグラウンドで起動されます。
+ 「ホーム」ボタンを押すことでIP Webcamを素早くバックグラウンドで起動できます。"</string>
+    <string name="battery_percent_sensor">電池残量センサー</string>
+    <string name="battery_temperature_sensor">バッテリー温度センサー</string>
+    <string name="battery_voltage_sensor">電池電圧センサー</string>
+    <string name="begin_serving_video_stream">映像ストリーミングの配信開始</string>
+    <string name="bottom">ボタン</string>
+    <string name="brightness">明るさ</string>
+    <string name="button">ボタン</string>
+    <string name="camera_active_idle">カメラ起動中/待機中</string>
+    <string name="camera_is_used_by_another_app">カメラが他のアプリを使用されていますので、アプリを起動できません</string>
+    <string name="camera_settings">カメラ設定</string>
+    <string name="camera_status">カメラの状態</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cannot_access_internet">インターネットに接続できません。</string>
+    <string name="cannot_open_configured_camera">前回設定したカメラにアクセスすることができません。初期のカメラ設定を利用しますか？初期のカメラ設定を利用する場合、前回の設定項目は上書きされる場合があります。</string>
+    <string name="cannot_open_port">ポートを開けません。 ポートを使用しているアプリを閉じるか他のポートを設定してください。</string>
+    <string name="carrier_grade_nat">(carrier-grade NAT)</string>
+    <string name="cheat_is_not_recognized">コードが認識できません。</string>
+    <string name="cheats">コード</string>
+    <string name="chunk_size">連続録画時間の設定</string>
+    <string name="chunk_size_desc">$VAL分単位で連続録画は分割されます。</string>
+    <string name="chunk_size_edit">連続録画時間を入力（分単位）</string>
+    <string name="cisco_codec_required_download_q">OpenH264コーデックを有効にするためにはコーデックバイナリーを端末にダウンロードする必要があります。ダウンロードしますか？</string>
+    <string name="cloud_account_already_exists">このEメールは既に登録されています。アカウントを既に作成している場合、ログインしてください。</string>
+    <string name="cloud_create_account_eula">アカウントを作成することで<a href="https://go.ivideon.com/?target=terms_of_service&amp;lang=en">Ivideon terms of service</a>に同意したものとします。</string>
+    <string name="cloud_create_an_account">アカウントを作成する</string>
+    <string name="cloud_create_an_account_desc">無料ですが取得に時間がかかります。</string>
+    <string name="cloud_create_an_account_email_hint">Eメール (Ivideonログイン)</string>
+    <string name="cloud_create_an_account_password_hint">パスワードを作成する</string>
+    <string name="cloud_creating_account">アカウントを作成しています...</string>
+    <string name="cloud_faq">よくある質問（Ivideonについて）</string>
+    <string name="cloud_faq_desc">Ivideonとは？、 プライバシー規約について、 クラウドストリーミングへのアクセス方法など</string>
+    <string name="cloud_log_in">ログイン</string>
+    <string name="cloud_log_in_desc">Ivideonに既に登録している場合、</string>
+    <string name="cloud_log_in_password_hint">パスワードを入力してください。</string>
+    <string name="cloud_log_in_password_isnt_saved">パスワードはデバイスに保存されません</string>
+    <string name="cloud_log_in_q">ログインしますか？</string>
+    <string name="cloud_log_out">ログアウト</string>
+    <string name="cloud_log_out_desc">現在のアカウントからログアウトしますか？</string>
+    <string name="cloud_log_out_really">ログアウトしますか？</string>
+    <string name="cloud_login_failed">Cannot login: Eメールとパスワードを確認して下さい</string>
+    <string name="cloud_login_too_frequent">短時間に複数回ログインに失敗しました。30秒後に再度試してください。</string>
+    <string name="cloud_new_user_failed">新しいユーザー作成に失敗しました: $エラー</string>
+    <string name="cloud_password_cannot_be_empty">パスワードを入力してください</string>
+    <string name="cloud_roster_failed">端末をIvideonアカウントに関連付けられません: $エラー</string>
+    <string name="cloud_streaming">クラウドストリーミング</string>
+    <string name="cloud_streaming_active">クラウドストリーミング作動中</string>
+    <string name="cloud_streaming_active_desc">Ivideonウェブサイトやアプリケーションからビデオ視聴を有効にする</string>
+    <string name="cloud_streaming_desc">どこからでも映像ストリーミングに接続できます。</string>
+    <string name="cloud_streaming_not_supported">クラウドストリーミングはサポートされていません。</string>
+    <string name="cloud_streaming_not_supported_desc">お使いの端末ではクラウドストリーミングがサポートされていないか、必要なエンコーダーが見つかりません。Ivideonの利用にはAndroid 4.1以上の端末が必要です。インターネット経由で端末に接続する場合は、Wifi環境でポート転送を使用し、SSHやVPNサーバー経由で接続をします。携帯キャリアに接続可能なグローバルIPアドレスを確認する方法でもアクセスできる場合があります。</string>
+    <string name="cloud_streaming_optimize">解像度を$NEWRESにしビットレートを1200kbpsに設定することでストリーミングを最適化することができます。最適化しますか？</string>
+    <string name="cloud_streaming_supported">エンコーダテストが成功しました。端末でクラウドストリーミングが利用できます。クラウド監視サービスを利用するために使用中の端末でIvideonにログインしてください。</string>
+    <string name="color_effect">カラーエフェクト</string>
+    <string name="compressed_audio_bitrate">音声ビットレート</string>
+    <string name="conn_template">ビデオ接続: $VC、 audio: $AC</string>
+    <string name="connect_using_ivideon">Ivideonを使用中</string>
+    <string name="connect_using_ivideon_desc">どこからでもカメラに接続できるようにIvideonクラウドサービスを使用してください。</string>
+    <string name="connect_using_ivideon_desc_disabled">無効:</string>
+    <string name="connect_using_ivideon_desc_enabled">有効:</string>
+    <string name="connect_using_ivideon_disabled">"Ivideonのストリーミングを使用する際、設定でクラウドストリーミングを有効にしてください。ご利用にはAndroid4.1以上の端末が必要です。
+ 
+ Ivideonサービスは追加設定をせずにストリーミングにインターネット経由で接続できます。2台までのストリーミングは無料です。有料オプションではカメラを追加したりクラウドストレージを利用することができます。"</string>
+    <string name="connect_using_ivideon_enabled">Ivideonのアカウント（<b>$ACCOUNT</b>" ） を使用して、http://ivideon.com/myにアクセスするか専用アプリを利用してビデオストリーミングを視聴できます "</string>
+    <string name="connect_using_local">ダイレクト接続</string>
+    <string name="connect_using_local_desc">端末がネットワーク経由でダイレクト接続可能な場合</string>
+    <string name="connection_error">接続エラー</string>
+    <string name="connection_error_retry">接続エラー、再接続しますか？</string>
+    <string name="connection_settings">接続設定</string>
+    <string name="connections">接続ディスプレイ</string>
+    <string name="contacting_ivideon">Ivideonに接続しています...</string>
+    <string name="control_vertical">縦方向</string>
+    <string name="copy_ip_to_clipboard">IPアドレスをクリップボードにコピーする</string>
+    <string name="copy_to_clipboard">クリップボードにコピー</string>
+    <string name="copy_ui_to_clipboard">インターフェイスをクリップボードにコピー</string>
+    <string name="create_start_shortcut">ショートカット作成</string>
+    <string name="custom_action">カスタム動作</string>
+    <string name="customize_ui">配信画面のカスタマイズ</string>
+    <string name="date_time_format">日時の表示形式</string>
+    <string name="deact_display">ディスプレイをオフにする</string>
+    <string name="deact_display_desc">操作しない場合ディスプレイを非表示にする。</string>
+    <string name="default_mode_setting">初期設定</string>
+    <string name="delete">削除</string>
+    <string name="delete_button">インターフェイスから削除するためコントロールをこのボタンにドラッグします。</string>
+    <string name="details">詳細...</string>
+    <string name="detected_devices">端末が認識されました。</string>
+    <string name="disable_notification">通知を停止する</string>
+    <string name="disabled">無効</string>
+    <string name="discard_changes">変更をキャンセルする</string>
+    <string name="disguise">カモフラージュ</string>
+    <string name="disguisebtn">"画面がカモフラージュモードに切り替わります。
+ 通常通り使用できるブラウザが起動します。
+ 「戻る」ボタンで配信が停止して、通常のブラウザと同じようにホーム画面が表示されます。
+ 「ホーム」ボタンを押すとバックグランドで起動した状態になります（通知が必要ない場合、オプション設定で通知を停止することができます)"</string>
+    <string name="display_setting_name">ディスプレイ設定名</string>
+    <string name="display_value_only">値のみ表示</string>
+    <string name="do_nothing">端末を使用して何か作業を行う</string>
+    <string name="do_you_want_to_watch_tutorial">チュートリアル映像をご覧になりますか？</string>
+    <string name="don_t_show_app_running_in_background">バックグランド起動中アプリを表示させない</string>
+    <string name="downloading_the_codec">ビデオコーデックをダウンロードしています。</string>
+    <string name="downloading_the_plugin">プラグインをダウンロードしています。</string>
+    <string name="drawer_direction">抽出方向</string>
+    <string name="edit_control">編集</string>
+    <string name="effects_desc">ナイトモードや表示文字の設定</string>
+    <string name="effects_title">エフェクト</string>
+    <string name="embed_date_time">日時を埋込む</string>
+    <string name="embed_gps_coords">GPS座標を埋込む</string>
+    <string name="enable_motion_detection">動作検出を有効にする</string>
+    <string name="enable_motion_detection_desc">カメラを使用しない場合でもバッテリーを消費します。</string>
+    <string name="enable_night_vision">ナイトモードを有効にする</string>
+    <string name="enable_night_vision_desc">ナイトモードの設定</string>
+    <string name="enable_sensors">データログを有効にする</string>
+    <string name="enable_sound_sensor">音声検出を有効にする</string>
+    <string name="enabled">有効</string>
+    <string name="enter_a_cheat">コードを入力して下さい。</string>
+    <string name="enter_increment_decrement">数値の増減を入力する (減少はマイナス値)</string>
+    <string name="event_is">イベント:</string>
+    <string name="experimental_use_lower_resolutions_when_it_s_on_and_report_issues">オンの場合解像度を低くしてレポートを送信します。</string>
+    <string name="exposure_compensation">露出補正</string>
+    <string name="fade">撮影画面を表示しない（エコモード）</string>
+    <string name="fadebtn">"現在ディスプレイはバッテリー節約のため表示されません。
+ 端末の「ロック」ボタンでは画面をオフにすることはできません。ロックボタンではCPUがスリープモードになってしまいます。
+ 画面をタップしてアプリを再度表示させてください。"</string>
+    <string name="failed_to_send_report_for_reason">レポート送信に失敗しました。再送信しますか？ 原因は・・・:</string>
+    <string name="faq">よくある質問</string>
+    <string name="faq_another">質問がありましたら、 <a href="mailto:pas.anddev@gmail.com">pas.anddev@gmail.com</a>までご連絡ください。</string>
+    <string name="faq_another_title">その他の質問集</string>
+    <string name="feature_audio_aac">音声 (Aac)</string>
+    <string name="feature_audio_in">双方向音声通話</string>
+    <string name="feature_audio_ogg">音声 (Ogg)</string>
+    <string name="feature_audio_wav">音声 (Wav)</string>
+    <string name="feature_focus_ctl">フォーカス制御</string>
+    <string name="feature_gps">位置情報の取得</string>
+    <string name="feature_html">固定ページ</string>
+    <string name="feature_immediate_photo">映像フレーム取得</string>
+    <string name="feature_photo">写真取得</string>
+    <string name="feature_photo_af">写真取得(オートフォーカス機能)</string>
+    <string name="feature_ptz">パン・チルト・ズーム</string>
+    <string name="feature_sensors">データログの取得</string>
+    <string name="feature_settings">設定変更</string>
+    <string name="feature_torch_ctl">LED フラッシュライトコントロール</string>
+    <string name="feature_video">映像ストリーミング取得</string>
+    <string name="feature_video_ctl">録画コントロール</string>
+    <string name="feature_video_download">映像をダウンロード</string>
+    <string name="fetching_the_plugin_index">プラグインインデックスを取得しています...</string>
+    <string name="ffc_hotswitch_not_available">前面カメラのホットスイッチはこの解像度ではご利用できません。</string>
+    <string name="first_value">初期値</string>
+    <string name="flash_mode">フラッシュモード</string>
+    <string name="flip">上下反転</string>
+    <string name="flip_control">上下反転</string>
+    <string name="flip_desc">画面の上下を反転させる。</string>
+    <string name="focus">フォーカス</string>
+    <string name="focus_control">フォーカス制御</string>
+    <string name="focus_homing">オートフォーカス</string>
+    <string name="focus_mode">フォーカスモード</string>
+    <string name="focus_region">フォーカス範囲</string>
+    <string name="focus_tips">フォーカスのコツ</string>
+    <string name="focusbtn">"カメラは一度フォーカスします。
+ フォーカスするためには、メイン画面の「端末を探す」ボタンを押すか、またはウェブインターフェイスのコントロールパネルから「オートフォーカス」ボタンを押します。"</string>
+    <string name="force_software_audio">強制ソフトウェアオーディオエンコーディング</string>
+    <string name="force_software_audio_desc">音声の録音やAACストリームで問題が発生した場合はこちらを確認してください。</string>
+    <string name="force_software_audio_only">この端末では音声エンコードは利用できません。</string>
+    <string name="force_software_video">強制ソフトウェアビデオエンコーディング</string>
+    <string name="force_software_video_desc">手動録画や動作検知による録画で問題が発生した場合、こちらを確認してください。</string>
+    <string name="force_software_video_only">映像エンコードはこの端末では利用できません。</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+    <string name="fps_description">フレームレートを設定する(最大値は$VAL)</string>
+    <string name="fps_faq">"このアプリでは端末の最大フレームレートを利用します。
+ 映像のエンコードは端末にある程度のスペックを要求します。CPU性能が低い場合、フレームレートが低下することがあります。フレームレートを向上させるには、解像度を低くしてください。
+ 携帯回線でネットワーク接続を行う場合、アップロード速度が十分でないことがあります。ビデオ画質を落とすことで転送データサイズを落としてフレームレートを向上させることができます。"</string>
+    <string name="fps_faq_title">フレームレートを向上させたい</string>
+    <string name="fps_limit">フレームレート上限の設定</string>
+    <string name="fps_no_limit">現在は上限設定なし</string>
+    <string name="front_camera">前面カメラ</string>
+    <string name="get_h264_codec">OpenH264をダウンロードする</string>
+    <string name="get_pro">Pro版を手に入れる</string>
+    <string name="gps_active">GPS起動中</string>
+    <string name="gps_coords_format">GPS座標の形式</string>
+    <string name="how_do_i_connect">接続方法は？</string>
+    <string name="how_do_you_want_to_connect">接続方法</string>
+    <string name="how_to_connect_mobile_connection">携帯ネットワークで接続しています。</string>
+    <string name="how_to_connect_wifi_router">WiFiルーターを介して接続しています。</string>
+    <string name="howto_idk">IPアドレスが検出されない場合、インターネット接続を確認してください。</string>
+    <string name="howto_inet_inet">"お使いのIPアドレスはグローバルIPアドレスです。携帯電話回線でネットワークに接続している場合、外部からのアクセスを制限されている場合があります。
+ 映像ストリーミングを視聴する場合は、お使いのブラウザで下記アドレスにアクセスしてください。
+ http://$IP:$PORT/
+ 
+ インターネット経由でアクセスできる場合もありますが、視聴できない場合は設定変更が必要です。
+ もし視聴ができない場合、プロバイダによって外部からの接続が制限されていないか確認するために、インターネット経由で端末にPingを送信するか、プロバイダにグローバルIPの使用を要求（通常は有料オプション）するか、WiFi接続をご利用下さい。"</string>
+    <string name="howto_inet_local">"起動できません。 ローカル接続内ですので、$LOCALRANGE、あなたのIPアドレス（$IP）はプライベートIPアドレスです。同一ネットワーク内から接続するか、同一プロバイダを利用する端末でプロバイダに許可された場合しか接続できません。
+ 
+ 内容が理解できる方は以下のURLを入力してください。:
+ http://$IP:$PORT/"</string>
+    <string name="howto_lan_inet">ローカル接続中であることを確認してください。あなたのIPアドレス（ $IP）は、グローバルIPアドレスです。このメッセージが出た場合、pas.anddev@gmail.comにネットワーク設定の詳細をお送りください。</string>
+    <string name="howto_lan_local">"同一ネットワーク内にある端末のブラウザで以下のアドレスを開くことによりビデオストリーミングを視聴することができます。：
+ http://$IP:$PORT/
+ 
+ ローカル接続でアクセスしているため$LOCALRANGE、 $IP はローカルIPです。同一ネットワーク内の端末からのみ接続することができます。
+ Android端末にインターネット経由でアクセスするには、グローバルIPアドレスに対応したルーターでポート設定を行う必要があります。ポート転送のやり方は各メーカーの取扱説明書をご覧ください。"</string>
+    <string name="hue">色彩</string>
+    <string name="idle">Idle</string>
+    <string name="inactivity">操作しない状態</string>
+    <string name="inactivity_timeout">操作しない時間</string>
+    <string name="inactivity_timeout_enter">タイムアウトまでの時間を入力してください。（単位は秒）</string>
+    <string name="including_one_for_impatient_skype_users">Skypeを使って疑問を早く解決したい方</string>
+    <string name="incorrectly_used_uk_dod_address_range">(正しくないUK DoDアドレスレンジが使用されています)</string>
+    <string name="install_manage_scripts">プラグインの管理を行えます</string>
+    <string name="ip_address">IP アドレス</string>
+    <string name="ip_webcam_s_url">配信端末のURL</string>
+    <string name="ip_webcam_settings">IP Webcamの設定</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv6アドレス</string>
+    <string name="ipw_cheat">IP Webcamコード</string>
+    <string name="ipwebcam_actions">IP Webcam動作</string>
+    <string name="ipwebcam_crashed_send_report">IP Webcamを正しく閉じられませんでした。ディベロッパーにレポートを送りますか？ レポートIDは:</string>
+    <string name="ipwebcam_events">IP Webcamイベント</string>
+    <string name="ivideon_account">Ivideonアカウント</string>
+    <string name="ivideon_active">Ivideonが有効です。</string>
+    <string name="ivideon_faq_1">Ivideonとは？</string>
+    <string name="ivideon_faq_1_desc">"Ivideonはオンラインのクラウドストリーミングサービスです。 視聴場所に制限はなく、インターネットに接続していればPC、スマートフォンやタブレットなどから端末に接続することができます。電源が落ちた場合や動作が登録された場合、通知が送信されます。
+ Ivideonはどのカメラでも接続できます。さらにスマートフォン、PC Webcam、IPカメラやIvideonクラウドもサポートしています。"</string>
+    <string name="ivideon_faq_2">どこでストリーミングを観ることができますか？</string>
+    <string name="ivideon_faq_2_desc"><a>http://ivideon.com/my</a>" で視聴するか、IvideonモバイルアプリやMacやパソコンからIvideonクライアントを利用しで視聴することができます。 "</string>
+    <string name="ivideon_faq_3">ストリームの共有範囲</string>
+    <string name="ivideon_faq_3_desc">"ストリーミング配信は同じアカウントでアクセスした場合のみ視聴可能です。設定によっては、特定の人にのみ共有することや、インターネット上に共有することも可能です。共有オプションはhttp://ivideon.com/myで設定できます。
+ 
+ ビデオストリームを含む全ての通信は強力な暗号化がなされています。
+"</string>
+    <string name="ivideon_faq_4">Ivideonでのビデオ録画</string>
+    <string name="ivideon_faq_4_desc">"Ivideonでは端末に保存された映像には接続できません。
+ 一方、IP Webcamで動作、音声検出を設定することにより、以下の事が可能になります:
+ • Ivideonモバイルアプリでプッシュ通知を受け取ることができます。
+ • クラウド内でモーショントリガービデオ録画を保管しIvideonアプリやウェブインターフェイスを通して視聴できます 。(有料オプションです。詳しくはhttp://www.ivideon.comにアクセスしてください)
+ 
+ IP Webcam設定メニューから動作、音声検出を設定することができます"</string>
+    <string name="ivideon_faq_5">Ivideonの機能</string>
+    <string name="ivideon_faq_5_desc">"• 音声ありのライブ配信や録画映像を観る
+ • ウェブサイトやブログにライブストリームを埋め込む
+ • 家族や友人にカメラのプライベート接続を共有できます。またソーシャルネットワークを通してストリームを配信したりURLを共有できます。
+ • 様々なイベントのプッシュ通知やEメール通知を受け取ることができます。 (電源が落ちたり 動作検出など)
+ • マップ上にカメラを設置して簡単に管理ができます。
+"</string>
+    <string name="ivideon_faq_6">無料版とプレミアム版について</string>
+    <string name="ivideon_faq_6_desc">"Ivideonはカメラを2台まで無料でライブストリームできます。
+ アップグレードすることでカメラの追加やクラウドビデオ録画のような詳細オプションが利用できます。
+"</string>
+    <string name="ivideon_faq_7">Ivideonサポート</string>
+    <string name="ivideon_faq_7_desc">Ivideonに対しての質問、評価は<a>support@ivideon.com</a>にご連絡ください。その他の連絡方法については<a>ivideon.com</a>を御覧ください。</string>
+    <string name="ivideon_is_not_supported_on_device">Ivideonはこの端末ではサポートされていません。</string>
+    <string name="ivideon_logged_in">Ivideonにログインできました。 お使いのデバイスは<b>$ACCOUNT</b>" で登録されています。
+ 
+ ライブストリーミングをご覧になる場合は、配信を開始して、http://ivideon.com/myにアクセスするかIvideon モバイルアプリを使用してください。 "</string>
+    <string name="ivideon_login_email">Ivideon アカウント</string>
+    <string name="ivideon_login_email_desc">Eメールアドレスを入力してください。</string>
+    <string name="ivideon_ready_to_stream">ストリームの準備ができました</string>
+    <string name="ivideon_test_compatibility">互換性のテスト</string>
+    <string name="ivideon_test_compatibility_desc">利用端末がIvideonインターネットストリーミングに対応しているか確認してください。</string>
+    <string name="keep_active">スリープモードにしない</string>
+    <string name="keep_active_desc">ストリーミング時、スリープモードにならないようにします。設定にはAndroid3.0以上が必要です。</string>
+    <string name="keep_free_space">クリーンアップ</string>
+    <string name="keep_free_space_desc">$VAL M以下の容量になった際、古いビデオを削除してください。</string>
+    <string name="keep_free_space_edit">ストレージにどれくらい空き容量を確保しますか？ 空き容量が多いほどストレージのパフォーマンスやOSの安定性が向上します。</string>
+    <string name="known_issues">"よくある質問:
+ * 前面カメラではカメラ情報が正しく表示されない可能性があります。(解像度が176x144から640x480の間で使用してください)
+ * 2G回線や3G回線で接続している場合、プロバイダがNATを使用してアプリに対してアクセス制限を書ける場合がありますので注意してください。グローバルIPアドレスをプロバイダに要求するかWiFiネットワークまたはホットスポットに接続してアプリを使用してください。
+ * ESET NOD32モデルには携帯からMJPEGストリーミングを遮断することがあります。このような問題を解決するためには、「Webアクセス保護」機能を停止してください。"</string>
+    <string name="known_issues_title">よくある質問集</string>
+    <string name="landscape">横表示</string>
+    <string name="latitude">緯度</string>
+    <string name="leave_blank_if_you_don_t_need_security">パスコードが必要であれば入力します。</string>
+    <string name="ledbtn">ウェブインターフェイス内のコントロールパネルからLEDのオン/オフ切り替えができます。</string>
+    <string name="left">左</string>
+    <string name="license_error">ライセンス認証エラー</string>
+    <string name="local_broadcasting">ローカルネットワークへの配信設定</string>
+    <string name="local_broadcasting_desc">ポート $PORT　　ログイン/パスワード: $LPW</string>
+    <string name="login">ログイン:</string>
+    <string name="login_password">ログイン/パスワード</string>
+    <string name="longitude">経度</string>
+    <string name="lpw_notset">設定されていません</string>
+    <string name="lpw_set">設定</string>
+    <string name="macropixel_size">テキストサイズの変更</string>
+    <string name="macropixel_size_desc">テキストサイズ変更</string>
+    <string name="main_camera">メインカメラ</string>
+    <string name="manual_caption">マニュアルキャプション</string>
+    <string name="mirror">左右反転</string>
+    <string name="mirror_flip">上下左右反転</string>
+    <string name="misc">その他</string>
+    <string name="modet_amount">モーショントリガー量</string>
+    <string name="modet_radio">動作が検出されました/タイムアウトしました</string>
+    <string name="more_actions">その他の動作...</string>
+    <string name="more_actions_ad">"プロ版では、 IP WebcamでTaskerアプリと連動して条件設定を行うことができます。
+ Taskerアプリで条件を追加する方法は簡単です。 Profilesをクリック ⇨ + ⇨ State ⇨ Plugin ⇨ IP Webcam"</string>
+    <string name="most_phones_put_processor_to_sleep_mode_when_screen_is_off">画面OFFにした場合、CPUがスリープモードになる端末がほとんどです。</string>
+    <string name="motion_detect">動作検出</string>
+    <string name="motion_detected">動作検出</string>
+    <string name="motion_detected_tasker_desc">どのような状況でIP Webcamがレポートを送信するのか?</string>
+    <string name="motion_detection">動作検出</string>
+    <string name="motion_detection_actions">動作検出</string>
+    <string name="motion_detection_desc">感度と動作の設定</string>
+    <string name="motion_detection_event_active">動作タイムアウトセンサー</string>
+    <string name="motion_detection_event_sensor">動作検出イベントセンサー</string>
+    <string name="motion_detection_sensivity">センサー感度</string>
+    <string name="motion_detection_sensivity_desc">動作検知感度: $VAL　ウェブインターフェイス経由で設定とテストができます。</string>
+    <string name="motion_detection_sensivity_input">"センサー感度を入力します。 数字が高いほどセンサー感度が低くなります。センサー感度はウェブインターフェイス上で簡単にテストや設定が行えます。データログダイアログ内で動作センサーを有効にし、ウェブインターフェイスからデータ取得ページにアクセスすることができます。
+ 初期設定値: 250"</string>
+    <string name="motion_detection_sensor">動作検出</string>
+    <string name="motion_detection_sensor_desc">動作検出機能を有効にしてください。</string>
+    <string name="motion_detection_settings">動作検出設定</string>
+    <string name="motion_inactivity">設定時間後にカメラをオフする</string>
+    <string name="motion_inactivity_edit">動作が検出されなくなった場合、IP Webcamが次の動作を検出するまでどのくらい録画し続けますか？（単位は秒）</string>
+    <string name="motion_record_video">映像録画</string>
+    <string name="motion_record_video_desc">動作が検出された場合、録画ファイルを内部ストレージに保存します。</string>
+    <string name="motion_recording">動作録画</string>
+    <string name="motion_sound_detection">動作検出と音声検出</string>
+    <string name="motion_tasker_timeout">動作検出タイムアウト</string>
+    <string name="motion_timeout_edit">動作が検出されなかった場合、 ウェブインターフェイスやタスク管理に対して動作がないことを知らせるまでの時間はどのくらいにしますか？（単位は秒）</string>
+    <string name="mp4_locked">MP4 （クラウドストリーミング用）</string>
+    <string name="mp4_not_supported">MP4形式はこの端末ではサポートされていません。</string>
+    <string name="night_vision">ナイトモード</string>
+    <string name="night_vision_average">ナイトモードの露出</string>
+    <string name="night_vision_average_edit">"フレームレートは平均いくつに設定しますか？
+ 値を上げると画面が不鮮明になり映像ノイズが減少します。"</string>
+    <string name="night_vision_average_value">$VAL フレーム</string>
+    <string name="night_vision_gain">ナイトモード感度</string>
+    <string name="night_vision_gain_edit">"どれくらいの感度が必要ですか？
+ 映像ノイズも増えるので上げすぎに注意してください。
+ 小数値が使用できます。"</string>
+    <string name="night_vision_gain_value">$VALX カメラ感度を上げる</string>
+    <string name="night_vision_toggle">ナイトモード切替え</string>
+    <string name="no">いいえ</string>
+    <string name="no_address_detected">(アドレスが見つかりません)</string>
+    <string name="no_caption">キャプションなし</string>
+    <string name="no_color">背景色なし</string>
+    <string name="no_direction">無し</string>
+    <string name="no_password">パスワードがありません</string>
+    <string name="no_sound">音声なし</string>
+    <string name="not_now">後で行う</string>
+    <string name="ok">OK</string>
+    <string name="ok_i_get_it">了解</string>
+    <string name="only_available_in_pro">この機能はIP Webcam Proでのみ使用できます。今すぐ購入しますか?</string>
+    <string name="openh264_by_cisco">OpenH264ビデオコーデックは Cisco Systems, Incにより提供されています。</string>
+    <string name="orientation">映像の向き</string>
+    <string name="other_actions">その他</string>
+    <string name="overlay">文字表示の切替</string>
+    <string name="overlay_desc">埋込み情報の設定（日時とバッテリー情報）</string>
+    <string name="overlay_title">オーバーレイ</string>
+    <string name="password">パスワード:</string>
+    <string name="password_set">パスワードが設定されました</string>
+    <string name="photo_res">静止画の解像度</string>
+    <string name="play_sound_on_motion">音声あり</string>
+    <string name="plugins">プラグイン設定</string>
+    <string name="port">ポート</string>
+    <string name="port_number_in_range_1024_65536">ポート番号は1024–65536の範囲内で設定して下さい。</string>
+    <string name="portrait">縦表示</string>
+    <string name="power_mgmt">電源管理</string>
+    <string name="power_mgmt_desc">エコモードの設定</string>
+    <string name="prevent_going_to_sleep">スリープモードにしない</string>
+    <string name="primary_camera">メインカメラ</string>
+    <string name="pro_desc">" IP Webcam Proでは以下の機能が使用できます。
+ - "<b>Taskerアプリとの連携</b>" 動作を検出した場合やウェブインターフェイスでボタンをクリックした場合に自動で動作を開始します。
+ - "<b>ユーザーインターフェイスのカスタマイズ</b>" オリジナルのユーザーインターフェイスを作成して利用できます。端末で画面設定やカメラ設定の変更が行えます。
+ - "<b>ショートカット</b>" ホーム画面にストリーミング配信のショートカットボタンを作成できます。
+ - 録画映像で "<b>透かし</b>や<b>広告</b>" が出ません。
+ "</string>
+    <string name="processing_request">プロセスを要求しています...</string>
+    <string name="quality">画質</string>
+    <string name="rear_camera">後方カメラ</string>
+    <string name="record_video">映像録画</string>
+    <string name="record_video_button">録画ボタン</string>
+    <string name="record_video_circular">映像録画(循環録画)</string>
+    <string name="refresh">更新する</string>
+    <string name="res_warn">Android2.xでは、1280x720以上の解像度で設定すると不具合が発生する可能性があります。ビデオが「緑色」に映る場合は、解像度を落としてください。</string>
+    <string name="resolution">解像度</string>
+    <string name="result">結果</string>
+    <string name="right">右</string>
+    <string name="run_in_background">バックグラウンドで起動</string>
+    <string name="run_ipwebcam">IP Webcamを開始する</string>
+    <string name="saturation">彩度</string>
+    <string name="save_changes">保存変更</string>
+    <string name="save_ui">保存</string>
+    <string name="saved">保存しました</string>
+    <string name="saved_ui_to_clipboard">クリップボードに保存されたインターフェイス</string>
+    <string name="saved_video_location">録画の保存先</string>
+    <string name="scene_mode">シーンモード</string>
+    <string name="script_configure">設定する</string>
+    <string name="scripts_desc">拡張機能のインストールと設定</string>
+    <string name="second_value">2番目の数値</string>
+    <string name="secondary_camera">セカンダリカメラ</string>
+    <string name="seconds">$VAL 秒</string>
+    <string name="seeker">スライドバー</string>
+    <string name="select_action">動作選択</string>
+    <string name="select_caption">キャプション選択</string>
+    <string name="select_enabled_features">有効な機能を選択する</string>
+    <string name="select_features_that_require_password">パスワードが必要な機能を選択する</string>
+    <string name="send_ip_via">…経由でIPアドレスを共有する</string>
+    <string name="sensor_retention">センサーデータの一時保存</string>
+    <string name="sensor_retention_edit">"センサーで取得したデータの保存期間を設定する。
+ 初期設定値: 5秒"</string>
+    <string name="sensors">データログ</string>
+    <string name="sensors_desc">センサーからデータを収集しウェブインターフェイスで確認します。</string>
+    <string name="service_control">サービスコントロール</string>
+    <string name="shallow_sleep">スリープモードを有効にする</string>
+    <string name="shallow_sleep_desc">ディスプレイを非表示にします。</string>
+    <string name="share_ip">IPアドレスを共有する</string>
+    <string name="signed_scripts_only_for_lite">IP Webcamでは署名されたスクリプトのみサポートされています。</string>
+    <string name="skype_faq">"Skypeの利用には、マイク・パソコン・ビデオチャットソフトが必要です。
+ ベンダーの説明を確認できない方のために簡単にアプリの説明をします。Windowsではビデオエミュレートのみサポートされます。アプリの名前から連想できるように、アプリはAndroid端末をネットワークカメラとして実行させるようにプログラムされています。プログラム単体ではビデオチャット機能は搭載されていません。マイクとビデオチャットソフトを利用することで音声機能もサポートされます。
+ まず初めに、通常通りアプリのウェブインターフェイスに接続します。詳しい手順は「ビデオチャットドライバー」にあります。"</string>
+    <string name="skype_faq_title">Skypeで話したい</string>
+    <string name="sleep_behavior">端末のスリープ設定</string>
+    <string name="sound_detection_sensor_desc">音声検出を有効にする必要があります。</string>
+    <string name="sound_event_sensor">音声イベントセンサー</string>
+    <string name="sound_timeout_sensor">音声タイムアウトセンサー</string>
+    <string name="start_from_homescreen">ホーム画面からIP Webcamを開始する。</string>
+    <string name="start_server">映像ストリーミング開始</string>
+    <string name="stop">停止</string>
+    <string name="stop_camera">カメラを停止する</string>
+    <string name="stop_camera_desc">操作しない時間が設定時間を超えるとカメラは電源をオフにします。カメラがオフになると動作検出はされません。</string>
+    <string name="stopbtn">"サーバーは現在停止しています。
+ ストリーミング中に「戻る」ボタンを押すとIP Webcamはすぐに停止することができます。"</string>
+    <string name="stream_boot_warn">IP Webcamを使用中にAndroid端末が再起動する場合、 CPUが高温過ぎることが原因の可能性があります。カバーなどを取り付けている場合はカバーを取り外すか、下記に挙げるようなことは行わず端末を涼しい場所に置いてください。</string>
+    <string name="take_photo">写真を撮影する</string>
+    <string name="take_photo_af">フォーカス写真を撮る</string>
+    <string name="take_photo_button">撮影ボタン</string>
+    <string name="tasker">Taskerアプリ</string>
+    <string name="tasker_identifier">Taskerアプリの識別</string>
+    <string name="tasker_label_ipwebcam_camera_activated">カメラ起動</string>
+    <string name="tasker_label_ipwebcam_camera_deactivated">カメラ終了</string>
+    <string name="tasker_label_ipwebcam_custom_event">カスタムイベント</string>
+    <string name="tasker_label_ipwebcam_motion_detection">動作検出</string>
+    <string name="text">テキスト</string>
+    <string name="text_bg_color">テキストの背景色</string>
+    <string name="text_color">テキストの色</string>
+    <string name="text_format">テキスト表示形式</string>
+    <string name="text_format_desc">日付の表示方法を指定する。</string>
+    <string name="text_format_help">"表示データ形式を変更する:
+ %%x 端末設定の日付
+ %%X 端末設定の時間
+ %%q バッテリーアイコン
+ %%Q バッテリー残量
+ %%o 充電中マーク
+ 
+ いらない情報を表示したくない場合は対応する文字列を削除してください。
+ 日時形式についての詳細はこちらから: http://goo.gl/MCc6BR"</string>
+    <string name="text_overlay">テキスト表示をオンにする</string>
+    <string name="text_position">テキストの表示位置変更</string>
+    <string name="the_url_has_been_copied_to_clipboard">URL $URL$ はクリップボードにコピーされました。</string>
+    <string name="toggle_led">LED切り替え</string>
+    <string name="toggle_preview">プレビューを切替える</string>
+    <string name="top">トップ</string>
+    <string name="torch_disabled">トーチモード無効</string>
+    <string name="torch_enabled">ライトを有効にする</string>
+    <string name="try_out_mkv_q">"新しいMKV録画形式を利用しますか？WebM形式よりハイクオリティで、MOV形式よりファイル圧縮率の高が高く、MP4形式よりも安定性が高いファイル形式です。ダウンロードしますか？
+ 
+ 録画形式の変更はビデオ設定->映像録画設定>映像フォーマット形式から行うことができます。
+
+ ダウンロードにはインターネットに接続する必要があります。ファイルサイズは約400 KBです。"</string>
+    <string name="ui_settings">設定</string>
+    <string name="unknown_error">予期せぬエラー</string>
+    <string name="unsigned_scripts_disabled">署名されていないスクリプトは利用できません。</string>
+    <string name="upside_down">横表示で上下反転</string>
+    <string name="upside_down_portrait">縦表示で上下反転</string>
+    <string name="usb_camera_by">$VENDOR (PID: $PID) USB Camera</string>
+    <string name="usb_cameras">USB カメラ</string>
+    <string name="usb_refresh_desc">USBカメラの接続を更新する</string>
+    <string name="use_customized_ui">カスタマイズされたインターフェイスを使用する</string>
+    <string name="use_default_ui">初期設定のインターフェイスを使用する</string>
+    <string name="use_front_facing_camera">前面カメラを使用して下さい</string>
+    <string name="user_interface">インターフェイスの変更</string>
+    <string name="vertical_orientation">縦方向</string>
+    <string name="video_bitrate">ビデオビットレート</string>
+    <string name="video_bitrate_template">$KBITS kbit/秒、 $MBM MB/分</string>
+    <string name="video_chunk_len">映像の長さ</string>
+    <string name="video_format">映像フォーマット形式</string>
+    <string name="video_format_cisco">MKV形式 (H.264 + Opus)</string>
+    <string name="video_format_mov">MOV (HQ、 size depends on stream quality)</string>
+    <string name="video_format_mp4">MP4形式のフォーマットはデバイスによっては不安定な動作をする場合があります。(H.264 + AAC)</string>
+    <string name="video_format_mp4_nosupport">(Not support on this device) MP4 (H.264 + AAC)</string>
+    <string name="video_format_webm">WebM (VP8 + Opus)</string>
+    <string name="video_orientation">映像の向き</string>
+    <string name="video_preferences">ビデオ設定</string>
+    <string name="video_preview">映像プレビュー</string>
+    <string name="video_preview_desc">このオプションは画面に表示する文字やエフェクトが適用されたイメージを画面に表示します。CPUを使用してバッテリーを激しく消耗しますので、端末が手元にない場合には使用しないでください。</string>
+    <string name="video_quality">ビデオ画質</string>
+    <string name="video_recording">映像録画設定</string>
+    <string name="video_recording_desc">録画方法と保存場所</string>
+    <string name="video_resolution">映像の解像度</string>
+    <string name="video_settings_desc">解像度や フォーカスなどのビデオ関連の設定</string>
+    <string name="warn">警告</string>
+    <string name="watch_tutorial">チュートリアルを見る</string>
+    <string name="what_should_i_do">IP Webcamでできること</string>
+    <string name="white_balance">ホワイトバランス</string>
+    <string name="whitebalance">ホワイトバランス</string>
+    <string name="wrong_email">Eメールアドレスが違います。</string>
+    <string name="yes">はい</string>
+    <string name="zoom">ズーム</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rolling_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <com.pas.webcam.utils.CamPreview android:id="@id/previewSurf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <com.pas.webcam.utils.CamOverlay android:id="@id/previewOverlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <Button android:id="@id/helpBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_do_i_connect" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:id="@id/connectionsTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connections: 0" android:layout_above="@id/ad" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center_horizontal" android:id="@id/ipsTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="http://Your_ip:port/" android:layout_above="@id/connectionsTV" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/actionsBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/actions_" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/blackBox" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/disguise" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/imgMic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_speak_now" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/audio_only" />
+</RelativeLayout>

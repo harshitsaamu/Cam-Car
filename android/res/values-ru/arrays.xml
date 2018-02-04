@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Гц</item>
+        <item>60hz|60 Гц</item>
+        <item>auto|Авто</item>
+        <item>off|Выключена</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|Под водой</item>
+        <item>blackboard|Чёрная доска</item>
+        <item>emboss|Рельеф</item>
+        <item>mono|Чёрно-белый</item>
+        <item>negative|Негатив</item>
+        <item>neon|Неон</item>
+        <item>none|Нет эффектов</item>
+        <item>posterize|Постеризация</item>
+        <item>sepia|Сепия</item>
+        <item>sketch|Эскиз</item>
+        <item>solarize|Соляризация</item>
+        <item>whiteboard|Белая доска</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|Авто</item>
+        <item>off|Вспышка выключена</item>
+        <item>on|Всегда использовать вспышку</item>
+        <item>red-eye|Против красных глаз</item>
+        <item>torch|Режим фонарика</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|Ручной</item>
+        <item>continuous-picture|Агрессивный, для фото</item>
+        <item>continuous-video|Мягкий, для видео</item>
+        <item>edof|Увеличить поле зрения</item>
+        <item>fixed|Фиксированный</item>
+        <item>infinity|Бесконечный</item>
+        <item>macro|Макро, ручной</item>
+        <item>normal|Нормальный</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|Дополненная реальность</item>
+        <item>action|Быстрое движение</item>
+        <item>asd|Авточувствительность</item>
+        <item>auto|Авто</item>
+        <item>backlight|Задний свет</item>
+        <item>barcode|Чтение штрих-кодов</item>
+        <item>beach|Пляж</item>
+        <item>candlelight|При свечах</item>
+        <item>fireworks|Фейрверки</item>
+        <item>flowers|Цветы</item>
+        <item>hdr|HDR</item>
+        <item>landscape|Пейзаж</item>
+        <item>night|Ночь</item>
+        <item>night-portrait|Ночной портрет</item>
+        <item>party|Вечеринка</item>
+        <item>portrait|Портрет</item>
+        <item>snow|Снег</item>
+        <item>sports|Спорт</item>
+        <item>steadyphoto|Против размытия</item>
+        <item>sunset|Закат</item>
+        <item>theatre|Театр</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|Акселерометр</item>
+        <item>ambient_temp|Температура окружающей среды</item>
+        <item>battery_level|Уровень заряда батареи</item>
+        <item>battery_temp|Температура батареи</item>
+        <item>battery_voltage|Вольтметр батареи</item>
+        <item>gravity|Датчик гравитации</item>
+        <item>gyro|Гироскоп</item>
+        <item>humidity|Относительная влажность</item>
+        <item>light|Датчик освещения</item>
+        <item>lin_accel|Линейное ускорение</item>
+        <item>mag|Магнитное поле</item>
+        <item>motion|Количество движения</item>
+        <item>motion_active|Движение регистрируется</item>
+        <item>motion_event|Движение обнаружено</item>
+        <item>pressure|Давление</item>
+        <item>proximity|Датчик близости</item>
+        <item>rot_vector|Вектор поворота</item>
+        <item>sound|Датчик звука</item>
+        <item>temp|Температура</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|В</item>
+        <item>|</item>
+        <item>cm|см</item>
+        <item>dB|дБ</item>
+        <item>lx|лк</item>
+        <item>m/s²|м/с²</item>
+        <item>mbar|мбар</item>
+        <item>rad/s|рад/с</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|Авто</item>
+        <item>cloudy-daylight|Облачно</item>
+        <item>daylight|День</item>
+        <item>fluorescent|Флуоресцентный</item>
+        <item>incandescent|Лампа накаливания</item>
+        <item>shade|Тень</item>
+        <item>twilight|Сумрак</item>
+        <item>warm-fluorescent|Тёплый флуорисцент</item>
+    </string-array>
+</resources>

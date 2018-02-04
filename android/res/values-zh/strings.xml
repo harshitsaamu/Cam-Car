@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessing">"通过本地网络访问手机：
+ • 轻触软件的\"开启服务器\"按钮。
+ • 使用电脑上的浏览器打开设置界面或通知所提供的地址。地址看起来类似 http://&lt;your_ip>:&lt;port>
+ • \"如何连接\" 按钮帮助你基于IP设置网络。
+ • 输入用户名/密码，选择你想要的摄像头查看方式。
+ • 如果你打不开链接，尝试ping手机的IP地址。如果失败，请检查网络配置。 
+ 通过Ivideon经互联网连接：
+ • 在“云流式传输”设置中将手机和Ivideon账户绑定。
+ • 轻触软件的\"开启服务器\"按钮。
+ • 在http://ivideon.com/my或Ivideon软件上登录你的Ivideon账户。"</string>
+    <string name="accessing_title">访问你的手机</string>
+    <string name="acknowledgements">"IP摄像头使用以下软件：
+ 
+ libjpeg, © 独立 JPEG 小组, http://ijg.org
+ ffmpeg, © FFmpeg 队伍, http://ffmpeg.org/
+ libvpx, © WebM 项目, http://www.webmproject.org/
+ libopus, © Xiph.org 基金会和其他, http://opus-codec.org/
+ mongoose (MIT fork), © Sergey Lyubka, https://github.com/cesanta/mongoose
+ 
+ 
+ 特别感谢：
+ Hank Quakevauld 的中文翻译
+ Nenad Tomasic 的德语翻译
+ Paolo Stavolo 的意大利语翻译
+ Froozeify 的法语翻译
+ Rafał Płatek http://www.getpoland.com 的波兰语翻译
+ Francisco Rosúa 的西班牙语翻译
+ Sangyong, Byun 的韩语翻译
+ Alexey Vasilyev 的碉堡了的查看器, tinyCam Monitor
+ 
+ 感谢:
+ Robb Larsen, Jason Tarnutzer 在Droid X上的测试
+ Marcus Pascall, Eugene Jennings, Peter Boeren, Scott B, Eric Batts, Alexei Vidmich 软件测试。
+ Berthold Möller 帮忙定位解决一个棘手的问题。"</string>
+    <string name="acknowledgements_title">致谢</string>
+    <string name="action">操作…</string>
+    <string name="action_increase_decrease">增加或减少</string>
+    <string name="action_set">设置固定值</string>
+    <string name="action_settings">设置</string>
+    <string name="action_toggle">互换两值</string>
+    <string name="actions">操作</string>
+    <string name="actions_">操作…</string>
+    <string name="active_sensors">活动的数据记录源</string>
+    <string name="active_ui">活动界面</string>
+    <string name="add_control">添加</string>
+    <string name="addrf">首选地址族</string>
+    <string name="adet_amount">音频触发阈值</string>
+    <string name="adet_radio">检测到声音/检测超时</string>
+    <string name="adet_record_video_desc">当声音检测触发时，将视频录制到内置存储</string>
+    <string name="allow_signed_scripts_only">只允许已签名脚本</string>
+    <string name="always_show">总是显示</string>
+    <string name="antibanding">防闪烁</string>
+    <string name="antibanding_mode">防闪烁</string>
+    <string name="are_you_sure_you_want_to_remove_this_script">您确认要移除这个脚本吗？这将会删除所有您为这个脚本保存的设置。</string>
+    <string name="aspect_11">1:1</string>
+    <string name="aspect_12">1:2</string>
+    <string name="aspect_13">1:3</string>
+    <string name="aspect_14">1:4</string>
+    <string name="aspect_21">2:1</string>
+    <string name="aspect_31">3:1</string>
+    <string name="aspect_41">4:1</string>
+    <string name="aspect_ratio">画面比例</string>
+    <string name="audio_bitrate_template">$KBITS kbit/s</string>
+    <string name="audio_mode_audio_only">仅启用音频</string>
+    <string name="audio_mode_disabled">禁用</string>
+    <string name="audio_mode_enabled">启用</string>
+    <string name="audio_only">仅音频</string>
+    <string name="audio_sensor">声音传感器</string>
+    <string name="audio_tasker_timeout">声音时间超时</string>
+    <string name="audiopref">音频模式</string>
+    <string name="auto_exposure_lock">锁定曝光</string>
+    <string name="auto_white_balance_lock">锁定白平衡</string>
+    <string name="autostart">开机后启动流式传输</string>
+    <string name="autostart_desc">使用该设备专门用作IP摄像头用途。如勾选此项请一并在系统设置-安全-屏幕安全中关闭屏幕锁定。</string>
+    <string name="background">后台运行</string>
+    <string name="backgroundbtn">"程序即将在后台运行。
+ 请注意，不是所有手机都支持这个模式：对于一些手机，特别是摩托罗拉手机，相机工作时，视频必须有一个用于绘制的平面。
+ 你可以按Home键快速将IP摄像头推入后台运行。"</string>
+    <string name="battery_percent_sensor">电池电量传感器</string>
+    <string name="battery_temperature_sensor">电池温度传感器</string>
+    <string name="battery_voltage_sensor">电池电压传感器</string>
+    <string name="begin_serving_video_stream">开始视频流服务</string>
+    <string name="bottom">靠下</string>
+    <string name="brightness">亮度</string>
+    <string name="button">按钮</string>
+    <string name="camera_active_idle">摄像头活动/闲置</string>
+    <string name="camera_is_used_by_another_app">相机被其他软件占用：无法启动！抱歉！</string>
+    <string name="camera_settings">相机设置</string>
+    <string name="camera_status">相机状态</string>
+    <string name="cancel">取消</string>
+    <string name="cannot_access_internet">无法访问互联网</string>
+    <string name="cannot_open_configured_camera">无法打开先前配置的相机！您想使用默认相机吗？这可能导致先前设置被覆盖。</string>
+    <string name="cannot_open_port">无法打开端口。关闭使用它的程序或另外指定一个。</string>
+    <string name="carrier_grade_nat">（运营商级别的NAT）</string>
+    <string name="cheat_is_not_recognized">未识别作弊码。</string>
+    <string name="cheats">作弊码</string>
+    <string name="chunk_size">区块大小</string>
+    <string name="chunk_size_desc">将持续录制视频分成$VAL 分钟的区块</string>
+    <string name="chunk_size_edit">输入持续录制视频的时间，以分钟为单位</string>
+    <string name="cisco_codec_required_download_q">如要激活OpenH264，需要下载一个编码二进制文件。前往下载吗？</string>
+    <string name="cloud_account_already_exists">该电子邮件已被注册。如果你拥有该账户，请登录。</string>
+    <string name="cloud_create_account_eula">创建账户即视为你已经同意<a href="https://go.ivideon.com/?target=terms_of_service&amp;lang=zh">Ivideon服务条款</a>。</string>
+    <string name="cloud_create_an_account">创建账户</string>
+    <string name="cloud_create_an_account_desc">免费，只需一分钟</string>
+    <string name="cloud_create_an_account_email_hint">你的电子邮件（Ivideon登录名）</string>
+    <string name="cloud_create_an_account_password_hint">创建一个密码</string>
+    <string name="cloud_creating_account">创建账户中…</string>
+    <string name="cloud_faq">Ivideon 常见问题解答</string>
+    <string name="cloud_faq_desc">什么是Ivideon，隐私选项，如何访问你的流传输数据等等。</string>
+    <string name="cloud_log_in">登录</string>
+    <string name="cloud_log_in_desc">如果你已经在Ivideon注册过</string>
+    <string name="cloud_log_in_password_hint">输入你的密码</string>
+    <string name="cloud_log_in_password_isnt_saved">密码不会保存在你的设备上</string>
+    <string name="cloud_log_in_q">登录吗？</string>
+    <string name="cloud_log_out">注销</string>
+    <string name="cloud_log_out_desc">注销当前活动账户</string>
+    <string name="cloud_log_out_really">你想注销吗？</string>
+    <string name="cloud_login_failed">无法登录：检查你的电子邮件和密码</string>
+    <string name="cloud_login_too_frequent">登录尝试过于频繁。请在30秒后重试。</string>
+    <string name="cloud_new_user_failed">无法创建新用户：$ERROR</string>
+    <string name="cloud_password_cannot_be_empty">密码不能为空</string>
+    <string name="cloud_roster_failed">无法将你的手机连接到Ivideon账户上：$ERROR</string>
+    <string name="cloud_streaming">云流式传输</string>
+    <string name="cloud_streaming_active">云流式传输已激活</string>
+    <string name="cloud_streaming_active_desc">启用该功能以便在Ivideon网站或软件上查看视频</string>
+    <string name="cloud_streaming_desc">从任何地点通过Ivideon访问你的实时视频</string>
+    <string name="cloud_streaming_not_supported">不支持云流式传输</string>
+    <string name="cloud_streaming_not_supported_desc">云流式传输不支持你的设备，或者IP摄像头无法找到必需的编码器。如需支持Ivideon，设备必须是Android 4.1以上版本。如果想在全球范围内访问你的设备，尝试使用WiFi环境下的端口转发功能，使设备通过SSH或VPN连接成为可访问状态，或咨询你的手机运营商关于全球可访问IP地址的事宜。</string>
+    <string name="cloud_streaming_optimize">你想优化你的流传输体验吗？是否将视频分辨率设置为$NEWRES，比特率设置为1200 kbps？</string>
+    <string name="cloud_streaming_supported">编码器测试成功。云流式传输应该可以在你的设备上工作。登录到Ivideon来连接本手机以启用实时流传输服务。</string>
+    <string name="color_effect">色彩特效</string>
+    <string name="compressed_audio_bitrate">压缩音频比特率</string>
+    <string name="conn_template">视频连接： $VC, 音频： $AC</string>
+    <string name="connect_using_ivideon">使用Ivideon</string>
+    <string name="connect_using_ivideon_desc">使用Ivideon云服务，随处访问你的摄像头</string>
+    <string name="connect_using_ivideon_desc_disabled">未激活：</string>
+    <string name="connect_using_ivideon_desc_enabled">已激活：</string>
+    <string name="connect_using_ivideon_disabled">"如需使用Ivideon流传输，请在设置->云流式传输中启用。支持大多数Android 4.1+设备。
+ Ivideon服务允许流传输在全球范围内访问，无需额外设置。多达2个相机的流传输是免费的，可付费添加额外摄像头和云存储容量。"</string>
+    <string name="connect_using_ivideon_enabled">使用你的Ivideon账户，<b>$ACCOUNT</b>" ，通过http://ivideon.com/my或Ivideon 安卓、iPhone、Mac或PC客户端观看这个视频流 "</string>
+    <string name="connect_using_local">直接连接</string>
+    <string name="connect_using_local_desc">当设备可在网络中直接访问时可用</string>
+    <string name="connection_error">连接错误</string>
+    <string name="connection_error_retry">连接错误。重试？</string>
+    <string name="connection_settings">连接设置</string>
+    <string name="connections">显示连接</string>
+    <string name="contacting_ivideon">联系 ivideon 中……</string>
+    <string name="control_vertical">垂直</string>
+    <string name="copy_ip_to_clipboard">复制IP到剪贴板上</string>
+    <string name="copy_to_clipboard">复制到剪贴板</string>
+    <string name="copy_ui_to_clipboard">复制界面到剪贴板</string>
+    <string name="create_start_shortcut">添加快捷方式</string>
+    <string name="custom_action">自定义动作</string>
+    <string name="customize_ui">自定义相机界面</string>
+    <string name="date_time_format">日期/时间格式</string>
+    <string name="deact_display">关闭显示</string>
+    <string name="deact_display_desc">当不活动时关闭屏幕</string>
+    <string name="default_mode_setting">默认</string>
+    <string name="delete">删除</string>
+    <string name="delete_button">将控制拖拽到这个按钮上来把它们从界面上移除。</string>
+    <string name="details">详情…</string>
+    <string name="detected_devices">已检测到的设备</string>
+    <string name="disable_notification">禁用通知</string>
+    <string name="disabled">禁用</string>
+    <string name="discard_changes">放弃更改</string>
+    <string name="disguise">伪装</string>
+    <string name="disguisebtn">"服务器即将被伪装。
+ 将会打开一个全功能的浏览器窗口。
+ 按后退键将会停止服务器，打开一个主页，就像一个常规浏览器那样。
+ 按Home键将会把服务器转入后台运行（如果不想看到通知，可在选项中关闭它）"</string>
+    <string name="display_setting_name">显示设置名称</string>
+    <string name="display_value_only">只显示数值</string>
+    <string name="do_nothing">不做任何操作</string>
+    <string name="do_you_want_to_watch_tutorial">你想观看教学视频吗？</string>
+    <string name="don_t_show_app_running_in_background">不要显示软件后台运行图标</string>
+    <string name="downloading_the_codec">正在下载视频编码器…</string>
+    <string name="downloading_the_plugin">正在下载插件…</string>
+    <string name="drawer_direction">绘图方向</string>
+    <string name="edit_control">编辑</string>
+    <string name="effects_desc">增强夜视，将日期/时间嵌入到视频中</string>
+    <string name="effects_title">特效</string>
+    <string name="embed_date_time">嵌入日期、时间</string>
+    <string name="embed_gps_coords">嵌入GPS坐标</string>
+    <string name="enable_motion_detection">启动动作检测</string>
+    <string name="enable_motion_detection_desc">不使用摄像头时也会消耗电量</string>
+    <string name="enable_night_vision">启用夜视</string>
+    <string name="enable_night_vision_desc">增强黑暗环境的视频质量</string>
+    <string name="enable_sensors">启用数据记录</string>
+    <string name="enable_sound_sensor">启用声音检测</string>
+    <string name="enabled">已启用</string>
+    <string name="enter_a_cheat">输入作弊码（你可以在这个网站找到作弊码的列表 http://ip-webcam.appspot.com）</string>
+    <string name="enter_increment_decrement">输入增量或减量（负值）</string>
+    <string name="event_is">事件:</string>
+    <string name="experimental_use_lower_resolutions_when_it_s_on_and_report_issues">实验性功能！当开启时改用更低的分辨率，有问题时请报告。</string>
+    <string name="exposure_compensation">曝光补偿</string>
+    <string name="fade">调暗屏幕</string>
+    <string name="fadebtn">"屏幕即将调暗，以节约电量。
+ 请注意，你不可以使用硬件锁屏键关闭屏幕，因为大多数手机锁屏后都会使处理器进入睡眠模式，它会忽略处理器的唤醒锁定（wakelock）。
+ 轻触屏幕可再次显示用户界面。"</string>
+    <string name="failed_to_send_report_for_reason">无法发送报告。重试一次？失败原因是：</string>
+    <string name="faq">常见问题解答</string>
+    <string name="faq_another">如果你还有其他问题，请随时给我发邮件：<a href="mailto:zhcn.feedback.ipwebcam@gmail.com"> zhcn.feedback.ipwebcam@gmail.com </a></string>
+    <string name="faq_another_title">其他问题</string>
+    <string name="feature_audio_aac">音频 (Aac)</string>
+    <string name="feature_audio_in">双向音频</string>
+    <string name="feature_audio_ogg">音频 (Ogg)</string>
+    <string name="feature_audio_wav">音频 (Wav)</string>
+    <string name="feature_focus_ctl">对焦控制</string>
+    <string name="feature_gps">获取位置</string>
+    <string name="feature_html">静态页面</string>
+    <string name="feature_immediate_photo">视频单帧捕获</string>
+    <string name="feature_photo">捕获照片</string>
+    <string name="feature_photo_af">照片捕获 （先自动对焦）</string>
+    <string name="feature_ptz">安全监控摄像头（PTZ）</string>
+    <string name="feature_sensors">传感器捕获</string>
+    <string name="feature_settings">更改设置</string>
+    <string name="feature_torch_ctl">LED 闪光灯控制</string>
+    <string name="feature_video">视频流捕获</string>
+    <string name="feature_video_ctl">视频录制控制</string>
+    <string name="feature_video_download">下载视频</string>
+    <string name="fetching_the_plugin_index">获取插件索引中</string>
+    <string name="ffc_hotswitch_not_available">前置摄像头热切换在该分辨率下不可用</string>
+    <string name="first_value">第一数值</string>
+    <string name="flash_mode">闪光模式</string>
+    <string name="flip">翻转</string>
+    <string name="flip_control">翻转</string>
+    <string name="flip_desc">翻转视频。旋转或翻转以生成镜像。</string>
+    <string name="focus">对焦</string>
+    <string name="focus_control">对焦控制</string>
+    <string name="focus_homing">尝试寻找优化对焦</string>
+    <string name="focus_mode">对焦模式</string>
+    <string name="focus_region">对焦区域</string>
+    <string name="focus_tips">对焦提示</string>
+    <string name="focusbtn">"相机即将对焦一次。
+ 在主界面使用硬件搜索键可对焦。也可以在网络界面控制面板开启自动对焦。"</string>
+    <string name="force_software_audio">强制软件音频编码</string>
+    <string name="force_software_audio_desc">如果你在录制音频或流式传输AAC时遇到问题，勾选此项</string>
+    <string name="force_software_audio_only">硬件音频编码在该设备上不可用。</string>
+    <string name="force_software_video">强制软件视频编码</string>
+    <string name="force_software_video_desc">如果你在手动或动作检测触发视频录制时遇到问题，请勾选此项</string>
+    <string name="force_software_video_only">硬件视频编码在该设备上不可用。</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="fps_description">限制每秒帧数为：（你的摄像头最高支持值为$VAL）</string>
+    <string name="fps_faq">"这个软件使用你手机上可用的最大FPS。
+ 视频编码是一个高开销的过程，如果你的处理器较慢，FPS就会较低。这种情况发生时，请降低分辨率以改善FPS。
+ 通常手机网络外传速度都比较慢。降低视频质量可以降低传输数据量，从而改善FPS。"</string>
+    <string name="fps_faq_title">我想要更高的FPS！</string>
+    <string name="fps_limit">FPS 限制</string>
+    <string name="fps_no_limit">不限制，CPU、电池和网络使用消耗最大</string>
+    <string name="front_camera">前置摄像头</string>
+    <string name="get_h264_codec">下载 OpenH264</string>
+    <string name="get_pro">获取专业版</string>
+    <string name="gps_active">GPS已激活</string>
+    <string name="gps_coords_format">GPS坐标格式</string>
+    <string name="how_do_i_connect">如何连接？</string>
+    <string name="how_do_you_want_to_connect">你想如何连接？</string>
+    <string name="how_to_connect_mobile_connection">我在使用手机数据连接</string>
+    <string name="how_to_connect_wifi_router">我在使用WiFi路由器</string>
+    <string name="howto_idk">未能探测到你的IP，很可能你没有建立活动的网络连接。</string>
+    <string name="howto_inet_inet">"你的IP地址是外部地址。这不是一个好迹象。可能你使用的是手机运营商的网络，它经常会限制从外部访问设备。
+ 你可以在任何有互联网连接的电脑上尝试打开视频流地址：
+ http://$IP:$PORT/
+ 可能你可以从互联网访问你的手机，如果是这样你很幸运。
+ 不然，你需要通过互联网ping你的手机，以确定传入连接确实被运营商屏蔽。咨询你的运营商，要求他们提供给你一个外网IP（通常是要付费的），或者使用WiFi。"</string>
+    <string name="howto_inet_local">"软件用不成了！你的IP，$IP 是一个内网IP，因为它处于私有范围 $LOCALRANGE 中。这意味着你只能通过和该设备处于同一网络的电脑或同一运营商（运营商还必须允许）的其他设备连接。
+ 如果你看明白了，这个是你的URL：
+ http://$IP:$PORT/"</string>
+    <string name="howto_lan_inet">你确定你在本地网络中吗？你的IP，$IP 是一个互联网IP。如果你读到这个消息，给我发个电子邮件 zhcn.feedback.ipwebcam@gmail.com ，详细描述你的网络设置。这情况不太常见。</string>
+    <string name="howto_lan_local">"你可以在你的网络中的任何一台电脑上打开视频流，只需在浏览器中输入该地址：
+ http://$IP:$PORT/
+ 
+ 你的IP $IP，是一个内网IP，因为你的IP地址在内网范围内 $LOCALRANGE。这意味着你只能通过同一网络上的电脑连接。
+ 如果你想将手机暴露于互联网上，同时你的路由器有外网IP，请阅读你的路由器说明书关于端口转发方面的文档。"</string>
+    <string name="hue">色调</string>
+    <string name="idle">闲置</string>
+    <string name="inactivity">闲置行为</string>
+    <string name="inactivity_timeout">闲置周期</string>
+    <string name="inactivity_timeout_enter">输入闲置时间，单位为秒</string>
+    <string name="including_one_for_impatient_skype_users">迫不及待的Skype用户也该读一读</string>
+    <string name="incorrectly_used_uk_dod_address_range">（不正确应用的UK DoD地址范围）</string>
+    <string name="install_manage_scripts">安装并管理脚本</string>
+    <string name="ip_address">IP地址</string>
+    <string name="ip_webcam_s_url">IP 摄像头的URL</string>
+    <string name="ip_webcam_settings">IP摄像头设置</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv6 地址</string>
+    <string name="ipw_cheat">IP 摄像头作弊码</string>
+    <string name="ipwebcam_actions">IP 摄像头操作</string>
+    <string name="ipwebcam_crashed_send_report">IP摄像头未正常关闭。你想给开发者发送一个报告吗？报告ID是：</string>
+    <string name="ipwebcam_events">IP摄像头事件</string>
+    <string name="ivideon_account">Ivideon账户</string>
+    <string name="ivideon_active">Ivideon 已激活</string>
+    <string name="ivideon_faq_1">Ivideon是什么？</string>
+    <string name="ivideon_faq_1_desc">"Ivideon是一个在线云视频监控服务。它允许你从任何地点通过电脑、手机或平板访问你的摄像头。它可以在你的摄像头不可用或检测到动作时通知你。
+ Ivideon允许你将任何相机连接到服务上——包括你的手机，有线摄像头，IP摄像头和Ivideon强力驱动的云摄像头，都是受支持的。"</string>
+    <string name="ivideon_faq_2">在哪儿观看我的视频流？</string>
+    <string name="ivideon_faq_2_desc">你可以以个人账户登录，在<a>http://ivideon.com/my</a>查看，也可以使用手机、苹果和PC客户端。</string>
+    <string name="ivideon_faq_3">谁能看到我的视频流？</string>
+    <string name="ivideon_faq_3_desc">"你的视频流是私人的，只能通过你的账户查看。你可以将摄像头分享给朋友或家人，或将其公开成公共查看。分享选项可在http://ivideon.com/my查看。
+ 
+ 所有通信，包括视频流传输都经行业标准的强加密算法传输。
+"</string>
+    <string name="ivideon_faq_4">使用Ivideon进行视频录制</string>
+    <string name="ivideon_faq_4_desc">"Ivideon无法访问本地的IP摄像头视频记录。
+ 然而，在IP摄像头中配置动作或声音检测后，你可以使用Ivideon做以下操作：
+ • 使用Ivideon手机客户端接收推送通知
+ • 保存动作触发视频片段到云，通过Ivideon客户端和网络界面查看。（付费服务，价格请参考http://www.ivideon.com）
+ 
+ 你可以在IP摄像头的设置菜单配置动作和音频检测。
+"</string>
+    <string name="ivideon_faq_5">Ivideon功能</string>
+    <string name="ivideon_faq_5_desc">"• 观看有声音的实时和录制视频
+ • 将你的实时视频流嵌入到网站或博客中
+ • 分享摄像头的私人访问给家人和朋友，或将你的视频流发布，用网址分享到社交网络
+ • 接收多种事件的推送和电子邮件通知（摄像头不可用，动作检测等）
+ • 将你的摄像头放在地图上以便更容易地管理
+"</string>
+    <string name="ivideon_faq_6">免费还是付费？</string>
+    <string name="ivideon_faq_6_desc">"Ivideon允许你免费实时流传输多达2个摄像头。
+ 额外的摄像头和高级选项，例如云视频录制，需要付费账户升级。
+"</string>
+    <string name="ivideon_faq_7">Ivideon支持</string>
+    <string name="ivideon_faq_7_desc">任何关于Ivideon的问题和反馈你都可以发送到<a>support@ivideon.com</a>。其他联系Ivideon的方法列于<a>ivideon.com</a>。</string>
+    <string name="ivideon_is_not_supported_on_device">此设备不支持Ivideon</string>
+    <string name="ivideon_logged_in">你已经成功登录到Ivideon。你的设备已注册到<b>$ACCOUNT</b>" 。
+ 
+ 如需观看你的实时视频流，启动广播并通过http://ivideon.com/my或使用Ivideon手机客户端查看。 "</string>
+    <string name="ivideon_login_email">Ivideon账户</string>
+    <string name="ivideon_login_email_desc">请输入你的电子邮件地址。</string>
+    <string name="ivideon_ready_to_stream">准备流传输！</string>
+    <string name="ivideon_test_compatibility">测试兼容性</string>
+    <string name="ivideon_test_compatibility_desc">测试你的设备是否兼容Ivideon网络流传输</string>
+    <string name="keep_active">保持屏幕激活</string>
+    <string name="keep_active_desc">当视频流运行时，阻止屏幕超时。在Android 3.0+是必需选项。</string>
+    <string name="keep_free_space">清理</string>
+    <string name="keep_free_space_desc">当可用空间小于 $VAL Mb时，删除旧的视频</string>
+    <string name="keep_free_space_edit">要为存储保留多少剩余空间？剩余空间可提升存储性能和系统稳定性。</string>
+    <string name="known_issues">"已知问题：
+ * 前置摄像头的相机信息不准确（请使用176x144 和 640x480 分辨率）
+ * 如果你在使用运营商数据连接，请注意你的运营商可能会使用NAT，阻止你访问本应用。这种情况请咨询你的运营商，以获取一个外网IP；或使用WiFi网络；或使用便携式热点功能。
+ * 一些版本的ESET NOD32会妨碍来自手机的MJPEG流。禁用网络保护可解决这个问题。"</string>
+    <string name="known_issues_title">已知问题</string>
+    <string name="landscape">横屏</string>
+    <string name="latitude">纬度</string>
+    <string name="leave_blank_if_you_don_t_need_security">如果不需要安全验证，请留空</string>
+    <string name="ledbtn">你也可以在网页界面切换LED。开关在主页-控制面板中。</string>
+    <string name="left">靠左</string>
+    <string name="license_error">授权错误</string>
+    <string name="local_broadcasting">本地广播</string>
+    <string name="local_broadcasting_desc">端口 $PORT，登录名/密码：$LPW</string>
+    <string name="login">用户名：</string>
+    <string name="login_password">用户名/密码</string>
+    <string name="longitude">经度</string>
+    <string name="lpw_notset">未设置</string>
+    <string name="lpw_set">已设置</string>
+    <string name="macropixel_size">巨像素尺寸</string>
+    <string name="macropixel_size_desc">字体比例设置</string>
+    <string name="main_camera">主相机</string>
+    <string name="manual_caption">手动标题</string>
+    <string name="mirror">镜像</string>
+    <string name="mirror_flip">镜像和翻转</string>
+    <string name="misc">杂项</string>
+    <string name="modet_amount">动作触发阈值</string>
+    <string name="modet_radio">检测到动作/检测超时</string>
+    <string name="more_actions">更多操作…</string>
+    <string name="more_actions_ad">"在专业版中，你可以使用IP摄像头生成Tasker和Locale事件，用于高级事件处理。
+ 在Tasker中添加事件十分简单：轻触配置文件⇨ + ⇨ 状态 ⇨ 插件 ⇨ IP摄像头"</string>
+    <string name="most_phones_put_processor_to_sleep_mode_when_screen_is_off">大多数手机会在屏幕关闭时使处理器休眠</string>
+    <string name="motion_detect">动作检测</string>
+    <string name="motion_detected">检测到动作</string>
+    <string name="motion_detected_tasker_desc">在何种条件下IP摄像头应该报告？</string>
+    <string name="motion_detection">动作检测</string>
+    <string name="motion_detection_actions">检测行为</string>
+    <string name="motion_detection_desc">设置灵敏度和操作</string>
+    <string name="motion_detection_event_active">动作超时传感器</string>
+    <string name="motion_detection_event_sensor">动作时间传感器</string>
+    <string name="motion_detection_sensivity">检测灵敏度</string>
+    <string name="motion_detection_sensivity_desc">灵敏度：$VAL。可在网页端界面调节和测试。</string>
+    <string name="motion_detection_sensivity_input">输入灵敏度。更高的值代表触发操作时需要更大的动作。灵敏度可在网页端轻松测试和配置。只需在数据记录中启动传感器，并将值输入数据捕获页面即可。默认值：250</string>
+    <string name="motion_detection_sensor">动作检测</string>
+    <string name="motion_detection_sensor_desc">需要先开启动作检测</string>
+    <string name="motion_detection_settings">动作检测设置</string>
+    <string name="motion_inactivity">当闲置达到该值时停止视频：</string>
+    <string name="motion_inactivity_edit">当未能检测到动作后，下一个动作之前，IP摄像头还应该录制多长时间？以秒为单位。</string>
+    <string name="motion_record_video">录制视频</string>
+    <string name="motion_record_video_desc">当动作检测触发时，录制视频到内部存储</string>
+    <string name="motion_recording">动作录制</string>
+    <string name="motion_sound_detection">动作和声音检测</string>
+    <string name="motion_tasker_timeout">动作超时</string>
+    <string name="motion_timeout_edit">未检测到动作时，并在下一检测到动作前，IP摄像头应该再等待多长时间再报告目标静止给网页界面和Tasker？单位为秒。</string>
+    <string name="mp4_locked">MP4 （用于云流式传输）</string>
+    <string name="mp4_not_supported">此设备不支持硬件加速MP4格式</string>
+    <string name="night_vision">夜视</string>
+    <string name="night_vision_average">夜视曝光</string>
+    <string name="night_vision_average_edit">"你想要的平均每秒帧数是多少？
+ 增加该值在一定比例提高模糊度，降低噪点。"</string>
+    <string name="night_vision_average_value">$VAL 帧</string>
+    <string name="night_vision_gain">夜视增益</string>
+    <string name="night_vision_gain_edit">"强度需要额外增加多少？
+ 请注意，噪点会随着该值的增加而增多。
+ 数值可以带小数点。"</string>
+    <string name="night_vision_gain_value">$VALX 更高灵敏度</string>
+    <string name="night_vision_toggle">切换夜视</string>
+    <string name="no">否</string>
+    <string name="no_address_detected">（未探测到地址）</string>
+    <string name="no_caption">无标题</string>
+    <string name="no_color">无颜色</string>
+    <string name="no_direction">无</string>
+    <string name="no_password">无密码</string>
+    <string name="no_sound">无声</string>
+    <string name="not_now">暂时不了</string>
+    <string name="ok">确定</string>
+    <string name="ok_i_get_it">好，我懂了！</string>
+    <string name="only_available_in_pro">这个功能只有在专业版IP摄像头中才可用。你想现在获取吗？</string>
+    <string name="openh264_by_cisco">OpenH264视频编码由Cisco Systems, Inc. 提供</string>
+    <string name="orientation">方向</string>
+    <string name="other_actions">其他操作……</string>
+    <string name="overlay">覆盖层切换</string>
+    <string name="overlay_desc">将日期、时间和电量信息镶嵌于视频上</string>
+    <string name="overlay_title">覆盖层</string>
+    <string name="password">密码：</string>
+    <string name="password_set">密码已设置</string>
+    <string name="photo_res">照片分辨率</string>
+    <string name="play_sound_on_motion">播放声音</string>
+    <string name="plugins">插件</string>
+    <string name="port">端口</string>
+    <string name="port_number_in_range_1024_65536">端口号，范围为 1024-65536</string>
+    <string name="portrait">竖屏</string>
+    <string name="power_mgmt">电量管理</string>
+    <string name="power_mgmt_desc">当不活动时关闭相机和屏幕。</string>
+    <string name="prevent_going_to_sleep">阻止休眠</string>
+    <string name="primary_camera">主相机</string>
+    <string name="pro_desc">" 获取IP摄像头专业版以解锁以下功能：
+ - "<b>Tasker整合</b>" 。当检测到运动或当你按下网页端界面按钮后执行自动化操作。
+ - "<b>自定义用户界面</b>" 。创建你自己的IP摄像头。在本地显示或更改相机设置，捕获照片。
+ - "<b>服务器快捷方式</b>" 。直接在你的主屏幕启动IP摄像头的服务器模式。
+ -在录制的视频上 "<b>无水印</b>并且软件<b>没有广告</b>" 。
+ "</string>
+    <string name="processing_request">正在处理请求…</string>
+    <string name="quality">质量</string>
+    <string name="rear_camera">后置摄像头</string>
+    <string name="record_video">录制视频</string>
+    <string name="record_video_button">录制视频按钮</string>
+    <string name="record_video_circular">录制视频（循环）</string>
+    <string name="refresh">刷新</string>
+    <string name="res_warn">分辨率高于1280x720时，在Android 2.x版本上可能会工作异常。如果你的视频显示为绿色，请改为更小的分辨率。</string>
+    <string name="resolution">分辨率</string>
+    <string name="result">结果</string>
+    <string name="right">靠右</string>
+    <string name="run_in_background">后台运行</string>
+    <string name="run_ipwebcam">运行IP摄像头</string>
+    <string name="saturation">饱和度</string>
+    <string name="save_changes">保存更改</string>
+    <string name="save_ui">保存</string>
+    <string name="saved">已保存</string>
+    <string name="saved_ui_to_clipboard">已将界面复制到剪贴板</string>
+    <string name="saved_video_location">保存视频到</string>
+    <string name="scene_mode">场景模式</string>
+    <string name="script_configure">配置</string>
+    <string name="scripts_desc">为IP摄像头安装并配置扩展</string>
+    <string name="second_value">第二数值</string>
+    <string name="secondary_camera">次要相机</string>
+    <string name="seconds">$VAL 秒</string>
+    <string name="seeker">滑杆</string>
+    <string name="select_action">选择操作</string>
+    <string name="select_caption">选择标题</string>
+    <string name="select_enabled_features">选择启用的功能</string>
+    <string name="select_features_that_require_password">选择需要密码验证的功能</string>
+    <string name="send_ip_via">发送IP…</string>
+    <string name="sensor_retention">传感器数据保留</string>
+    <string name="sensor_retention_edit">"控制传感器数据在内存中保留多长时间以用于采集。
+ 默认值：5秒。"</string>
+    <string name="sensors">数据记录</string>
+    <string name="sensors_desc">从传感器收集数据，在网页界面查看</string>
+    <string name="service_control">服务控制</string>
+    <string name="shallow_sleep">浅层睡眠</string>
+    <string name="shallow_sleep_desc">改善屏幕休眠后网络服务器的性能，略微额外消耗CPU。</string>
+    <string name="share_ip">分享IP</string>
+    <string name="signed_scripts_only_for_lite">IP摄像头轻量版只支持已签名脚本</string>
+    <string name="skype_faq">"如需使用Skype，你需要一个麦克风，一台电脑和一个视频聊天软件。
+ 如果你没注意看Play商店的描述的话，再次提醒你，在Windows系统上只有视频模拟可以工作。
+ 顾名思义，这个程序模拟出一个IP摄像头，它自身不提供视频聊天功能，但可与提供聊天功能的软件协同工作。
+ 首先要做的事是正常访问网页界面。在那里你可以找到关于视频聊天驱动的更多说明。"</string>
+    <string name="skype_faq_title">我想要使用Skype！</string>
+    <string name="sleep_behavior">睡眠行为</string>
+    <string name="sound_detection_sensor_desc">需要启用声音检测</string>
+    <string name="sound_event_sensor">声音事件传感器</string>
+    <string name="sound_timeout_sensor">声音超时传感器</string>
+    <string name="start_from_homescreen">在主屏幕开启IP摄像头</string>
+    <string name="start_server">开启服务器</string>
+    <string name="stop">停止</string>
+    <string name="stop_camera">停止相机</string>
+    <string name="stop_camera_desc">当闲置时释放相机。释放相机后，不会检测动作。</string>
+    <string name="stopbtn">"服务器即将停止。
+ 你可以在视频运行时按下后退键快速停止IP摄像头。"</string>
+    <string name="stream_boot_warn">如果你的手机在使用IP摄像头时重启，有可能是由于CPU过热。尝试在使用软件时去掉手机后盖，或将手机放在通风阴凉处。</string>
+    <string name="take_photo">捕获相片</string>
+    <string name="take_photo_af">捕获对焦后相片</string>
+    <string name="take_photo_button">捕获相片按钮</string>
+    <string name="tasker">Tasker 事件</string>
+    <string name="tasker_identifier">Tasker事件</string>
+    <string name="tasker_label_ipwebcam_camera_activated">激活相机</string>
+    <string name="tasker_label_ipwebcam_camera_deactivated">相机已禁用</string>
+    <string name="tasker_label_ipwebcam_custom_event">自定义事件</string>
+    <string name="tasker_label_ipwebcam_motion_detection">检测到动作</string>
+    <string name="text">文本</string>
+    <string name="text_bg_color">文本背景颜色</string>
+    <string name="text_color">文本颜色</string>
+    <string name="text_format">覆盖层格式</string>
+    <string name="text_format_desc">指定日期显示方式</string>
+    <string name="text_format_help">"按照指引，输入转义字符串：
+ %%x 代替日期
+ %%X 代替时间
+ %%q 代替电池图标
+ %%Q 代替电池百分比
+ %%o 代替充电指示符
+ 
+ 了解更多日期/时间格式：http://goo.gl/MCc6BR"</string>
+    <string name="text_overlay">启用文本覆盖层</string>
+    <string name="text_position">覆盖层位置</string>
+    <string name="the_url_has_been_copied_to_clipboard">URL $URL$ 已经被复制到剪贴板</string>
+    <string name="toggle_led">切换LED</string>
+    <string name="toggle_preview">切换预览</string>
+    <string name="top">靠上</string>
+    <string name="torch_disabled">已禁用手电筒模式</string>
+    <string name="torch_enabled">启用手电筒模式</string>
+    <string name="try_out_mkv_q">"您想使用新的MKV录制格式吗？它提供比WebM更佳的质量，比MOV小得多的文件大小和更优于MP4的稳定性。
+
+ 您可随时在视频配置->视频录制->视频格式中切换它们。
+
+ 需要有效的网络连接，将会消耗400 kb流量。现在下载吗？"</string>
+    <string name="ui_settings">设置</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="unsigned_scripts_disabled">配置中已禁用未签名脚本</string>
+    <string name="upside_down">横屏上下颠倒</string>
+    <string name="upside_down_portrait">竖屏上下颠倒</string>
+    <string name="usb_camera_by">$VENDOR (PID: $PID) UVC 相机</string>
+    <string name="usb_cameras">USB相机</string>
+    <string name="usb_refresh_desc">更新已连接的USB设备</string>
+    <string name="use_customized_ui">使用自定义界面</string>
+    <string name="use_default_ui">使用默认界面</string>
+    <string name="use_front_facing_camera">使用前置摄像头</string>
+    <string name="user_interface">界面</string>
+    <string name="vertical_orientation">垂直方向</string>
+    <string name="video_bitrate">视频比特率</string>
+    <string name="video_bitrate_template">$KBITS kbit/s, $MBM MB/分钟</string>
+    <string name="video_chunk_len">视频区块长度</string>
+    <string name="video_format">视频格式</string>
+    <string name="video_format_cisco">MKV （软件 h.264 + Opus）</string>
+    <string name="video_format_mov">MOV (高清，大小取决于流传输质量)</string>
+    <string name="video_format_mp4">MP4，在某些设备上不稳定 (h.264 + AAC)</string>
+    <string name="video_format_mp4_nosupport">（不支持此设备） MP4 (h.264 + AAC)</string>
+    <string name="video_format_webm">WebM (VP8 + Opus)</string>
+    <string name="video_orientation">视频方向</string>
+    <string name="video_preferences">视频设置</string>
+    <string name="video_preview">视频预览</string>
+    <string name="video_preview_desc">这个选项显示的是应用了特效和覆盖层的屏幕显示效果。请勿在无人值守时使用该功能，它很消耗电量，CPU占用也很高。</string>
+    <string name="video_quality">视频质量</string>
+    <string name="video_recording">视频录制</string>
+    <string name="video_recording_desc">录像录制位置及方式</string>
+    <string name="video_resolution">视频分辨率</string>
+    <string name="video_settings_desc">分辨率，对焦和其他视频相关选项</string>
+    <string name="warn">警告!</string>
+    <string name="watch_tutorial">观看教学</string>
+    <string name="what_should_i_do">IP摄像头能做什么？</string>
+    <string name="white_balance">白平衡</string>
+    <string name="whitebalance">白平衡</string>
+    <string name="wrong_email">电子邮箱不正确</string>
+    <string name="yes">是</string>
+    <string name="zoom">变焦</string>
+    <string name="app_name">IP摄像头</string>
+</resources>

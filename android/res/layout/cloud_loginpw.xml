@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ivideon_tos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_create_account_eula" />
+    <TextView android:textColor="@android:color/holo_red_dark" android:layout_gravity="center_horizontal" android:id="@id/txtError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filler" />
+    <EditText android:id="@id/edtLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/cloud_create_an_account_email_hint" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/edtPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/cloud_create_an_account_password_hint" android:ems="10" android:inputType="textPassword" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_log_in_password_isnt_saved" />
+</LinearLayout>

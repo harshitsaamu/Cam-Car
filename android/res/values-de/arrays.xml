@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|Automatisch</item>
+        <item>off|Aus</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|Aqua</item>
+        <item>blackboard|Tafel</item>
+        <item>emboss|Embossing</item>
+        <item>mono|Schwarz-Weiß</item>
+        <item>negative|Negativ</item>
+        <item>neon|Neon</item>
+        <item>none|keine Effekte</item>
+        <item>posterize|Posterization</item>
+        <item>sepia|Sepia</item>
+        <item>sketch|Sketch</item>
+        <item>solarize|Solarisation</item>
+        <item>whiteboard|Whiteboard</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|Automatischer Blitz</item>
+        <item>off|Blitz deaktiviert</item>
+        <item>on|Blitz immer benutzen</item>
+        <item>red-eye|Reduktionsmodus für rote Augen</item>
+        <item>torch|Blitzlicht Modus</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|Manuell</item>
+        <item>continuous-picture|Aggressiv, für Fotoaufnahmen</item>
+        <item>continuous-video|Glatt, für Videoaufzeichnungen</item>
+        <item>edof|erweitere Feldtiefe</item>
+        <item>fixed|Fixiert</item>
+        <item>infinity|Unendlich</item>
+        <item>macro|Macromodus, manuell</item>
+        <item>normal|Normal</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|(AR) Augmented Reality</item>
+        <item>action|Schnell bewegende Objekte</item>
+        <item>asd|Autosense Dunkelheit</item>
+        <item>auto|Automatisch</item>
+        <item>backlight|Rücklicht</item>
+        <item>barcode|Barcode lesen</item>
+        <item>beach|Strand</item>
+        <item>candlelight|Kerzenlicht</item>
+        <item>fireworks|Feuerwerk</item>
+        <item>flowers|Blumen</item>
+        <item>hdr|HDR</item>
+        <item>landscape|Landschaft</item>
+        <item>night|Nacht</item>
+        <item>night-portrait|Nacht Porträt</item>
+        <item>party|Party</item>
+        <item>portrait|Portrait</item>
+        <item>snow|Schnee</item>
+        <item>sports|Sport</item>
+        <item>steadyphoto|Vermeiden Sie unscharfe Bilder</item>
+        <item>sunset|Sonnenuntergang</item>
+        <item>theatre|Theater</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|Beschleunigungssensor</item>
+        <item>ambient_temp|Umgebungstemperatur</item>
+        <item>battery_level|Batterieladung</item>
+        <item>battery_temp|Batterietemperatur</item>
+        <item>battery_voltage|Batteriespannung</item>
+        <item>gravity|Schwerkraftsensor</item>
+        <item>gyro|Gyroskop</item>
+        <item>humidity|Relative Luftfeuchtigkeit</item>
+        <item>light|Lichtsensor</item>
+        <item>lin_accel|Beschleuningung</item>
+        <item>mag|Magnetfeldsensor</item>
+        <item>motion|Bewegungsmenge</item>
+        <item>motion_active|Bewegung erkannt</item>
+        <item>motion_event|Bewegung gemeldet</item>
+        <item>pressure|Druck</item>
+        <item>proximity|Näherungssensor</item>
+        <item>rot_vector|Rotationsvektor</item>
+        <item>sound|Akustiksensor</item>
+        <item>temp|Temperatur</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lx</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|rad/s</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|Automatik</item>
+        <item>cloudy-daylight|Bewölktes Tageslicht</item>
+        <item>daylight|Tageslicht</item>
+        <item>fluorescent|Fluoreszierend</item>
+        <item>incandescent|Glühend</item>
+        <item>shade|Schatten</item>
+        <item>twilight|Dämmerung</item>
+        <item>warm-fluorescent|Warm fluoreszierend</item>
+    </string-array>
+</resources>

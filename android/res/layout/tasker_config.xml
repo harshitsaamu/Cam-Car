@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/motion_detected_tasker_desc" android:layout_alignLeft="@id/radioGroup" android:layout_alignParentTop="true" />
+    <Button android:id="@id/ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RadioGroup android:id="@id/radioGroup" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_below="@id/textView" android:layout_alignParentLeft="false" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@id/rbMotionDetected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modet_radio" />
+        <RadioButton android:id="@id/rbSoundDetected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adet_radio" />
+        <RadioButton android:id="@id/rbActivated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_active_idle" />
+        <RadioButton android:id="@id/rbCustom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Someone used named event in web interface or custom UI" />
+    </RadioGroup>
+    <LinearLayout android:orientation="horizontal" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/radioGroup">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Event name:" />
+        <EditText android:id="@id/eventName" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

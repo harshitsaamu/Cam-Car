@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="antibanding_modes">
+        <item>50hz|50 Hz</item>
+        <item>60hz|60 Hz</item>
+        <item>auto|オート</item>
+        <item>off|オフ</item>
+    </string-array>
+    <string-array name="color_effects">
+        <item>aqua|アクア</item>
+        <item>blackboard|黒板</item>
+        <item>emboss|浮き出し加工</item>
+        <item>mono|白黒</item>
+        <item>negative|ネガティブ</item>
+        <item>neon|ネオン</item>
+        <item>none|エフェクトなし</item>
+        <item>posterize|減色フィルター</item>
+        <item>sepia|セピア</item>
+        <item>sketch|スケッチ</item>
+        <item>solarize|太陽光</item>
+        <item>whiteboard|ホワイトボード</item>
+    </string-array>
+    <string-array name="flash_modes">
+        <item>auto|自動フラッシュ</item>
+        <item>off|フラッシュ無効</item>
+        <item>on|フラッシュ有効</item>
+        <item>red-eye|赤目軽減モード</item>
+        <item>torch|フラッシュライトモード</item>
+    </string-array>
+    <string-array name="focus_modes">
+        <item>auto|マニュアル</item>
+        <item>continuous-picture|オートフォーカス（写真撮影用）</item>
+        <item>continuous-video|オートフォーカス（映像撮影用）</item>
+        <item>edof|被写体深度</item>
+        <item>fixed|固定</item>
+        <item>infinity|無限遠</item>
+        <item>macro|マクロ</item>
+        <item>normal|ノーマル</item>
+    </string-array>
+    <string-array name="scene_modes">
+        <item>AR|AR機能</item>
+        <item>action|動きの早い被写体</item>
+        <item>asd|暗闇自動感知</item>
+        <item>auto|オート</item>
+        <item>backlight|ブラックライト</item>
+        <item>barcode|バーコード読み取り</item>
+        <item>beach|ビーチ</item>
+        <item>candlelight|キャンドルライト</item>
+        <item>fireworks|花火</item>
+        <item>flowers|花</item>
+        <item>hdr|HDR</item>
+        <item>landscape|景色</item>
+        <item>night|夜景</item>
+        <item>night-portrait|人物夜景</item>
+        <item>party|パーティー</item>
+        <item>portrait|人物</item>
+        <item>snow|雪</item>
+        <item>sports|スポーツ</item>
+        <item>steadyphoto|ぼやけ防止</item>
+        <item>sunset|夕陽</item>
+        <item>theatre|シアター</item>
+    </string-array>
+    <string-array name="sensor_names">
+        <item>accel|加速度計</item>
+        <item>ambient_temp|周辺温度</item>
+        <item>battery_level|電源残量</item>
+        <item>battery_temp|バッテリー温度</item>
+        <item>battery_voltage|電源電圧</item>
+        <item>gravity|重力センサー</item>
+        <item>gyro|ジャイロセンサー</item>
+        <item>humidity|湿度</item>
+        <item>light|明るさセンサー</item>
+        <item>lin_accel|直線加速度</item>
+        <item>mag|磁場</item>
+        <item>motion|動作量</item>
+        <item>motion_active|動作起動</item>
+        <item>motion_event|動作報告</item>
+        <item>pressure|気圧</item>
+        <item>proximity|近接センター</item>
+        <item>rot_vector|回転ベクトル</item>
+        <item>sound|音声センサー</item>
+        <item>temp|温度</item>
+    </string-array>
+    <string-array name="sensor_units">
+        <item>V|V</item>
+        <item>|</item>
+        <item>cm|cm</item>
+        <item>dB|dB</item>
+        <item>lx|lx</item>
+        <item>m/s²|m/s²</item>
+        <item>mbar|mbar</item>
+        <item>rad/s|rad/s</item>
+        <item>µT|µT</item>
+        <item>℃|℃</item>
+    </string-array>
+    <string-array name="white_balance_set">
+        <item>auto|自動</item>
+        <item>cloudy-daylight|曇り</item>
+        <item>daylight|自然光</item>
+        <item>fluorescent|蛍光灯</item>
+        <item>incandescent|白熱灯</item>
+        <item>shade|日陰</item>
+        <item>twilight|トワイライト</item>
+        <item>warm-fluorescent|暖色蛍光灯</item>
+    </string-array>
+</resources>
